@@ -28,8 +28,7 @@ You can access to the aforementioned dashboard here: https://mepyd.gob.do/datos.
 
 This project is structured using a scheme similar to that explained in this article: https://chrisvoncsefalvay.com/2018/08/09/structuring-r-projects/:
 
-- 0_source: contains the code used in the project.
-- 1_data: contains the raw (1_data/0_raw) and processed (1_data/1_processed) data used in the project.
-
-+ 0_raw: contains the images to be processed and a .csv file containing a list of the provinces in the Dominican Republic.
-+ 1_processed: contains each individual epidemic bulletin in a .csv file.
+* 0_source: contains the code used in the project.
+* 1_data: contains the raw (1_data/0_raw) and processed (1_data/1_processed) data used in the project.
+    * 0_raw: contains the images to be processed and a .csv file containing a list of the provinces in the Dominican Republic.
+    * 1_processed: contains each individual epidemic bulletin in a .csv file.
