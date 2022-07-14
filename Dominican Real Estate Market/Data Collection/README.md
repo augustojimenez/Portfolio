@@ -1,5 +1,10 @@
-# Webscraping Residential Prices Using R
-Webscraping residential prices in selected neighborhoods of Santo Domingo.
+# Collecting Residential Prices Using R
+
+A construction company, specialized in building condominiums, wants to expand into other territories. Specifically, it is planning to build more premium condominiums in an unfamiliar neighborhood (one with higher income levels). Thus, it is directed towards a more demanding clientele.
+
+This company’s general manager is uncertain on how to price each apartment, and asked me to help her out. In the Dominican Republic, there are no official records available on residential apartment prices. Hence, for this analysis, new data needed to be collected. This is done via web scraping supercasas.com using R.
+
+supercasas.com is an e-commerce company that provides a platform that facilitates homeowner-to-homebuyer sales in the Dominican Republic. It is the most popular platform providing such service in this market.
 
 # How to use
 1) Uses R 4.1.1.
