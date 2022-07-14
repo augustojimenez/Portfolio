@@ -16,7 +16,6 @@ library(tesseract)
 library(magick)
 library(dplyr)
 library(purrr)
-library(reticulate)
 library(stringi)
 
 # This function normalizes list's length (all to 10) by pasting complex province
@@ -119,7 +118,7 @@ bulletin_conversion <- function(bulletin, date, img_dir){
    df <- tibble::as_tibble(matrix(unlist(text),
                                   nrow = length(text),
                                   byrow = TRUE,
-                                  dimnames = list(province, names))) %>%
+                                  dimnames = list(provinces, names))) %>%
       mutate(across(c(3:10), as.numeric),
              date = date,
              province = provinces) %>%
