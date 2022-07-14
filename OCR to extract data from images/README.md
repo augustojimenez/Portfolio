@@ -10,7 +10,7 @@ You can access to the aforementioned dashboard here: https://mepyd.gob.do/datos.
 
 # Skills at display
 
-- Data processing
+- Data preprocessing
 - Data cleaning
 
 # Requirements
