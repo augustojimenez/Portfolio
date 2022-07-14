@@ -4,7 +4,7 @@ In the Dominican Republic, public institutions do not usually share data with on
 
 At the Ministry of Economy, Planning, and Development, we wanted to make publicly available any and all data regarding the COVID-19 pandemic. For this purpose, we designed a dashboard containing relevant statistics shown in an appealing manner.
 
-The code and data available in this repository are part of such dashboard. Here, I put on display one of the my many contributions to this dashboard. I used Optical Character Recognition (OCR) to convert images (i.e. Instagram posts published by the Dominican Republic’s Ministry of Health) into .csv files.
+The code and data available in this repository are part of such dashboard. Here, I put on display one of my many contributions to this dashboard. I used Optical Character Recognition (OCR) to convert images (i.e. Instagram posts published by the Dominican Republic’s Ministry of Health) into .csv files.
 
 You can access to the aforementioned dashboard here: https://mepyd.gob.do/datos.
 
