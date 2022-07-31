@@ -1,0 +1,32 @@
+"0","glimpse(training)"
+"1","Rows: 2,851"
+"1",""
+"1","
+"
+"1","Columns: 20"
+"1",""
+"1","
+"
+"1","$ id           [3m[38;5;246m<chr>[39m[23m ""/apartamentos-venta-piantini/1265273/"", ""/apartamentos-venta-piantini/1271797/"", ""/apartamentos-venta-piantini/1263772/"", ""/apartamentos-venta-piantini/…
+$ parking      [3m[38;5;246m<dbl>[39m[23m 3, 2, 2, 3, 3, 2, 3, 3, 3, 3, 1, 2, 1, 2, 2, 3, 2, 3, 3, 2, 1, 1, 2, 3, 5, 3, 3, 4, 3, 2, 2, 2, 1, 3, 2, 2, 2, 2, 3, 3, 2, 3, 2, 3, 2, 2, 2, 1, 3, 3, 4, …
+$ bathrooms    [3m[38;5;246m<dbl>[39m[23m 3.0, 2.5, 2.5, 3.5, 3.5, 2.5, 3.0, 3.5, 3.5, 3.5, 1.5, 1.5, 1.5, 3.5, 2.5, 3.5, 2.5, 3.5, 3.5, 3.0, 1.5, NA, NA, 3.5, 3.5, 3.5, 3.5, 4.5, 3.5, 3.5, 3.5, …
+$ bedrooms     [3m[38;5;246m<dbl>[39m[23m 2, 2, 2, 3, 3, 2, 2, 3, 3, 3, 1, 1, 1, 3, 3, 3, 2, 3, 3, 3, 1, 1, 2, 3, 3, 3, 3, 4, 3, 3, 3, 3, 1, 3, 3, 2, 3, 3, 3, 3, 3, 4, 3, 3, 3, 3, 3, 1, 3, 3, 3, …
+$ seller       [3m[38;5;246m<chr>[39m[23m ""BAEZ MUESES INMOBILIARIA"", ""Premium Real Estate"", ""Algonovo Real Estate"", ""Algonovo Real Estate"", ""Mr. Home Asesores Inmobiliarios"", ""Mr. Home Asesores …
+$ location     [3m[38;5;246m<chr>[39m[23m ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini…
+$ status       [3m[38;5;246m<chr>[39m[23m ""Segundo Uso"", ""Segundo Uso"", ""En Construcción"", ""En Construcción"", NA, NA, NA, ""En Planos"", ""Nueva"", ""Segundo Uso"", ""Nueva"", ""Segundo Uso"", ""Nueva"", ""Se…
+$ area         [3m[38;5;246m<dbl>[39m[23m 180, 100, 153, 185, 217, 142, 225, 175, 200, 340, 67, 103, 65, 170, 192, 221, 185, 200, 197, 158, 85, 72, 140, 360, 375, 253, 236, 450, 265, 177, 148, 20…
+$ planta       [3m[38;5;246m<lgl>[39m[23m TRUE, FALSE, TRUE, TRUE, FALSE, TRUE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE, TRU…
+$ lift         [3m[38;5;246m<lgl>[39m[23m TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, TRUE, TRUE, …
+$ pool         [3m[38;5;246m<lgl>[39m[23m TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, TRUE, TRUE, FALSE, TRUE, TRUE, FALSE, TRUE, FALSE, FALSE, TRUE, …
+$ pozo         [3m[38;5;246m<lgl>[39m[23m TRUE, FALSE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE…
+$ terraza      [3m[38;5;246m<lgl>[39m[23m TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, FALSE, TRUE, TRUE, FALSE, TRUE, FALSE, TRUE, TRUE, FALSE, TRUE, FALSE, FALSE, TRUE,…
+$ lobby        [3m[38;5;246m<lgl>[39m[23m TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, TRUE, TRUE, TRUE, FALSE, TRUE, TRUE, TRUE…
+$ balcon       [3m[38;5;246m<lgl>[39m[23m TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, TRUE, T…
+$ jacuzzi      [3m[38;5;246m<lgl>[39m[23m FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, TRUE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALS…
+$ gimnasio     [3m[38;5;246m<lgl>[39m[23m TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, TRUE, TRUE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE,…
+$ price        [3m[38;5;246m<dbl>[39m[23m 258000, 220000, 296250, 408825, 370000, 155000, 280000, 358750, 370000, 695000, 175000, 210000, 170000, 231000, 300000, 355000, 210000, 429000, 450000, 3…
+$ price_per_m2 [3m[38;5;246m<dbl>[39m[23m 1433.3333, 2200.0000, 1936.2745, 2209.8649, 1705.0691, 1091.5493, 1244.4444, 2050.0000, 1850.0000, 2044.1176, 2611.9403, 2038.8350, 2615.3846, 1358.8235,…
+$ area_per_br  [3m[38;5;246m<dbl>[39m[23m 90.00000, 50.00000, 76.50000, 61.66667, 72.33333, 71.00000, 112.50000, 58.33333, 66.66667, 113.33333, 67.00000, 103.00000, 65.00000, 56.66667, 64.00000, …"
+"1",""
+"1","
+"

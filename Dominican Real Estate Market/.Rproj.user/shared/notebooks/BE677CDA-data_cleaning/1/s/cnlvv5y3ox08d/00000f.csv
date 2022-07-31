@@ -1,0 +1,1 @@
+"0","training[training$status == ""Trust"" & !is.na(training$status), ]"

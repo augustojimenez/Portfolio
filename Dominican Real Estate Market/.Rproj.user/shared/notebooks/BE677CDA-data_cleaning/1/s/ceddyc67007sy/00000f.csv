@@ -1,0 +1,3 @@
+"0","training <- training %>%"
+"0","  select(-c(currency, price)) %>%"
+"0","  rename(price = price.usd)"
