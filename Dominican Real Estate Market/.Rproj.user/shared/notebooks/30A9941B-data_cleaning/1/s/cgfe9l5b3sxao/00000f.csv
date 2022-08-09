@@ -1,4 +1,7 @@
 "0","(cutoff <- adjboxStats(training$price_per_m2)$fence)"
+"2","The default of 'doScale' is FALSE now for stability;
+  set options(mc_doScale_quiet=TRUE) to suppress this (once per session) message
+"
 "1","[1]"
 "1","  163.8876"
 "1"," 3586.3872"

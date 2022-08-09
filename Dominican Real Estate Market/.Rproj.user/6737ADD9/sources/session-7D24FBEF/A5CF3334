@@ -1,0 +1,27 @@
+{
+    "id": "A5CF3334",
+    "path": "~/GitHub/Portfolio/Dominican Real Estate Market/1_Data Cleaning/0_source/removing_duplicates.R",
+    "project_path": "1_Data Cleaning/0_source/removing_duplicates.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1659389640988.0,
+    "source_on_save": false,
+    "relative_order": 6,
+    "properties": {
+        "tempName": "Untitled2",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "85,38",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1659470133,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1659470133517,
+    "read_only": false,
+    "read_only_alternatives": []
+}

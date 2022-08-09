@@ -1,5 +1,5 @@
 "0","training <- training %>%"
-"0","  mutate(status = case_when(status == ""En Planos"" ~ ""Building"","
+"0","  mutate(status = case_when(status == ""En Planos"" ~ ""In blueprint"","
 "0","                            status == ""En Construcción"" ~ ""Building"","
 "0","                            status == ""Nueva"" ~ ""New"","
 "0","                            status == ""Remodelada"" ~ ""Rebuilt"","
