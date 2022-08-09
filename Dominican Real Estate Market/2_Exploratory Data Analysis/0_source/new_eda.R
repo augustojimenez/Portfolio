@@ -8,7 +8,7 @@ library(e1071)
 library(MASS)
 
 trn <- training %>%
-  select(price.usd, area, neighborhood, status, parking, bedrooms, gimnasio, lobby, seller) %>%
+  select(price, area, location, status, parking, bedrooms, gimnasio, lobby, seller) %>%
   na.omit()
 summary(trn$seller)
 trn <- trn %>%

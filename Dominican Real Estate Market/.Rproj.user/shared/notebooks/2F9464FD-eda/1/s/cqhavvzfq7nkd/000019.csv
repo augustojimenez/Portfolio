@@ -1,7 +1,4 @@
-"0","training <- read_csv(""../../1_Data Cleaning/1_data/training_set.csv"") %>%
-  select(id, parking, bathrooms, bedrooms, location, status, price, area) %>%
-  filter(complete.cases(.),
-         location %in% c(""Bella Vista Sur"", ""Bella Vista"", ""Bella Vista Norte""))
+"0","training <- read_csv(""../../1_Data Cleaning/1_data/training_set.csv"")
 "
 "2","[1mRows: [22m[34m2749[39m [1mColumns: [22m[34m20[39m"
 "2","[36m──[39m [1mColumn specification[22m [36m───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m

@@ -12,6 +12,8 @@ For this analysis, we will examine the effect that area (measured in squared met
 ## Using KNN to reduce locations
 
 ```{r}
+rm(list = ls())
+
 library(tidyverse)
 library(class)
 library(caret)
@@ -21,7 +23,8 @@ hjbger
 
 ```{r}
 training <- read_csv("../../1_Data Cleaning/1_data/training_set.csv") %>%
-  select(id, parking, bathrooms, bedrooms, location, status, price, area) %>%
+  select(id, parking, bathrooms, bedrooms, location, status, price, area, 
+         gimnasio, lobby, seller) %>%
   filter(complete.cases(.),
          location %in% c("Bella Vista Sur", "Bella Vista", "Bella Vista Norte"))
 
