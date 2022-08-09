@@ -1,0 +1,3 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-arroyo-hondo-iii/1285997/,2,2,3,RD$,6500000,Ana Karina Gracia,Arroyo Hondo III, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,125,Residencial,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,111111.11111111111
+2022-08-02,/apartamentos-venta-arroyo-hondo-iii/1280902/,2,3,3,US$,145900,Inverfisa,Arroyo Hondo III, Santo Domingo Centro (D.N.), Santo Domingo,Nueva,153,Residencial,NA,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,145900

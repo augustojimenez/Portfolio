@@ -1,5 +1,0 @@
-"0","training <- training %>%"
-"0","  filter(id != ""/apartamentos-venta-cuesta-hermosa-ii/1236477/"","
-"0","         id != ""/apartamentos-venta-los-cacicazgos/1272251/"") %>%"
-"0","  mutate(area = ifelse(area > 10000, area / 1000, area)) %>%"
-"0","  unique()"

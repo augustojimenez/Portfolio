@@ -1,0 +1,4 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-las-palmas-de-alma-rosa/1285203/,2,2.5,3,US$,133000,Virna Reyes,Las Palmas de Alma Rosa, Santo Domingo Este, Santo Domingo,Segundo Uso,162,Comercial,2,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,133000
+2022-08-02,/apartamentos-venta-las-palmas-de-alma-rosa/1281657/,2,2.5,3,US$,136000,Ciudad Inmobiliaria ,Las Palmas de Alma Rosa, Santo Domingo Este, Santo Domingo,En Construcción,105,Residencial,NA,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,136000
+2022-08-02,/apartamentos-venta-las-palmas-de-alma-rosa/1283906/,2,2,3,US$,117700,Mr. Home Asesores Inmobiliarios,Las Palmas de Alma Rosa, Santo Domingo Este, Santo Domingo,NA,107,Residencial,NA,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,117700

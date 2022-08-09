@@ -1,0 +1,4 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-vecinos-unidos/1275152/,2,2,2,US$,74572,Bonillamultiservice,Vecinos Unidos, Santo Domingo Este, Santo Domingo,En Planos,115,Residencial,NA,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,74572
+2022-08-02,/apartamentos-venta-vecinos-unidos/1280624/,1,2,2,US$,82688,Mr. Home Asesores Inmobiliarios,Vecinos Unidos, Santo Domingo Este, Santo Domingo,NA,88,Residencial,NA,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,82688
+2022-08-02,/apartamentos-venta-vecinos-unidos/1285604/,2,2,3,US$,82688,Remax Blu,Vecinos Unidos, Santo Domingo Este, Santo Domingo,En Construcción,88,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,82688

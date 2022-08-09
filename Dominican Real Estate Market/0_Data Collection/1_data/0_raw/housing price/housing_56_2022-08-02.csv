@@ -1,0 +1,13 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-la-romana/1262657/,1,2,3,RD$,3500000,Plusval Puente Azul,NA,La Romana, La Romana,Segundo Uso,106,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,59829.05982905983
+2022-08-02,/apartamentos-venta-la-romana/1259664/,1,2,3,US$,70000,Premium Real Estate,NA,La Romana, La Romana,En Planos,NA,Mixto,NA,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,70000
+2022-08-02,/apartamentos-venta-la-romana/1259599/,1,2,3,US$,70000,Premium Real Estate,NA,La Romana, La Romana,En Construcción,86,Residencial,NA,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,70000
+2022-08-02,/apartamentos-venta-la-romana/1259557/,1,2,3,US$,70000,Premium Real Estate,NA,La Romana, La Romana,En Construcción,NA,Residencial,NA,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,70000
+2022-08-02,/apartamentos-venta-la-romana/1259556/,1,2,3,US$,70000,Premium Real Estate,NA,La Romana, La Romana,En Construcción,NA,Residencial,NA,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,70000
+2022-08-02,/apartamentos-venta-la-romana/1271094/,1,2,3,US$,70000,Premium Real Estate,NA,La Romana, La Romana,En Construcción,87,Residencial,NA,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,70000
+2022-08-02,/apartamentos-venta-la-romana/1284344/,1,1,2,US$,62900,Remax Plus,NA,La Romana, La Romana,En Construcción,68,Residencial,NA,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,62900
+2022-08-02,/apartamentos-venta-la-romana/1285574/,2,2,3,US$,113700,Seekers Inmobiliaria,NA,La Romana, La Romana,En Construcción,90,Residencial,NA,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,113700
+2022-08-02,/apartamentos-venta-la-romana/1275809/,2,1.5,1,US$,43300,Carmelia Suero,NA,La Romana, La Romana,En Construcción,NA,Residencial,NA,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,43300
+2022-08-02,/apartamentos-venta-la-romana/1278583/,NA,1,1,US$,37000,InmoinRD,NA,La Romana, La Romana,En Planos,44,Residencial,NA,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,37000
+2022-08-02,/apartamentos-venta-la-romana/1285019/,2,2,2,US$,238947,Seekers Inmobiliaria,NA,La Romana, La Romana,En Construcción,NA,Residencial,NA,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,238947
+2022-08-02,/apartamentos-venta-la-romana/1284432/,1,1,1,US$,43300,Seekers Inmobiliaria,La Romana, La Romana, La Romana,En Construcción,45,N/D,NA,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,43300

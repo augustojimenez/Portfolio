@@ -1,0 +1,14 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-bayahibe/1253006/,1,2.5,3,US$,283500,Algonovo Real Estate,NA,Bayahibe, La Romana,En Construcción,210,Residencial,NA,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,283500
+2022-08-02,/apartamentos-venta-bayahibe/1260553/,NA,2,3,US$,60000,Premium Real Estate,NA,Bayahibe, La Romana,En Planos,NA,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,60000
+2022-08-02,/apartamentos-venta-bayahibe/1278112/,1,1,1,US$,164000,Algonovo Real Estate,Bayahibe, Bayahibe, La Romana,En Planos,62,Residencial,NA,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,164000
+2022-08-02,/apartamentos-venta-bayahibe/1274918/,NA,2,2,US$,156800,Algonovo Real Estate,NA,Bayahibe, La Romana,En Construcción,120,Residencial,2,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,156800
+2022-08-02,/apartamentos-venta-bayahibe/1268980/,1,NA,1,US$,83500,Premium Real Estate,Bayahibe, Bayahibe, La Romana,En Construcción,61,Residencial,NA,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,83500
+2022-08-02,/apartamentos-venta-bayahibe/1285745/,1,1,1,RD$,230000,HouseLink,NA,Bayahibe, La Romana,En Construcción,NA,Residencial,NA,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,3931.6239316239316
+2022-08-02,/apartamentos-venta-bayahibe/1285840/,2,2,2,US$,238700,HouseLink,NA,Bayahibe, La Romana,En Construcción,77,Residencial,NA,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,238700
+2022-08-02,/apartamentos-venta-bayahibe/1285842/,1,1,1,US$,210000,HouseLink,NA,Bayahibe, La Romana,En Construcción,50,Residencial,NA,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,210000
+2022-08-02,/apartamentos-venta-bayahibe/1237562/,NA,1,1,US$,252805,Seekers Inmobiliaria,Bayahibe, Bayahibe, La Romana,En Construcción,82,Residencial,NA,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,252805
+2022-08-02,/apartamentos-venta-bayahibe/1237552/,NA,2.5,2,US$,414419,Seekers Inmobiliaria,Bayahibe, Bayahibe, La Romana,En Construcción,147,Residencial,NA,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,414419
+2022-08-02,/apartamentos-venta-bayahibe/1255641/,1,2,2,US$,154000,Premium Real Estate,NA,Bayahibe, La Romana,En Construcción,NA,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,154000
+2022-08-02,/apartamentos-venta-bayahibe/1274920/,NA,2,2,US$,156800,Algonovo Real Estate,NA,Bayahibe, La Romana,En Construcción,120,Residencial,3,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,156800
+2022-08-02,/apartamentos-venta-bayahibe/1270113/,NA,2,2,US$,138600,Premium Real Estate,Bayahibe, Bayahibe, La Romana,En Construcción,95,Residencial,NA,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,138600

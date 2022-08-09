@@ -1,0 +1,4 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-la-isabelita/1271372/,2,2.5,3,RD$,7250000,Bonillamultiservice,La Isabelita, Santo Domingo Este, Santo Domingo,Nueva,158,Residencial,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,123931.62393162394
+2022-08-02,/apartamentos-venta-la-isabelita/1286089/,1,2,3,RD$,4500000,Mr. Home Asesores Inmobiliarios,La Isabelita, Santo Domingo Este, Santo Domingo,En Construcción,90,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,76923.07692307692
+2022-08-02,/apartamentos-venta-la-isabelita/1284251/,2,3.5,3,US$,174300,Doble Altura Real Estate SRL,La Isabelita, Santo Domingo Este, Santo Domingo,Nueva,161,Residencial,NA,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,174300

@@ -1,0 +1,10 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-el-paraiso/1284806/,2,2,2,US$,281000,Inmobiliaria Grupal,El Paraiso, Santo Domingo Este, Santo Domingo,En Construcción,NA,Residencial,NA,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,281000
+2022-08-02,/apartamentos-venta-el-paraiso/1285485/,1,1,1,US$,160000,Plusval Puente Azul,El Paraiso, Santo Domingo Este, Santo Domingo,En Construcción,60,Residencial,NA,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,160000
+2022-08-02,/apartamentos-venta-el-paraiso/1282669/,1,1.5,1,US$,180000,Algonovo,El Paraiso, Santo Domingo Este, Santo Domingo,Segundo Uso,65,Residencial,8,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,180000
+2022-08-02,/apartamentos-venta-el-paraiso/1279580/,2,3.5,3,US$,435000,Maravila Properties,El Paraiso, Santo Domingo Este, Santo Domingo,Nueva,238,Residencial,NA,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,435000
+2022-08-02,/apartamentos-venta-el-paraiso/1266065/,2,3.5,4,US$,300000,INMOBLIAM,El Paraiso, Santo Domingo Este, Santo Domingo,Segundo Uso,276,Residencial,NA,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,300000
+2022-08-02,/apartamentos-venta-el-paraiso/1279069/,3,3.5,3,US$,455000,Inmobiliaria Grupal,El Paraiso, Santo Domingo Este, Santo Domingo,Nueva,208,Residencial,14,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,455000
+2022-08-02,/apartamentos-venta-el-paraiso/1284788/,1,1.5,1,US$,157500,Paez Luxury Real Estate ,El Paraiso, Santo Domingo Este, Santo Domingo,Nueva,NA,Residencial,6,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,157500
+2022-08-02,/apartamentos-venta-el-paraiso/1272443/,2,3.5,3,US$,310000,Paez Luxury Real Estate ,El Paraiso, Santo Domingo Este, Santo Domingo,Nueva,172,Residencial,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,310000
+2022-08-02,/apartamentos-venta-el-paraiso/1228288/,4,3.5,3,US$,495000,Remax Metropolitana,El Paraiso, Santo Domingo Este, Santo Domingo,Segundo Uso,387,Residencial,8,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,495000

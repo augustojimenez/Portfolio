@@ -1,0 +1,4 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-ciudad/1286151/,1,1,3,RD$,5800000,Maravila Properties,Ciudad, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,118,Residencial,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,99145.29914529914
+2022-08-02,/apartamentos-venta-ciudad/1281030/,3,3.5,2,US$,295000,Remax Blu,Ciudad, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,142,Residencial,3,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,295000
+2022-08-02,/apartamentos-venta-ciudad/1257418/,1,NA,1,US$,129000,Roshanna Carrasco,Ciudad, Santo Domingo Centro (D.N.), Santo Domingo,En Construcción,55,Residencial,NA,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,129000

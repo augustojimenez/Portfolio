@@ -1,0 +1,3 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-cerro-alto/1285437/,1,2,3,US$,140000,Remax Metropolitana,Cerro Alto, Santiago, Santiago de los Caballeros,En Construcción,120,Residencial,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,140000
+2022-08-02,/apartamentos-venta-cerro-alto/1269778/,2,2,3,US$,130000,NOVES PROPERTIES,Cerro Alto, Santiago, Santiago de los Caballeros,En Construcción,120,Residencial,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,130000

@@ -1,0 +1,3 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-los-llanos/1272858/,1,3.5,3,US$,135000,Kaza Inmobiliaria,Los Llanos, Juan Dolio, San Pedro De Macoris,Segundo Uso,135,Residencial,4,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,135000
+2022-08-02,/apartamentos-venta-los-llanos/1277132/,2,2.5,3,US$,175000,Carmelia Suero,Los Llanos, Juan Dolio, San Pedro De Macoris,Segundo Uso,158,Residencial,2,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,175000

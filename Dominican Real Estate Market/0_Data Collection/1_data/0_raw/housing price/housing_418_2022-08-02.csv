@@ -1,0 +1,4 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-olimpo/1279231/,2,3.5,3,US$,167617,Mudate,Olimpo, Las Colinas Del Oeste Santo Domingo Oeste, Santo Domingo,Nueva,142,Residencial,NA,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,167617
+2022-08-02,/apartamentos-venta-olimpo/1279233/,1,2.5,2,US$,143220,Mudate,Olimpo, Las Colinas Del Oeste Santo Domingo Oeste, Santo Domingo,Nueva,119,Residencial,NA,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,143220
+2022-08-02,/apartamentos-venta-olimpo/1258228/,2,2.5,3,US$,143220,United Group DR,Olimpo, Las Colinas Del Oeste Santo Domingo Oeste, Santo Domingo,En Construcción,104,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,143220

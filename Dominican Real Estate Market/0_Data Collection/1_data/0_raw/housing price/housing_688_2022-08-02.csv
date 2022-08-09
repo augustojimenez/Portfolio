@@ -1,0 +1,21 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-veron/1279856/,NA,NA,2,US$,128270,Kw Gold,Verón, Bávaro, Punta Cana,En Construcción,64,Residencial,NA,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,128270
+2022-08-02,/apartamentos-venta-veron/1279841/,1,1,1,US$,70000,Kw Gold,Verón, Bávaro, Punta Cana,En Construcción,44,Residencial,NA,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,70000
+2022-08-02,/apartamentos-venta-veron/1267352/,1,3,3,US$,108000,Plusval Puente Azul,Verón, Bávaro, Punta Cana,Nueva,86,Residencial,6,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,108000
+2022-08-02,/apartamentos-venta-veron/1285294/,1,2,2,US$,59225,Algonovo Real Estate,Verón, Bávaro, Punta Cana,Nueva,59,Residencial,2,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,59225
+2022-08-02,/apartamentos-venta-veron/1267945/,1,1,1,US$,45000,Mr. Home Asesores Inmobiliarios,Verón, Bávaro, Punta Cana,Nueva,40,Residencial,2,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,45000
+2022-08-02,/apartamentos-venta-veron/1280560/,1,1,1,US$,77490,KW Dominicana,Verón, Bávaro, Punta Cana,En Planos,44,Residencial,1,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,77490
+2022-08-02,/apartamentos-venta-veron/1280564/,1,2,2,US$,130340,KW Dominicana,Verón, Bávaro, Punta Cana,Nueva,76,Residencial,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,130340
+2022-08-02,/apartamentos-venta-veron/1280570/,1,1,1,US$,91990,KW Dominicana,Verón, Bávaro, Punta Cana,En Planos,44,Residencial,1,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,91990
+2022-08-02,/apartamentos-venta-veron/1280574/,1,1,1,US$,67490,KW Dominicana,Verón, Bávaro, Punta Cana,En Planos,37,Residencial,1,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,67490
+2022-08-02,/apartamentos-venta-veron/1280548/,1,1,1,US$,80990,KW Dominicana,Verón, Bávaro, Punta Cana,En Planos,37,Residencial,1,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,80990
+2022-08-02,/apartamentos-venta-veron/1280383/,NA,2,2,US$,108220,KW Dominicana,Verón, Bávaro, Punta Cana,En Planos,64,Residencial,4,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,108220
+2022-08-02,/apartamentos-venta-veron/1280386/,NA,1,1,US$,66990,KW Dominicana,Verón, Bávaro, Punta Cana,En Planos,39,Residencial,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,66990
+2022-08-02,/apartamentos-venta-veron/1280389/,NA,2,2,US$,106340,KW Dominicana,Verón, Bávaro, Punta Cana,En Planos,76,Residencial,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,106340
+2022-08-02,/apartamentos-venta-veron/1280394/,NA,2,2,US$,122990,KW Dominicana,Verón, Bávaro, Punta Cana,En Planos,76,Residencial,4,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,122990
+2022-08-02,/apartamentos-venta-veron/1280397/,1,2,3,US$,151974,KW Dominicana,Verón, Bávaro, Punta Cana,Nueva,95,Residencial,NA,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,151974
+2022-08-02,/apartamentos-venta-veron/1280375/,NA,1,1,US$,64490,KW Dominicana,Verón, Bávaro, Punta Cana,En Construcción,44,Residencial,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,64490
+2022-08-02,/apartamentos-venta-veron/1280377/,NA,2,2,US$,92570,KW Dominicana,Verón, Bávaro, Punta Cana,En Planos,64,Residencial,4,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,92570
+2022-08-02,/apartamentos-venta-veron/1280378/,1,2,3,US$,129324,KW Dominicana,Verón, Bávaro, Punta Cana,Nueva,NA,Residencial,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,129324
+2022-08-02,/apartamentos-venta-veron/1280379/,NA,1,1,US$,78990,KW Dominicana,Verón, Bávaro, Punta Cana,En Construcción,44,Residencial,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,78990
+2022-08-02,/apartamentos-venta-veron/1280362/,NA,1,1,US$,53490,KW Dominicana,Verón, Bávaro, Punta Cana,En Planos,39,Residencial,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,53490

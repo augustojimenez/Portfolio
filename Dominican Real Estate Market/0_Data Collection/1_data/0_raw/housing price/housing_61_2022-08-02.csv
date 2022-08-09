@@ -1,0 +1,12 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-la-vega/1284960/,1,NA,1,US$,55000,KW Norte Realty,NA,La Vega, La Vega,En Construcción,NA,Residencial,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,55000
+2022-08-02,/apartamentos-venta-la-vega/1285502/,1,2,2,US$,89675,Premium Real Estate,NA,La Vega, La Vega,En Planos,73,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,89675
+2022-08-02,/apartamentos-venta-la-vega/1276743/,1,1,1,US$,49080,Premium Real Estate,NA,La Vega, La Vega,En Planos,37,Residencial,NA,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,49080
+2022-08-02,/apartamentos-venta-la-vega/1285504/,1,2,3,US$,101500,Premium Real Estate,NA,La Vega, La Vega,En Planos,87,Residencial,NA,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,101500
+2022-08-02,/apartamentos-venta-la-vega/1275356/,1,3,2,US$,53956,Premium Real Estate,NA,La Vega, La Vega,En Construcción,73,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,53956
+2022-08-02,/apartamentos-venta-la-vega/1276797/,1,1.5,1,US$,47580,Kw Capital,NA,La Vega, La Vega,En Construcción,37,Mixto,2,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,47580
+2022-08-02,/apartamentos-venta-la-vega/1276786/,NA,1.5,2,US$,47580,KW Capital,La Vega, La Vega, La Vega,En Planos,NA,Residencial,NA,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,47580
+2022-08-02,/apartamentos-venta-la-vega/1276749/,1,2,2,US$,89057,Ciudad Inmobiliaria ,NA,La Vega, La Vega,En Planos,72,Residencial,NA,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,89057
+2022-08-02,/apartamentos-venta-la-vega/1276748/,1,1,1,US$,47580,Ciudad Inmobiliaria ,NA,La Vega, La Vega,En Planos,37,Residencial,NA,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,47580
+2022-08-02,/apartamentos-venta-la-vega/1266077/,1,2,3,US$,54000,Ciudad Inmobiliaria ,NA,La Vega, La Vega,En Planos,104,Residencial,NA,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,54000
+2022-08-02,/apartamentos-venta-la-vega/1282571/,1,2,2,US$,53956,KW Dominicana,NA,La Vega, La Vega,En Planos,73,Residencial,NA,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,53956

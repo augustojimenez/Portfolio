@@ -1,0 +1,2 @@
+"0","training <- training %>%"
+"0","  filter(status != ""Trust"")"

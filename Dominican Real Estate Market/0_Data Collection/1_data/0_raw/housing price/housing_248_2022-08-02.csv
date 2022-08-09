@@ -1,0 +1,7 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-el-pedregal/1286140/,2,2.5,3,US$,190000,Doriselrealty,El Pedregal, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,141,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,190000
+2022-08-02,/apartamentos-venta-el-pedregal/1280058/,2,2.5,3,US$,190000,CITYMAX Dominicana,El Pedregal, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,NA,Residencial,5,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,190000
+2022-08-02,/apartamentos-venta-el-pedregal/1278042/,2,2.5,3,US$,190000,CITYMAX Dominicana,El Pedregal, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,141,Residencial,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,190000
+2022-08-02,/apartamentos-venta-el-pedregal/1278038/,2,2.5,3,US$,190000,Mis Casas RD,El Pedregal, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,168,Residencial,NA,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,190000
+2022-08-02,/apartamentos-venta-el-pedregal/1278098/,2,2.5,3,US$,190000,Sena Real Estate,El Pedregal, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,141,Residencial,4,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,190000
+2022-08-02,/apartamentos-venta-el-pedregal/1278154/,2,2.5,3,US$,190000,HouseLink,El Pedregal, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,141,Residencial,4,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,190000

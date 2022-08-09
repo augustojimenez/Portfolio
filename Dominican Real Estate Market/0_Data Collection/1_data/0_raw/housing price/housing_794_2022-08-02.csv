@@ -1,0 +1,3 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-thomen/1277655/,1,2.5,3,US$,150800,The Crestman Group ,Thomen, Santiago, Santiago de los Caballeros,En Construcción,116,Residencial,1,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,150800
+2022-08-02,/apartamentos-venta-thomen/1251728/,NA,NA,NA,US$,168200,Vetas Soluciones Inmobiliarias,Thomen, Santiago, Santiago de los Caballeros,Nueva,NA,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,168200

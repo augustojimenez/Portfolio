@@ -1,0 +1,9 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-cortecito/1273788/,1,1,1,US$,138000,Algonovo Real Estate,Cortecito, Bávaro, Punta Cana,Nueva,55,Residencial,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,138000
+2022-08-02,/apartamentos-venta-cortecito/1237316/,1,4.5,3,US$,855000,Algonovo Real Estate,Cortecito, Bávaro, Punta Cana,En Planos,259,Residencial,NA,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,855000
+2022-08-02,/apartamentos-venta-cortecito/1237690/,1,2.5,2,US$,356000,Algonovo Real Estate,Cortecito, Bávaro, Punta Cana,En Planos,140,Residencial,NA,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,356000
+2022-08-02,/apartamentos-venta-cortecito/1279288/,1,NA,1,US$,62500,Megacasa RD,Cortecito, Bávaro, Punta Cana,En Construcción,46,Residencial,2,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,62500
+2022-08-02,/apartamentos-venta-cortecito/1265710/,NA,2,2,US$,190000,Bonillamultiservice,Cortecito, Bávaro, Punta Cana,Nueva,170,Residencial,3,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,190000
+2022-08-02,/apartamentos-venta-cortecito/389016/,NA,4,4,US$,349000,Yolec Investment,Cortecito, Bávaro, Punta Cana,NA,165,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,349000
+2022-08-02,/apartamentos-venta-cortecito/760046/,NA,4,4,US$,299000,Yolec Investment,Cortecito, Bávaro, Punta Cana,NA,250,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,299000
+2022-08-02,/apartamentos-venta-cortecito/1250468/,NA,2.5,2,US$,318000,KEYBROKERS INMOBILIARIA,Cortecito, Bávaro, Punta Cana,En Construcción,NA,Residencial,NA,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,318000

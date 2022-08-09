@@ -1,0 +1,4 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-los-tres-ojos/1284635/,2,2,3,US$,120000,Algonovo Real Estate,Los Tres Ojos, Santo Domingo Este, Santo Domingo,Nueva,128,Residencial,3,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,120000
+2022-08-02,/apartamentos-venta-los-tres-ojos/1285518/,2,2,3,US$,120000,Algonovo Real Estate,Los Tres Ojos, Santo Domingo Este, Santo Domingo,Nueva,128,Residencial,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,120000
+2022-08-02,/apartamentos-venta-los-tres-ojos/1285713/,2,2,3,RD$,4499000,Inmobiliaria Grupal,Los Tres Ojos, Santo Domingo Este, Santo Domingo,Nueva,NA,Residencial,NA,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,76905.9829059829

@@ -1,0 +1,4 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-santiago/1281664/,2,2,3,RD$,7900000,Olima Real Estate,Santiago, Santiago, Santiago de los Caballeros,Segundo Uso,183,Residencial,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,135042.73504273503
+2022-08-02,/apartamentos-venta-santiago/1241660/,NA,NA,3,US$,160000,Vetas Soluciones Inmobiliarias,Santiago, Santiago, Santiago de los Caballeros,Nueva,121,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,160000
+2022-08-02,/apartamentos-venta-santiago/1252726/,2,2,3,US$,100000,Vetas Soluciones Inmobiliarias,Santiago, Santiago, Santiago de los Caballeros,En Construcción,77,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,100000

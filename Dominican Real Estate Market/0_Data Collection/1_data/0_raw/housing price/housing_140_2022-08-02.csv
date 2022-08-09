@@ -1,0 +1,4 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-bajos-de-haina/1283549/,1,2,3,RD$,3300000,Doble Altura Real Estate SRL,NA,Bajos De Haina, San Cristobal,Nueva,83,Residencial,NA,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,56410.256410256414
+2022-08-02,/apartamentos-venta-bajos-de-haina/1272509/,1,2,3,RD$,3300000,Doble Altura Real Estate SRL,NA,Bajos De Haina, San Cristobal,Nueva,83,Residencial,NA,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,56410.256410256414
+2022-08-02,/apartamentos-venta-bajos-de-haina/1269660/,2,2,3,US$,65585,AC INMOBILIARIA,NA,Bajos De Haina, San Cristobal,Fideicomiso,115,Residencial,NA,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,65585

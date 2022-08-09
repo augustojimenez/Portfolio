@@ -1,0 +1,3 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-avenida-espana/1283310/,1,1.5,1,US$,69999,Paez Luxury Real Estate ,Avenida España, Bávaro, Punta Cana,En Construcción,35,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,69999
+2022-08-02,/apartamentos-venta-avenida-espana/1277689/,1,2,2,US$,151000,Premium Real Estate,Avenida España, Bávaro, Punta Cana,En Construcción,90,Residencial,NA,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,151000

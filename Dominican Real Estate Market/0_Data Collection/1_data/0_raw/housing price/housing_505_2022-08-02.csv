@@ -1,0 +1,5 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-alma-rosa-ll/1282659/,1,2,3,RD$,5900000,Hogarium Real Estate,Alma Rosa ll, Santo Domingo Este, Santo Domingo,Segundo Uso,129,Residencial,3,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,100854.70085470086
+2022-08-02,/apartamentos-venta-alma-rosa-ll/1269057/,2,2,3,US$,132000,Stephanie  Peña,Alma Rosa ll, Santo Domingo Este, Santo Domingo,Nueva,166,Residencial,4,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,132000
+2022-08-02,/apartamentos-venta-alma-rosa-ll/1281123/,1,2.5,2,RD$,5000000,United Group DR,Alma Rosa ll, Santo Domingo Este, Santo Domingo,Segundo Uso,121,Residencial,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,85470.08547008547
+2022-08-02,/apartamentos-venta-alma-rosa-ll/1274290/,2,2.5,3,US$,170000,Premium Real Estate,Alma Rosa ll, Santo Domingo Este, Santo Domingo,En Planos,NA,N/D,NA,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,170000

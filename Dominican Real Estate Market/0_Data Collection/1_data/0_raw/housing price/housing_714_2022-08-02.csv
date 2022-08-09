@@ -1,0 +1,4 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-cerro-hermoso/1280513/,2,3.5,3,US$,261792,Seekers Inmobiliaria,Cerro Hermoso, Santiago, Santiago de los Caballeros,En Construcción,164,Residencial,NA,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,261792
+2022-08-02,/apartamentos-venta-cerro-hermoso/1278073/,2,3,3,US$,261792,Seekers Inmobiliaria,Cerro Hermoso, Santiago, Santiago de los Caballeros,En Construcción,167,Residencial,NA,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,261792
+2022-08-02,/apartamentos-venta-cerro-hermoso/1283430/,2,3.5,3,US$,261792,Seekers Inmobiliaria,Cerro Hermoso, Santiago, Santiago de los Caballeros,En Construcción,167,Residencial,NA,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,261792

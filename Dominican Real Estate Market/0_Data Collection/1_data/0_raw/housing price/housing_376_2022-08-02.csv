@@ -1,0 +1,3 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-villa-maria/1279220/,2,2.5,2,US$,122740,Mudate,Villa Maria, Santo Domingo Centro (D.N.), Santo Domingo,Nueva,93,Residencial,NA,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,122740
+2022-08-02,/apartamentos-venta-villa-maria/1278618/,2,2.5,2,US$,116520,BELFER INNOVARTHOMERD,Villa Maria, Santo Domingo Centro (D.N.), Santo Domingo,En Planos,93,Residencial,2,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,116520

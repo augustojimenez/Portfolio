@@ -1,0 +1,5 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-ciudad-modelo/1285175/,1,2,3,RD$,4800000,Maravila Properties,Ciudad Modelo, Santo Domingo Norte, Santo Domingo,En Construcción,100,Residencial,NA,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,82051.28205128205
+2022-08-02,/apartamentos-venta-ciudad-modelo/1258165/,1,2,3,US$,126000,Ginebra Realty Group,Ciudad Modelo, Santo Domingo Norte, Santo Domingo,En Construcción,97,Residencial,NA,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,126000
+2022-08-02,/apartamentos-venta-ciudad-modelo/1275803/,2,2,3,RD$,3700000,Kw Capital,Ciudad Modelo, Santo Domingo Norte, Santo Domingo,Nueva,95,Residencial,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,63247.86324786325
+2022-08-02,/apartamentos-venta-ciudad-modelo/1277278/,1,2,3,US$,66000,HouseLink,Ciudad Modelo, Santo Domingo Norte, Santo Domingo,En Construcción,88,Residencial,NA,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,66000

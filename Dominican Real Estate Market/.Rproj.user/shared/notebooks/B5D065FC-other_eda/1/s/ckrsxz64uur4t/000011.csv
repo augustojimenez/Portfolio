@@ -1,4 +1,0 @@
-"0","training <- training %>%"
-"0","  mutate(status = factor(status, levels = c(""En Planos"", ""En Construccion"","
-"0","                                            ""Nueva"", ""Remodelada"", ""A Remodelar"","
-"0","                                            ""Segundo Uso"", ""Fideicomiso"")))"

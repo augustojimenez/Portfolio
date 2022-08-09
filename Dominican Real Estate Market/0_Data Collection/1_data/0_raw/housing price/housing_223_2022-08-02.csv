@@ -1,0 +1,7 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-quisqueya/1250430/,1,1,2,RD$,5590000,Borbón Rodríguez,Quisqueya, Santo Domingo Centro (D.N.), Santo Domingo,En Planos,71,Residencial,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,95555.55555555556
+2022-08-02,/apartamentos-venta-y-alquiler-quisqueya/1266791/,1,1,1,RD$,3800000,Carmelia Suero,Quisqueya, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,55,Residencial,1,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,64957.26495726496
+2022-08-02,/apartamentos-venta-quisqueya/1261235/,1,1,1,US$,85000,InmoinRD,Quisqueya, Santo Domingo Centro (D.N.), Santo Domingo,Nueva,70,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,85000
+2022-08-02,/apartamentos-venta-quisqueya/1279463/,1,2,2,RD$,5900000,Remax Blu,Quisqueya, Santo Domingo Centro (D.N.), Santo Domingo,Remodelada,118,Residencial,2,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,100854.70085470086
+2022-08-02,/apartamentos-venta-quisqueya/1284826/,1,1,2,RD$,5900000,AC INMOBILIARIA,Quisqueya, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,90,Residencial,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,100854.70085470086
+2022-08-02,/apartamentos-venta-quisqueya/1283400/,2,3.5,3,US$,270000,Mega Inmobiliaria,Quisqueya, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,155,Residencial,NA,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,270000

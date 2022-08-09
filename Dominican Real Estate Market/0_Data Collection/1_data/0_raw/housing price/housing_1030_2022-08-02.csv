@@ -1,0 +1,7 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-samana/1269101/,1,2,2,US$,289000,Republic Real State,Samana, Samana, Samaná,En Planos,131,Residencial,NA,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,289000
+2022-08-02,/apartamentos-venta-samana/1279534/,2,2,2,US$,220000,Mudate,Samana, Samana, Samaná,Nueva,123,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,220000
+2022-08-02,/apartamentos-venta-samana/1279529/,1,1,1,US$,93000,Mudate,Samana, Samana, Samaná,Nueva,51,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,93000
+2022-08-02,/apartamentos-venta-samana/1275736/,1,1,1,US$,170000,Tropical Living,Samana, Samana, Samaná,Segundo Uso,101,Residencial,NA,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,170000
+2022-08-02,/apartamentos-venta-samana/1273118/,NA,1,1,US$,125000,Tropical Living,Samana, Samana, Samaná,Segundo Uso,89,Residencial,NA,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,125000
+2022-08-02,/apartamentos-venta-samana/1275743/,1,2,2,US$,395000,Tropical Living,Samana, Samana, Samaná,Segundo Uso,163,Residencial,NA,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,395000

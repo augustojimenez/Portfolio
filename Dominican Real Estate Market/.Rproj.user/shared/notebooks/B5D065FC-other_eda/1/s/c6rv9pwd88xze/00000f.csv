@@ -1,2 +1,0 @@
-"0","#training <- training[complete.cases(training), ]"
-"0","#dim(training)"

@@ -1,0 +1,3 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-pinos-de-villa-olga/1270485/,2,2.5,2,US$,230000,Seekers Inmobiliaria,Pinos de Villa Olga, Santiago, Santiago de los Caballeros,En Construcción,132,Residencial,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,230000
+2022-08-02,/apartamentos-venta-pinos-de-villa-olga/1282535/,2,2.5,2,US$,230000,Seekers Inmobiliaria,Pinos de Villa Olga, Santiago, Santiago de los Caballeros,En Construcción,132,Residencial,NA,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,230000

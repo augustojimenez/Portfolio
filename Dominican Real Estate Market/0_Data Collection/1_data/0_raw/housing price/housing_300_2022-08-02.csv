@@ -1,0 +1,4 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-villas-naco/1279526/,2,2.5,2,US$,290000,Maravila Properties,Villas Naco, Santo Domingo Centro (D.N.), Santo Domingo,En Construcción,NA,Residencial,NA,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,290000
+2022-08-02,/apartamentos-venta-villas-naco/1286033/,3,3.5,3,US$,459000,Parmelia Matos Broker,Villas Naco, Santo Domingo Centro (D.N.), Santo Domingo,Nueva,222,Residencial,15,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,459000
+2022-08-02,/apartamentos-venta-villas-naco/1285680/,2,3.5,3,US$,310000,Remax Metropolitana,Villas Naco, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,260,Residencial,5,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,310000

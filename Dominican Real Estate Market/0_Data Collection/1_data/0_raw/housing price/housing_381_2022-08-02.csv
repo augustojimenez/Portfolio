@@ -1,0 +1,4 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-herrera/1285448/,1,2,3,RD$,3100000,Inmobiliaria Grupal,Herrera, Las Colinas Del Oeste Santo Domingo Oeste, Santo Domingo,Nueva,90,Residencial,3,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,52991.45299145299
+2022-08-02,/apartamentos-venta-herrera/1271210/,NA,NA,11,US$,1600000,CITYMAX Dominicana,Herrera, Las Colinas Del Oeste Santo Domingo Oeste, Santo Domingo,A Remodelar,4386,Comercial,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,1600000
+2022-08-02,/apartamentos-venta-herrera/1282532/,1,1.5,1,US$,116480,Seekers Inmobiliaria,Herrera, Las Colinas Del Oeste Santo Domingo Oeste, Santo Domingo,En Construcción,67,Residencial,NA,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,116480

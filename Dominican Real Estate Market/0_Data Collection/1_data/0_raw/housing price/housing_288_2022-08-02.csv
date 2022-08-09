@@ -1,0 +1,4 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-ciudad-real/1280432/,2,2.5,3,RD$,7500000,Hogarium Real Estate,Ciudad Real, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,142,Residencial,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,128205.1282051282
+2022-08-02,/apartamentos-venta-ciudad-real/1285954/,2,2,3,RD$,5700000,Hogarium Real Estate,Ciudad Real, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,105,Residencial,3,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,97435.89743589744
+2022-08-02,/apartamentos-venta-ciudad-real/1281001/,2,2,3,RD$,7500000,Hogarium Real Estate,Ciudad Real, Santo Domingo Centro (D.N.), Santo Domingo,Segundo Uso,142,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,128205.1282051282

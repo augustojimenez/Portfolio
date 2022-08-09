@@ -1,0 +1,5 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-boca-chica/1286023/,1,2.5,2,US$,175000,Keller Williams Gold ,NA,Boca Chica, Santo Domingo,En Construcción,127,N/D,NA,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,175000
+2022-08-02,/apartamentos-venta-boca-chica/1268452/,NA,2,2,US$,100000,Remax Plus,NA,Boca Chica, Santo Domingo,Segundo Uso,64,Residencial,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,100000
+2022-08-02,/apartamentos-venta-boca-chica/1283575/,1,2,2,US$,240000,Seekers Inmobiliaria,NA,Boca Chica, Santo Domingo,Segundo Uso,82,Residencial,3,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,240000
+2022-08-02,/apartamentos-venta-andres-boca-chica/1278111/,1,1,1,US$,95000,Plusval Venta Directa,Andres Boca Chica, Boca Chica, Santo Domingo,Segundo Uso,48,Residencial,2,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,95000

@@ -1,0 +1,4 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-mirador-del-este/1274843/,1,2,2,US$,99000,Bonillamultiservice,Mirador del Este, Santo Domingo Este, Santo Domingo,En Planos,100,Residencial,NA,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,99000
+2022-08-02,/apartamentos-venta-mirador-del-este/1275259/,2,4,3,US$,170000,Plusval Puente Azul,Mirador del Este, Santo Domingo Este, Santo Domingo,Nueva,151,Residencial,4,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,170000
+2022-08-02,/apartamentos-venta-mirador-del-este/1280036/,NA,NA,NA,US$,81000,Inverfisa,Mirador del Este, Santo Domingo Este, Santo Domingo,Nueva,78,Residencial,NA,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,81000

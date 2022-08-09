@@ -1,3 +1,0 @@
-"0","training %>%"
-"0","  arrange(desc(area)) %>%"
-"0","  head(10)"

@@ -1,0 +1,3 @@
+date,id,parking,bathrooms,bedrooms,currency,price,seller,neighborhood,city,province,status,area,usage,story,planta,lift,pool,pozo,terraza,lobby,balcon,jacuzzi,gimnasio,price.usd
+2022-08-02,/apartamentos-venta-cerro-de-gurabo-ll/1282534/,2,3.5,3,RD$,299000,Seekers Inmobiliaria,Cerro de Gurabo ll, Santiago, Santiago de los Caballeros,Segundo Uso,165,Residencial,3,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,5111.111111111111
+2022-08-02,/apartamentos-venta-cerro-de-gurabo-ll/1282533/,2,3.5,3,US$,235000,Seekers Inmobiliaria,Cerro de Gurabo ll, Santiago, Santiago de los Caballeros,Segundo Uso,135,Residencial,NA,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,235000

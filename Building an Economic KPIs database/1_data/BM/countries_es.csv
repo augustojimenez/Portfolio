@@ -1,0 +1,302 @@
+,country_iso3,country_iso2,name,region,admin_region,income_level,lending_type,capital_city,longitude,latitude,language
+0,ABW,AW,Aruba,América Latina y el Caribe ,,Ingreso alto,No clasificado,Oranjestad,-70.0167,12.5167,1
+1,AFE,ZH,,Agregados,,Agregados,Agregados,,,,1
+2,AFG,AF,Afganistán,Asia meridional,Asia meridional,Países de ingreso bajo,AIF únicamente,Kabul,69.1761,34.5228,1
+3,AFR,A9,,Agregados,,Agregados,Agregados,,,,1
+4,AFW,ZI,,Agregados,,Agregados,Agregados,,,,1
+5,AGO,AO,Angola,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,BIRF únicamente,Luanda,13.242,-8.81155,1
+6,ALB,AL,Albania,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Tirana,19.8172,41.3317,1
+7,AND,AD,Andorra,Europa y Asia central,,Ingreso alto,No clasificado,Andorra la Vieja,1.5218,42.5075,1
+8,ARB,1A,El mundo árabe,Agregados,,Agregados,Agregados,,,,1
+9,ARE,AE,Emiratos Árabes Unidos,Oriente Medio y Norte de África,,Ingreso alto,No clasificado,Abu Dabi,54.3705,24.4764,1
+10,ARG,AR,Argentina,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Buenos Aires,-58.4173,-34.6118,1
+11,ARM,AM,Armenia,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Ereván,44.509,40.1596,1
+12,ASM,AS,Samoa Americana,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Ingreso mediano alto,No clasificado,Pago Pago,-170.691,-14.2846,1
+13,ATG,AG,Antigua y Barbuda,América Latina y el Caribe ,,Ingreso alto,BIRF únicamente,Saint John's,-61.8456,17.1175,1
+14,AUS,AU,Australia,Asia oriental y el Pacífico ,,Ingreso alto,No clasificado,Canberra,149.129,-35.282,1
+15,AUT,AT,Austria,Europa y Asia central,,Ingreso alto,No clasificado,Viena,16.3798,48.2201,1
+16,AZE,AZ,Azerbaiyán,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Bakú,49.8932,40.3834,1
+17,BDI,BI,Burundi,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Bujumbura,29.3639,-3.3784,1
+18,BEA,B4,,Agregados,,Agregados,Agregados,,,,1
+19,BEC,B7,,Agregados,,Agregados,Agregados,,,,1
+20,BEL,BE,Bélgica,Europa y Asia central,,Ingreso alto,No clasificado,Bruselas,4.36761,50.8371,1
+21,BEN,BJ,Benin,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Porto-Novo,2.6323,6.4779,1
+22,BFA,BF,Burkina Faso,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Uagadugú,-1.53395,12.3605,1
+23,BGD,BD,Bangladesh,Asia meridional,Asia meridional,Países de ingreso mediano bajo,AIF únicamente,Dacca,90.4113,23.7055,1
+24,BGR,BG,Bulgaria,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Sofía,23.3238,42.7105,1
+25,BHI,B1,,Agregados,,Agregados,Agregados,,,,1
+26,BHR,BH,Bahrein,Oriente Medio y Norte de África,,Ingreso alto,No clasificado,Manama,50.5354,26.1921,1
+27,BHS,BS,Bahamas,América Latina y el Caribe ,,Ingreso alto,No clasificado,Nassau,-77.339,25.0661,1
+28,BIH,BA,Bosnia y Herzegovina,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Sarajevo,18.4214,43.8607,1
+29,BLA,B2,,Agregados,,Agregados,Agregados,,,,1
+30,BLR,BY,Belarús,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Minsk,27.5766,53.9678,1
+31,BLZ,BZ,Belice,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Belmopán,-88.7713,17.2534,1
+32,BMN,B3,,Agregados,,Agregados,Agregados,,,,1
+33,BMU,BM,Bermudas,América del Norte,,Ingreso alto,No clasificado,Hamilton,-64.706,32.3293,1
+34,BOL,BO,Bolivia,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Países de ingreso mediano bajo,BIRF únicamente,La Paz,-66.1936,-13.9908,1
+35,BRA,BR,Brasil,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Brasilia,-47.9292,-15.7801,1
+36,BRB,BB,Barbados,América Latina y el Caribe ,,Ingreso alto,No clasificado,Bridgetown,-59.6105,13.0935,1
+37,BRN,BN,Brunei Darussalam,Asia oriental y el Pacífico ,,Ingreso alto,No clasificado,Bandar Seri Begawan,114.946,4.94199,1
+38,BSS,B6,,Agregados,,Agregados,Agregados,,,,1
+39,BTN,BT,Bhután,Asia meridional,Asia meridional,Países de ingreso mediano bajo,AIF únicamente,Timbu,89.6177,27.5768,1
+40,BWA,BW,Botswana,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Gaborone,25.9201,-24.6544,1
+41,CAA,C9,,Agregados,,Agregados,Agregados,,,,1
+42,CAF,CF,República Centroafricana,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Bangui,21.6407,5.63056,1
+43,CAN,CA,Canadá,América del Norte,,Ingreso alto,No clasificado,Ottawa,-75.6919,45.4215,1
+44,CEA,C4,,Agregados,,Agregados,Agregados,,,,1
+45,CEB,B8,"Europa Central y del Báltico
+",Agregados,,Agregados,Agregados,,,,1
+46,CEU,C5,,Agregados,,Agregados,Agregados,,,,1
+47,CHE,CH,Suiza,Europa y Asia central,,Ingreso alto,No clasificado,Berna,7.44821,46.948,1
+48,CHI,JG,Islas del Canal,Europa y Asia central,,Ingreso alto,No clasificado,,,,1
+49,CHL,CL,Chile,América Latina y el Caribe ,,Ingreso alto,BIRF únicamente,Santiago,-70.6475,-33.475,1
+50,CHN,CN,China,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Pekín,116.286,40.0495,1
+51,CIV,CI,Côte d'Ivoire,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Yamusukro,-4.0305,5.332,1
+52,CLA,C6,,Agregados,,Agregados,Agregados,,,,1
+53,CME,C7,,Agregados,,Agregados,Agregados,,,,1
+54,CMR,CM,Camerún,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,Financia-miento de  la AIF o de AIF/BIRF,Yaundé,11.5174,3.8721,1
+55,COD,CD,"Congo, República Democrática del",África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Kinshasa,15.3222,-4.325,1
+56,COG,CG,"Congo, República del",África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,Financia-miento de  la AIF o de AIF/BIRF,Brazzaville,15.2662,-4.2767,1
+57,COL,CO,Colombia,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Bogotá,-74.082,4.60987,1
+58,COM,KM,Comoras,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Moroni,43.2418,-11.6986,1
+59,CPV,CV,Cabo Verde,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,Financia-miento de  la AIF o de AIF/BIRF,Praia,-23.5087,14.9218,1
+60,CRI,CR,Costa Rica,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,San José,-84.0089,9.63701,1
+61,CSA,C8,,Agregados,,Agregados,Agregados,,,,1
+62,CSS,S3,Estados pequeos del Caribe,Agregados,,Agregados,Agregados,,,,1
+63,CUB,CU,Cuba,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,No clasificado,La Habana,-82.3667,23.1333,1
+64,CUW,CW,Curacao,América Latina y el Caribe ,,Ingreso alto,No clasificado,Willemstad,,,1
+65,CYM,KY,Islas Caimán,América Latina y el Caribe ,,Ingreso alto,No clasificado,George Town,-81.3857,19.3022,1
+66,CYP,CY,Chipre,Europa y Asia central,,Ingreso alto,No clasificado,Nicosia,33.3736,35.1676,1
+67,CZE,CZ,República Checa,Europa y Asia central,,Ingreso alto,No clasificado,Praga,14.4205,50.0878,1
+68,DEA,D4,,Agregados,,Agregados,Agregados,,,,1
+69,DEC,D7,,Agregados,,Agregados,Agregados,,,,1
+70,DEU,DE,Alemania,Europa y Asia central,,Ingreso alto,No clasificado,Berlín,13.4115,52.5235,1
+71,DFS,D8,,Agregados,,Agregados,Agregados,,,,1
+72,DJI,DJ,Djibouti,Oriente Medio y Norte de África,Oriente Medio y Norte de África (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Yibuti,43.1425,11.5806,1
+73,DLA,D2,,Agregados,,Agregados,Agregados,,,,1
+74,DMA,DM,Dominica,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,Financia-miento de  la AIF o de AIF/BIRF,Roseau,-61.39,15.2976,1
+75,DMN,D3,,Agregados,,Agregados,Agregados,,,,1
+76,DNF,D9,,Agregados,,Agregados,Agregados,,,,1
+77,DNK,DK,Dinamarca,Europa y Asia central,,Ingreso alto,No clasificado,Copenhague,12.5681,55.6763,1
+78,DNS,N6,,Agregados,,Agregados,Agregados,,,,1
+79,DOM,DO,República Dominicana,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Santo Domingo,-69.8908,18.479,1
+80,DSA,D5,,Agregados,,Agregados,Agregados,,,,1
+81,DSF,F6,,Agregados,,Agregados,Agregados,,,,1
+82,DSS,D6,,Agregados,,Agregados,Agregados,,,,1
+83,DZA,DZ,Argelia,Oriente Medio y Norte de África,Oriente Medio y Norte de África (excluido altos ingresos),Países de ingreso mediano bajo,BIRF únicamente,Argel,3.05097,36.7397,1
+84,EAP,4E,Asia oriental y el Pacífico (excluido altos ingresos),Agregados,,Agregados,Agregados,,,,1
+85,EAR,V2,inicial del dividendo demográfico,Agregados,,Agregados,Agregados,,,,1
+86,EAS,Z4,Asia oriental y el Pacífico ,Agregados,,Agregados,Agregados,,,,1
+87,ECA,7E,Europa y Asia central (excluido altos ingresos),Agregados,,Agregados,Agregados,,,,1
+88,ECS,Z7,Europa y Asia central,Agregados,,Agregados,Agregados,,,,1
+89,ECU,EC,Ecuador,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Quito,-78.5243,-0.229498,1
+90,EGY,EG,"Egipto, República Árabe de",Oriente Medio y Norte de África,Oriente Medio y Norte de África (excluido altos ingresos),Países de ingreso mediano bajo,BIRF únicamente,El Cairo,31.2461,30.0982,1
+91,EMU,XC,Zona del Euro,Agregados,,Agregados,Agregados,,,,1
+92,ERI,ER,Eritrea,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Asmara,38.9183,15.3315,1
+93,ESP,ES,España,Europa y Asia central,,Ingreso alto,No clasificado,Madrid,-3.70327,40.4167,1
+94,EST,EE,Estonia,Europa y Asia central,,Ingreso alto,No clasificado,Tallin,24.7586,59.4392,1
+95,ETH,ET,Etiopía,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Addis Abeba,38.7468,9.02274,1
+96,EUU,EU,Unión Europea,Agregados,,Agregados,Agregados,,,,1
+97,FCS,F1,"Frágiles y situaciones de conflicto afectados
+",Agregados,,Agregados,Agregados,,,,1
+98,FIN,FI,Finlandia,Europa y Asia central,,Ingreso alto,No clasificado,Helsinki,24.9525,60.1608,1
+99,FJI,FJ,Fiji,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Ingreso mediano alto,Financia-miento de  la AIF o de AIF/BIRF,Suva,178.399,-18.1149,1
+100,FRA,FR,Francia,Europa y Asia central,,Ingreso alto,No clasificado,París,2.35097,48.8566,1
+101,FRO,FO,Islas Feroe,Europa y Asia central,,Ingreso alto,No clasificado,Tórshavn,-6.91181,61.8926,1
+102,FSM,FM,Micronesia (Estados Federados de),Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Palikir,158.185,6.91771,1
+103,FXS,6F,,Agregados,,Agregados,Agregados,,,,1
+104,GAB,GA,Gabón,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Libreville,9.45162,0.38832,1
+105,GBR,GB,Reino Unido,Europa y Asia central,,Ingreso alto,No clasificado,Londres,-0.126236,51.5002,1
+106,GEO,GE,Georgia,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Tbilisi,44.793,41.71,1
+107,GHA,GH,Ghana,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Accra,-0.20795,5.57045,1
+108,GIB,GI,Gibraltar,Europa y Asia central,,Ingreso alto,No clasificado,,,,1
+109,GIN,GN,Guinea,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Conakry,-13.7,9.51667,1
+110,GMB,GM,Gambia,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Banjul,-16.5885,13.4495,1
+111,GNB,GW,Guinea-Bissau,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Bissau,-15.1804,11.8037,1
+112,GNQ,GQ,Guinea Ecuatorial,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Malabo,8.7741,3.7523,1
+113,GRC,GR,Grecia,Europa y Asia central,,Ingreso alto,No clasificado,Atenas,23.7166,37.9792,1
+114,GRD,GD,Granada,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,Financia-miento de  la AIF o de AIF/BIRF,Saint George's,-61.7449,12.0653,1
+115,GRL,GL,Groenlandia,Europa y Asia central,,Ingreso alto,No clasificado,Nuuk,-51.7214,64.1836,1
+116,GTM,GT,Guatemala,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Ciudad de Guatemala,-90.5328,14.6248,1
+117,GUM,GU,Guam,Asia oriental y el Pacífico ,,Ingreso alto,No clasificado,Agaña,144.794,13.4443,1
+118,GUY,GY,Guyana,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,AIF únicamente,Georgetown,-58.1548,6.80461,1
+119,HIC,XD,Ingreso alto,Agregados,,Agregados,Agregados,,,,1
+120,HKG,HK,"Hong Kong, Región Administrativa Especial",Asia oriental y el Pacífico ,,Ingreso alto,No clasificado,,114.109,22.3964,1
+121,HND,HN,Honduras,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Tegucigalpa,-87.4667,15.1333,1
+122,HPC,XE,Países pobres muy endeudados (PPME),Agregados,,Agregados,Agregados,,,,1
+123,HRV,HR,Croacia,Europa y Asia central,,Ingreso alto,BIRF únicamente,Zagreb,15.9614,45.8069,1
+124,HTI,HT,Haití,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Puerto Príncipe,-72.3288,18.5392,1
+125,HUN,HU,Hungría,Europa y Asia central,,Ingreso alto,No clasificado,Budapest,19.0408,47.4984,1
+126,IBB,ZB,,Agregados,,Agregados,Agregados,,,,1
+127,IBD,XF,Sólo BIRF,Agregados,,Agregados,Agregados,,,,1
+128,IBT,ZT,BIRF y la AIF,Agregados,,Agregados,Agregados,,,,1
+129,IDA,XG,total de la AIF,Agregados,,Agregados,Agregados,,,,1
+130,IDB,XH,mezcla de la AIF,Agregados,,Agregados,Agregados,,,,1
+131,IDN,ID,Indonesia,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Países de ingreso mediano bajo,BIRF únicamente,Yakarta,106.83,-6.19752,1
+132,IDX,XI,Sólo AIF,Agregados,,Agregados,Agregados,,,,1
+133,IMN,IM,Isla de Man,Europa y Asia central,,Ingreso alto,No clasificado,Douglas,-4.47928,54.1509,1
+134,IND,IN,India,Asia meridional,Asia meridional,Países de ingreso mediano bajo,BIRF únicamente,Nueva Delhi,77.225,28.6353,1
+135,INX,XY,No clasificado,Agregados,,Agregados,Agregados,,,,1
+136,IRL,IE,Irlanda,Europa y Asia central,,Ingreso alto,No clasificado,Dublín,-6.26749,53.3441,1
+137,IRN,IR,"Irán, República Islámica del",Oriente Medio y Norte de África,Oriente Medio y Norte de África (excluido altos ingresos),Países de ingreso mediano bajo,BIRF únicamente,Teherán,51.4447,35.6878,1
+138,IRQ,IQ,Iraq,Oriente Medio y Norte de África,Oriente Medio y Norte de África (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Bagdad,44.394,33.3302,1
+139,ISL,IS,Islandia,Europa y Asia central,,Ingreso alto,No clasificado,Reikiavik,-21.8952,64.1353,1
+140,ISR,IL,Israel,Oriente Medio y Norte de África,,Ingreso alto,No clasificado,,35.2035,31.7717,1
+141,ITA,IT,Italia,Europa y Asia central,,Ingreso alto,No clasificado,Roma,12.4823,41.8955,1
+142,JAM,JM,Jamaica,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Kingston,-76.792,17.9927,1
+143,JOR,JO,Jordania,Oriente Medio y Norte de África,Oriente Medio y Norte de África (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Ammán,35.9263,31.9497,1
+144,JPN,JP,Japón,Asia oriental y el Pacífico ,,Ingreso alto,No clasificado,Tokio,139.77,35.67,1
+145,KAZ,KZ,Kazajstán,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Astaná,71.4382,51.1879,1
+146,KEN,KE,Kenya,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,Financia-miento de  la AIF o de AIF/BIRF,Nairobi,36.8126,-1.27975,1
+147,KGZ,KG,Kirguistán,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Biskek,74.6057,42.8851,1
+148,KHM,KH,Camboya,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Phnom Penh,104.874,11.5556,1
+149,KIR,KI,Kiribati,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Tarawa,172.979,1.32905,1
+150,KNA,KN,Saint Kitts y Nevis,América Latina y el Caribe ,,Ingreso alto,BIRF únicamente,Basseterre,-62.7309,17.3,1
+151,KOR,KR,"Corea, República de",Asia oriental y el Pacífico ,,Ingreso alto,No clasificado,Seúl,126.957,37.5323,1
+152,KWT,KW,Kuwait,Oriente Medio y Norte de África,,Ingreso alto,No clasificado,Ciudad de Kuwait,47.9824,29.3721,1
+153,LAC,XJ,América Latina y el Caribe (excluido altos ingresos),Agregados,,Agregados,Agregados,,,,1
+154,LAO,LA,República Democrática Popular Lao,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Vientián,102.177,18.5826,1
+155,LBN,LB,Líbano,Oriente Medio y Norte de África,Oriente Medio y Norte de África (excluido altos ingresos),Países de ingreso mediano bajo,BIRF únicamente,Beirut,35.5134,33.8872,1
+156,LBR,LR,Liberia,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Monrovia,-10.7957,6.30039,1
+157,LBY,LY,Libia,Oriente Medio y Norte de África,Oriente Medio y Norte de África (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Trípoli,13.1072,32.8578,1
+158,LCA,LC,Santa Lucía,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,Financia-miento de  la AIF o de AIF/BIRF,Castries,-60.9832,14,1
+159,LCN,ZJ,América Latina y el Caribe ,Agregados,,Agregados,Agregados,,,,1
+160,LDC,XL,Países menos desarrollados: clasificación de las Naciones Unidas,Agregados,,Agregados,Agregados,,,,1
+161,LIC,XM,Países de ingreso bajo,Agregados,,Agregados,Agregados,,,,1
+162,LIE,LI,Liechtenstein,Europa y Asia central,,Ingreso alto,No clasificado,Vaduz,9.52148,47.1411,1
+163,LKA,LK,Sri Lanka,Asia meridional,Asia meridional,Países de ingreso mediano bajo,BIRF únicamente,Colombo,79.8528,6.92148,1
+164,LMC,XN,Países de ingreso mediano bajo,Agregados,,Agregados,Agregados,,,,1
+165,LMY,XO,Ingreso mediano y bajo,Agregados,,Agregados,Agregados,,,,1
+166,LSO,LS,Lesotho,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Maseru,27.7167,-29.5208,1
+167,LTE,V3,avanzada del dividendo demográfico,Agregados,,Agregados,Agregados,,,,1
+168,LTU,LT,Lituania,Europa y Asia central,,Ingreso alto,No clasificado,Vilna,25.2799,54.6896,1
+169,LUX,LU,Luxemburgo,Europa y Asia central,,Ingreso alto,No clasificado,Luxemburgo,6.1296,49.61,1
+170,LVA,LV,Letonia,Europa y Asia central,,Ingreso alto,No clasificado,Riga,24.1048,56.9465,1
+171,MAC,MO,"Región Administrativa Especial de Macao, China",Asia oriental y el Pacífico ,,Ingreso alto,No clasificado,,113.55,22.1667,1
+172,MAF,MF,Isla de San Martín (parte francesa),América Latina y el Caribe ,,Ingreso alto,No clasificado,Marigot,,,1
+173,MAR,MA,Marruecos,Oriente Medio y Norte de África,Oriente Medio y Norte de África (excluido altos ingresos),Países de ingreso mediano bajo,BIRF únicamente,Rabat,-6.8704,33.9905,1
+174,MCO,MC,Mónaco,Europa y Asia central,,Ingreso alto,No clasificado,Mónaco,7.41891,43.7325,1
+175,MDA,MD,República de Moldova,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Chisinau,28.8497,47.0167,1
+176,MDE,M1,,Agregados,,Agregados,Agregados,,,,1
+177,MDG,MG,Madagascar,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Antananarivo,45.7167,-20.4667,1
+178,MDV,MV,Maldivas,Asia meridional,Asia meridional,Ingreso mediano alto,AIF únicamente,Malé,73.5109,4.1742,1
+179,MEA,ZQ,Oriente Medio y Norte de África,Agregados,,Agregados,Agregados,,,,1
+180,MEX,MX,México,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Ciudad de México,-99.1276,19.427,1
+181,MHL,MH,Islas Marshall,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Ingreso mediano alto,AIF únicamente,Dalap-Uliga-Darrit,171.135,7.11046,1
+182,MIC,XP, Ingreso mediano,Agregados,,Agregados,Agregados,,,,1
+183,MKD,MK,Macedonia del Norte,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Skopje,21.4361,42.0024,1
+184,MLI,ML,Malí,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Bamako,-7.50034,13.5667,1
+185,MLT,MT,Malta,Oriente Medio y Norte de África,,Ingreso alto,No clasificado,La Valeta,14.5189,35.9042,1
+186,MMR,MM,Myanmar,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Naypyidaw,95.9562,21.914,1
+187,MNA,XQ,Oriente Medio y Norte de África (excluido altos ingresos),Agregados,,Agregados,Agregados,,,,1
+188,MNE,ME,Montenegro,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Podgorica,19.2595,42.4602,1
+189,MNG,MN,Mongolia,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Países de ingreso mediano bajo,BIRF únicamente,Ulán Bator,106.937,47.9129,1
+190,MNP,MP,Mariana,Asia oriental y el Pacífico ,,Ingreso alto,No clasificado,Saipán,145.765,15.1935,1
+191,MOZ,MZ,Mozambique,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Maputo,32.5713,-25.9664,1
+192,MRT,MR,Mauritania,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Nuakchott,-15.9824,18.2367,1
+193,MUS,MU,Mauricio,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Nuakchott,57.4977,-20.1605,1
+194,MWI,MW,Malawi,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Lilongüe,33.7703,-13.9899,1
+195,MYS,MY,Malasia,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Kuala Lumpur,101.684,3.12433,1
+196,NAC,XU,América del Norte,Agregados,,Agregados,Agregados,,,,1
+197,NAF,M2,,Agregados,,Agregados,Agregados,,,,1
+198,NAM,NA,Namibia,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Windhoek,17.0931,-22.5648,1
+199,NCL,NC,Nueva Caledonia,Asia oriental y el Pacífico ,,Ingreso alto,No clasificado,Numea,166.464,-22.2677,1
+200,NER,NE,Níger,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Niamey,2.1073,13.514,1
+201,NGA,NG,Nigeria,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,Financia-miento de  la AIF o de AIF/BIRF,Abuja,7.48906,9.05804,1
+202,NIC,NI,Nicaragua,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Managua,-86.2734,12.1475,1
+203,NLD,NL,Países Bajos,Europa y Asia central,,Ingreso alto,No clasificado,Amsterdam,4.89095,52.3738,1
+204,NOR,NO,Noruega,Europa y Asia central,,Ingreso alto,No clasificado,Oslo,10.7387,59.9138,1
+205,NPL,NP,Nepal,Asia meridional,Asia meridional,Países de ingreso mediano bajo,AIF únicamente,Katmandú,85.3157,27.6939,1
+206,NRS,6X,,Agregados,,Agregados,Agregados,,,,1
+207,NRU,NR,Nauru,Asia oriental y el Pacífico ,,Ingreso alto,BIRF únicamente,Yaren,166.920867,-0.5477,1
+208,NXS,6N,,Agregados,,Agregados,Agregados,,,,1
+209,NZL,NZ,Nueva Zelandia,Asia oriental y el Pacífico ,,Ingreso alto,No clasificado,Wellington,174.776,-41.2865,1
+210,OED,OE,Miembros OCDE,Agregados,,Agregados,Agregados,,,,1
+211,OMN,OM,Omán,Oriente Medio y Norte de África,,Ingreso alto,No clasificado,Mascate,58.5874,23.6105,1
+212,OSS,S4,Otros Estados pequeos,Agregados,,Agregados,Agregados,,,,1
+213,PAK,PK,Pakistán,Asia meridional,Asia meridional,Países de ingreso mediano bajo,Financia-miento de  la AIF o de AIF/BIRF,Islamabad,72.8,30.5167,1
+214,PAN,PA,Panamá,América Latina y el Caribe ,,Ingreso alto,BIRF únicamente,Ciudad de Panamá,-79.5188,8.99427,1
+215,PER,PE,Perú,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Lima,-77.0465,-12.0931,1
+216,PHL,PH,Filipinas,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Países de ingreso mediano bajo,BIRF únicamente,Manila,121.035,14.5515,1
+217,PLW,PW,Palau,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Melekeok,134.479,7.34194,1
+218,PNG,PG,Papua Nueva Guinea,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Países de ingreso mediano bajo,Financia-miento de  la AIF o de AIF/BIRF,Port Moresby,147.194,-9.47357,1
+219,POL,PL,Polonia,Europa y Asia central,,Ingreso alto,BIRF únicamente,Varsovia,21.02,52.26,1
+220,PRE,V1,previa al dividendo demográfico,Agregados,,Agregados,Agregados,,,,1
+221,PRI,PR,Puerto Rico,América Latina y el Caribe ,,Ingreso alto,No clasificado,San Juan,-66,18.23,1
+222,PRK,KP,"Corea, República Popular Democrática de",Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Países de ingreso bajo,No clasificado,Pyongyang,125.754,39.0319,1
+223,PRT,PT,Portugal,Europa y Asia central,,Ingreso alto,No clasificado,Lisboa,-9.13552,38.7072,1
+224,PRY,PY,Paraguay,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Asunción,-57.6362,-25.3005,1
+225,PSE,PS,Ribera Occidental y Gaza,Oriente Medio y Norte de África,Oriente Medio y Norte de África (excluido altos ingresos),Países de ingreso mediano bajo,No clasificado,,,,1
+226,PSS,S2,Estados pequeos de las Islas del Pacfico,Agregados,,Agregados,Agregados,,,,1
+227,PST,V4,posterior al dividendo demográfico,Agregados,,Agregados,Agregados,,,,1
+228,PYF,PF,Polinesia Francesa,Asia oriental y el Pacífico ,,Ingreso alto,No clasificado,Papeete,-149.57,-17.535,1
+229,QAT,QA,Qatar,Oriente Medio y Norte de África,,Ingreso alto,No clasificado,Doha,51.5082,25.2948,1
+230,ROU,RO,Rumania,Europa y Asia central,,Ingreso alto,BIRF únicamente,Bucarest,26.0979,44.4479,1
+231,RRS,R6,,Agregados,,Agregados,Agregados,,,,1
+232,RUS,RU,Federación de Rusia,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Moscú,37.6176,55.7558,1
+233,RWA,RW,Rwanda,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Kigali,30.0587,-1.95325,1
+234,SAS,8S,Asia meridional,Agregados,,Agregados,Agregados,,,,1
+235,SAU,SA,Arabia Saudita,Oriente Medio y Norte de África,,Ingreso alto,No clasificado,Riad,46.6977,24.6748,1
+236,SDN,SD,Sudán,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Jartum,32.5363,15.5932,1
+237,SEN,SN,Senegal,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Dakar,-17.4734,14.7247,1
+238,SGP,SG,Singapur,Asia oriental y el Pacífico ,,Ingreso alto,No clasificado,Singapur,103.85,1.28941,1
+239,SLB,SB,Islas Salomón,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Honiara,159.949,-9.42676,1
+240,SLE,SL,Sierra Leona,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Freetown,-13.2134,8.4821,1
+241,SLV,SV,El Salvador,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Países de ingreso mediano bajo,BIRF únicamente,San Salvador,-89.2073,13.7034,1
+242,SMR,SM,San Marino,Europa y Asia central,,Ingreso alto,No clasificado,Ciudad de San Marino,12.4486,43.9322,1
+243,SOM,SO,Somalia,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Mogadiscio,45.3254,2.07515,1
+244,SRB,RS,Serbia,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Belgrado,20.4656,44.8024,1
+245,SSA,ZF,África al sur del Sahara (excluido altos ingresos),Agregados,,Agregados,Agregados,,,,1
+246,SSD,SS,Sudán del Sur,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Yuba ,31.6,4.85,1
+247,SSF,ZG,África al sur del Sahara,Agregados,,Agregados,Agregados,,,,1
+248,SST,S1,Pequeños Estados,Agregados,,Agregados,Agregados,,,,1
+249,STP,ST,Santo Tomé y Príncipe,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Santo Tomé,6.6071,0.20618,1
+250,SUR,SR,Suriname,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Paramaribo,-55.1679,5.8232,1
+251,SVK,SK,República Eslovaca,Europa y Asia central,,Ingreso alto,No clasificado,Bratislava,17.1073,48.1484,1
+252,SVN,SI,Eslovenia,Europa y Asia central,,Ingreso alto,No clasificado,Liubliana,14.5044,46.0546,1
+253,SWE,SE,Suecia,Europa y Asia central,,Ingreso alto,No clasificado,Estocolmo,18.0645,59.3327,1
+254,SWZ,SZ,Eswatini,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,BIRF únicamente,Mbabane,31.4659,-26.5225,1
+255,SXM,SX,Sint Maarten (Dutch part),América Latina y el Caribe ,,Ingreso alto,No clasificado,Philipsburg,,,1
+256,SXZ,A4,,Agregados,,Agregados,Agregados,,,,1
+257,SYC,SC,Seychelles,África al sur del Sahara,,Ingreso alto,BIRF únicamente,Victoria,55.4466,-4.6309,1
+258,SYR,SY,República Árabe Siria,Oriente Medio y Norte de África,Oriente Medio y Norte de África (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Damasco,36.3119,33.5146,1
+259,TCA,TC,Islas Turcas y Caicos,América Latina y el Caribe ,,Ingreso alto,No clasificado,,-71.141389,21.4602778,1
+260,TCD,TD,Chad,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Yamena,15.0445,12.1048,1
+261,TEA,T4,Asia oriental y el Pacífico (BIRF y la AIF),Agregados,,Agregados,Agregados,,,,1
+262,TEC,T7,Europa y Asia central (BIRF y la AIF),Agregados,,Agregados,Agregados,,,,1
+263,TGO,TG,Togo,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Lomé,1.2255,6.1228,1
+264,THA,TH,Tailandia,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Bangkok,100.521,13.7308,1
+265,TJK,TJ,Tayikistán,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Dusambé,68.7864,38.5878,1
+266,TKM,TM,Turkmenistán,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Asjabad,58.3794,37.9509,1
+267,TLA,T2,América Latina y el Caribe (BIRF y la AIF),Agregados,,Agregados,Agregados,,,,1
+268,TLS,TL,Timor-Leste,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Países de ingreso mediano bajo,Financia-miento de  la AIF o de AIF/BIRF,Dili,125.567,-8.56667,1
+269,TMN,T3,Oriente Medio y Norte de África (BIRF y la AIF),Agregados,,Agregados,Agregados,,,,1
+270,TON,TO,Tonga,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Ingreso mediano alto,AIF únicamente,Nuku'alofa,-175.216,-21.136,1
+271,TSA,T5,Asia meridional (BIRF y la AIF),Agregados,,Agregados,Agregados,,,,1
+272,TSS,T6,África al sur del Sahara (BIRF y la AIF),Agregados,,Agregados,Agregados,,,,1
+273,TTO,TT,Trinidad y Tobago,América Latina y el Caribe ,,Ingreso alto,BIRF únicamente,Puerto España,-61.4789,10.6596,1
+274,TUN,TN,Túnez,Oriente Medio y Norte de África,Oriente Medio y Norte de África (excluido altos ingresos),Países de ingreso mediano bajo,BIRF únicamente,Túnez,10.21,36.7899,1
+275,TUR,TR,Turquía,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Ankara,32.3606,39.7153,1
+276,TUV,TV,Tuvalu,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Ingreso mediano alto,AIF únicamente,,179.089567,-8.6314877,1
+277,TWN,TW,"Taiwán, China",Asia oriental y el Pacífico ,,Ingreso alto,No clasificado,,,,1
+278,TZA,TZ,Tanzanía,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Dodoma,35.7382,-6.17486,1
+279,UGA,UG,Uganda,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Kampala,32.5729,0.314269,1
+280,UKR,UA,Ucrania,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Países de ingreso mediano bajo,BIRF únicamente,Kiev,30.5038,50.4536,1
+281,UMC,XT,Ingreso mediano alto,Agregados,,Agregados,Agregados,,,,1
+282,URY,UY,Uruguay,América Latina y el Caribe ,,Ingreso alto,BIRF únicamente,Montevideo,-56.0675,-34.8941,1
+283,USA,US,Estados Unidos,América del Norte,,Ingreso alto,No clasificado,Ciudad de Washington,-77.032,38.8895,1
+284,UZB,UZ,Uzbekistán,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Países de ingreso mediano bajo,Financia-miento de  la AIF o de AIF/BIRF,Tashkent,69.269,41.3052,1
+285,VCT,VC,San Vicente y las Granadinas,América Latina y el Caribe ,América Latina y el Caribe (excluido altos ingresos),Ingreso mediano alto,Financia-miento de  la AIF o de AIF/BIRF,Kingstown,-61.2653,13.2035,1
+286,VEN,VE,Venezuela,América Latina y el Caribe ,,No clasificado,BIRF únicamente,Caracas,-69.8371,9.08165,1
+287,VGB,VG,Islas Vírgenes Británicas,América Latina y el Caribe ,,Ingreso alto,No clasificado,Road Town,-64.623056,18.431389,1
+288,VIR,VI,Islas Vírgenes (EE.UU.),América Latina y el Caribe ,,Ingreso alto,No clasificado,Carlota Amalia,-64.8963,18.3358,1
+289,VNM,VN,Viet Nam,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Países de ingreso mediano bajo,BIRF únicamente,Hanói,105.825,21.0069,1
+290,VUT,VU,Vanuatu,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Port Vila,168.321,-17.7404,1
+291,WLD,1W,Mundo,Agregados,,Agregados,Agregados,,,,1
+292,WSM,WS,Samoa,Asia oriental y el Pacífico ,Asia oriental y el Pacífico (excluido altos ingresos),Países de ingreso mediano bajo,AIF únicamente,Apia,-171.752,-13.8314,1
+293,XKX,XK,Kosovo,Europa y Asia central,Europa y Asia central (excluido altos ingresos),Ingreso mediano alto,AIF únicamente,Pristina,20.926,42.565,1
+294,XZN,A5,,Agregados,,Agregados,Agregados,,,,1
+295,YEM,YE,"Yemen, Rep. del",Oriente Medio y Norte de África,Oriente Medio y Norte de África (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Saná,44.2075,15.352,1
+296,ZAF,ZA,Sudáfrica,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Ingreso mediano alto,BIRF únicamente,Ciudad del Cabo,28.1871,-25.746,1
+297,ZMB,ZM,Zambia,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso bajo,AIF únicamente,Lusaka,28.2937,-15.3982,1
+298,ZWE,ZW,Zimbabwe,África al sur del Sahara,África al sur del Sahara (excluido altos ingresos),Países de ingreso mediano bajo,Financia-miento de  la AIF o de AIF/BIRF,Harare,31.0672,-17.8312,1
