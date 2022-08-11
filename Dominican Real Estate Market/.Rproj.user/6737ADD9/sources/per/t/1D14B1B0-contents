@@ -1,0 +1,121 @@
+---
+title: "modelling"
+output: html_document
+date: "2022-08-09"
+---
+
+```{r setup, include=FALSE}
+rm(list = ls())
+
+library(tidyverse)
+library(ggResidpanel)
+
+training <- read_csv("../../1_Data Cleaning/1_data/training_set.csv") %>%
+  filter(location %in% c("Bella Vista", "Bella Vista Norte", "Bella Vista Sur")) %>%
+  mutate(logPrice = log(price),
+         logArea = log(area),
+         location = case_when(location == "Bella Vista Norte" ~ "Bella Vista",
+                              location == "Bella Vista Sur" ~ "Bella Vista",
+                              TRUE ~ location)) %>%
+  na.omit()
+unique(training$location)
+model <- lm(logPrice ~ area + I(log(area_per_br)) + as.factor(status) + I(parking / bedrooms), data = training)
+model <- lm(logPrice ~ area + area_per_br + as.factor(status) + I(parking / bedrooms) + I(bedrooms / bathrooms), data = training)
+shapiro.test(residuals(model))
+summary(model)
+gvlma::gvlma(model)
+exp(predict(model))
+ggplot(training, aes(y = price, colour = as.factor(status))) + geom_boxplot()
+ggplot(training, aes(y = logPrice, x = logArea, colour = as.factor(il))) + geom_point()
+model <- lm(logPrice ~ logArea + I(log(area_per_br)) + location, data = training)
+shapiro.test(residuals(model))
+summary(model)
+gvlma::gvlma(model)
+resid_auxpanel(residuals = resid(model), 
+               predicted = fitted(model), 
+               plots = c("resid", "index"))
+
+wts <- 1/fitted(lm(abs(residuals(model)) ~ fitted(model)))^2
+
+wols1 <- lm(logPrice ~ logArea + I(logArea^2) +I(log(area_per_br)) + parking + location, data = training, weights = 1/logArea)
+wols2 <- lm(logPrice ~ logArea + I(logArea^2) +I(log(area_per_br)) + parking + location, data = training, weights = 1/logArea^2)
+wols3 <- lm(logPrice ~ logArea + I(logArea^2) +I(log(area_per_br)) + parking + location, data = training, weights = 1/fitted(model))
+wols4 <- lm(logPrice ~ logArea + I(logArea^2) +I(log(area_per_br)) + parking + location, data = training, weights = 1/fitted(model)^2)
+wols5 <- lm(logPrice ~ logArea + I(logArea^2) +I(log(area_per_br)) + parking + location, data = training, weights = 1/resid(model)^2)
+wols6 <- lm(logPrice ~ logArea + I(logArea^2) +I(log(area_per_br)) + parking + location, data = training, weights = 1/abs(resid(model)))
+wols7 <- lm(logPrice ~ logArea + I(logArea^2) +I(log(area_per_br)) + parking + location, data = training, weights = wts)
+
+summary(wols1)
+summary(wols2)
+summary(wols3)
+summary(wols4)
+summary(wols5)
+summary(wols6)
+summary(wols7)
+
+plot(fitted(wols1), rstandard(wols1))
+plot(fitted(wols2), rstandard(wols2))
+plot(fitted(wols3), rstandard(wols3))
+plot(fitted(wols4), rstandard(wols4))
+plot(fitted(wols5), rstandard(wols5))
+plot(fitted(wols6), rstandard(wols6))
+plot(fitted(wols7), rstandard(wols7))
+
+
+shapiro.test(rstandard(wols1))
+shapiro.test(rstandard(wols2))
+shapiro.test(rstandard(wols3))
+shapiro.test(rstandard(wols4))
+shapiro.test(rstandard(wols5))
+shapiro.test(rstandard(wols6))
+shapiro.test(rstandard(wols7))
+
+resid_compare(models = list(wols1, wols2),
+              plots = c("resid", "index"),
+              title.opt = FALSE)
+
+resid_auxpanel(residuals = sqrt(1/training$logArea)*resid(wols1), 
+               predicted = fitted(wols1), 
+               plots = c("resid", "index"))
+
+resid_auxpanel(residuals = sqrt(1/training$logArea^2)*resid(wols2), 
+               predicted = fitted(wols2), 
+               plots = c("resid", "index"))
+
+b_price <- MASS::boxcox(lm(price ~ 1, data = trn))
+lambda_price <- b_price$x[which.max(b_price$y)]
+new_price <- (trn$price ^ lambda_price - 1) / lambda_price
+shapiro.test(new_price)
+hist(new_price)
+
+b_area <- MASS::boxcox(lm(area ~ 1, data = trn))
+lambda_area <- b_price$x[which.max(b_price$y)]
+new_area <- (trn$area ^ lambda_area - 1) / lambda_area
+shapiro.test(new_area)
+hist(new_area)
+hist(trn$area)
+
+fit.2 <- lm(new_price ~ new_area)
+summary(fit.2)
+gvlma(fit.2)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

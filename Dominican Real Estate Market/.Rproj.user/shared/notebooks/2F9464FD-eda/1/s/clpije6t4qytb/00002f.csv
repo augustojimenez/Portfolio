@@ -1,0 +1,2 @@
+"0","g <- ggplot(training)"
+"0","g + geom_histogram(aes(price))"

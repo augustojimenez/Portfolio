@@ -1,0 +1,32 @@
+"0","glimpse(training)"
+"1","Rows: 2,749"
+"1",""
+"1","
+"
+"1","Columns: 20"
+"1",""
+"1","
+"
+"1","$ id           [3m[38;5;246m<chr>[39m[23m ""/apartamentos-venta-piantini/1286053/"", ""/apartamentos-venta-piantini/1286040/"", ""/apartamentos-venta-piantini/1278869/"", ""/apa…
+$ parking      [3m[38;5;246m<dbl>[39m[23m 1, 4, 2, 2, NA, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 3, 2, 1, 1, 2, 3, 3, 2, 3, 3, 4, 1, 1, 3, 3, 1, 3, 2, 2, 3, 2, 2, 1, 3, 2, 2, 2…
+$ bathrooms    [3m[38;5;246m<dbl>[39m[23m 2.0, 4.5, 2.0, 2.0, 3.5, 3.5, 2.0, 3.5, 2.0, 2.5, 2.0, 3.5, 3.5, 3.5, 3.5, 2.5, 3.5, 2.5, 1.5, 1.5, 2.5, 4.5, 3.5, 2.5, 3.5, 3.5…
+$ bedrooms     [3m[38;5;246m<dbl>[39m[23m 1, 4, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 2, 3, 2, 1, 1, 2, 3, 3, 2, 3, 3, 3, 1, 1, 3, 3, 1, 3, 3, 3, 3, 3, 3, 1, 3, 3, 3, 3,…
+$ seller       [3m[38;5;246m<chr>[39m[23m ""KW Capital"", ""Innova By Bello Jaquez"", ""Premium Real Estate"", ""Premium Real Estate"", ""Premium Real Estate"", ""Remax Blu"", ""Plusv…
+$ location     [3m[38;5;246m<chr>[39m[23m ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantini"", ""Piantin…
+$ status       [3m[38;5;246m<chr>[39m[23m ""New"", ""Used"", ""Used"", ""Used"", ""Used"", ""Used"", ""Rebuilding"", ""New"", ""Used"", ""Used"", ""Used"", ""Building"", ""Used"", ""Used"", ""Used"", …
+$ area         [3m[38;5;246m<dbl>[39m[23m 76, 336, 180, 180, 280, 230, 176, 190, 155, 123, 153, 290, 148, 222, 225, 123, 185, 123, 77, 87, 155, 358, 185, 123, 175, 336, 3…
+$ planta       [3m[38;5;246m<lgl>[39m[23m TRUE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE…
+$ lift         [3m[38;5;246m<lgl>[39m[23m TRUE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, TRUE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TR…
+$ pool         [3m[38;5;246m<lgl>[39m[23m TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, TRUE, TRUE, FALSE, TRUE, TRUE, TRUE, FALSE, FALSE, TRU…
+$ pozo         [3m[38;5;246m<lgl>[39m[23m TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE…
+$ terraza      [3m[38;5;246m<lgl>[39m[23m TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, TRUE, TRUE, FALSE, TRUE, FALSE, TRUE, FALSE, TRUE, TR…
+$ lobby        [3m[38;5;246m<lgl>[39m[23m TRUE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE, T…
+$ balcon       [3m[38;5;246m<lgl>[39m[23m TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TR…
+$ jacuzzi      [3m[38;5;246m<lgl>[39m[23m TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE…
+$ gimnasio     [3m[38;5;246m<lgl>[39m[23m TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, TRUE, TRUE, TRUE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE,…
+$ price        [3m[38;5;246m<dbl>[39m[23m 227000.0, 340000.0, 200000.0, 200000.0, 300000.0, 270000.0, 147008.5, 350000.0, 200000.0, 310000.0, 200000.0, 590000.0, 325000.0…
+$ price_per_m2 [3m[38;5;246m<dbl>[39m[23m 2986.8421, 1011.9048, 1111.1111, 1111.1111, 1071.4286, 1173.9130, 835.2758, 1842.1053, 1290.3226, 2520.3252, 1307.1895, 2034.482…
+$ area_per_br  [3m[38;5;246m<dbl>[39m[23m 76.00000, 84.00000, 60.00000, 60.00000, 93.33333, 76.66667, 58.66667, 63.33333, 51.66667, 61.50000, 51.00000, 96.66667, 49.33333…"
+"1",""
+"1","
+"
