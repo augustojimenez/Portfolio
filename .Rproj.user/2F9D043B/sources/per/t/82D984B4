@@ -1,0 +1,26 @@
+{
+    "id": "82D984B4",
+    "path": "~/GitHub/DataSciencePortfolio/webscraping_using_r/0_source/get_prices_supercasas.R",
+    "project_path": null,
+    "type": "r_source",
+    "hash": "3544782059",
+    "contents": "",
+    "dirty": false,
+    "created": 1633976889008.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "3,16",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1633976921,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1633976922025,
+    "read_only": false,
+    "read_only_alternatives": []
+}
