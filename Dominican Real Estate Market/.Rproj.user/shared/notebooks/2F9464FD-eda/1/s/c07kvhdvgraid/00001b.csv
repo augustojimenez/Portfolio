@@ -1,0 +1,4 @@
+"0","myvars <- c(""price"", ""area"", ""parking"", ""bedrooms"", ""bathrooms"", ""price_per_m2"","
+"0","            ""area_per_br"")"
+"0",""
+"0","pastecs::stat.desc(training[myvars], norm = TRUE)"

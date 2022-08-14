@@ -1,1 +1,1 @@
-{"height":408.5290482076638,"width":661.0,"size_behavior":0,"conditions":[[0,"`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.\n"],[1,"Warning: Removed 364 rows containing non-finite values (stat_bin)."]]}
+{"height":406.0568603213844,"width":657.0,"size_behavior":0,"conditions":[[0,"`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.\n"],[1,"Warning: Removed 364 rows containing non-finite values (stat_bin)."]]}

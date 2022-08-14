@@ -1,0 +1,7 @@
+"0","training <- training %>%"
+"0","  mutate(logPrice = log(price))"
+"0",""
+"0","testing <- testing %>%"
+"0","  mutate(logPrice = log(price))"
+"0",""
+"0","ggplot(training, aes(logPrice)) + geom_histogram()"

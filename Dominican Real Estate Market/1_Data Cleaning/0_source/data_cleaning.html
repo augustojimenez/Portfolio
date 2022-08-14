@@ -369,15 +369,15 @@ pre code {
 <div id="introduction" class="section level2">
 <h2>Introduction</h2>
 <p>For this analysis, we will examine the effect that area (measured in
-squared meters) has on the value of apartment, for residential use, in
-Santo Domingo, Dominican Republic. Prices and apartment’s
-characteristics are collect via web scraping (you can see <a href="https://github.com/augustojimenez/residential_webscraping">here</a>
-how this was done). Specifically, data were retrieved on 22nd of march,
-2022, from supercasas.com, a beacon on the online Dominican real estate
-market.</p>
-<p>In this article, I will guide you step by step how I performed the
-data cleaning process and the reasons an particular step was chosen.
-Without further ado, let’s begin.</p>
+squared meters) has on the value of an apartment, for residential use,
+in Santo Domingo, Dominican Republic. Prices and apartment’s
+characteristics are collect via web scraping (<a href="https://github.com/augustojimenez/residential_webscraping">here</a>
+you can see how it was done). Specifically, data were retrieved on 2nd
+of August, 2022, from supercasas.com, a beacon on the online Dominican
+real estate market.</p>
+<p>In this article, I will guide you, step by step, on how I performed
+the data cleaning process and explain the reasons any particular step
+was chosen. Without further ado, let’s begin.</p>
 </div>
 <div id="loading-libraries-and-data" class="section level2">
 <h2>Loading libraries and data</h2>
@@ -386,9 +386,8 @@ set the seed (so, results are reproducible), and cleared the objects
 from the work space. Finally, I loaded the data retrieved from
 supercasas.com on different dates.</p>
 <pre class="r"><code>rm(list = ls())
-getwd()</code></pre>
-<pre><code>## [1] &quot;C:/Users/Augus/OneDrive/Documents/GitHub/Portfolio/Dominican Real Estate Market/1_Data Cleaning/0_source&quot;</code></pre>
-<pre class="r"><code>options(scipen = 999)
+
+options(scipen = 999)
 
 library(robustbase)
 library(tidyverse)
@@ -403,14 +402,13 @@ housing &lt;- read_csv(paste0(path, housing_files))</code></pre>
 data. As I will also perform the Exploratory Data Analysis and some
 statistical modelling in a later stage, I must not see and clean the
 whole dataset. Doing so might bias results.</p>
-<p>I am interested in the data retrieved on March 22nd, 2022 for
+<p>I am interested in the data retrieved on 2nd of August, 2022 for
 residential apartments listed in Santo Domingo. Here I filtered the
 dataset to match this criteria. Then, we split the dataset into training
-(70%) and testing (30%). I’ll only use the training set to cleaning the
-dataset. In a later stage, this process will be applied to the test
-set.</p>
+(70%) and testing (30%). I’ll only analyze the training set to clean it.
+The same steps are applied onto the testing set.</p>
 <pre class="r"><code>housing &lt;- housing %&gt;%
-  filter(date ==  &quot;2022-03-22&quot;,
+  filter(date ==  &quot;2022-08-02&quot;,
          usage == &quot;Residencial&quot;,
          province %in% c(&quot;Santo Domingo&quot;, &quot;Santo Domingo Centro (D.N.)&quot;)) %&gt;%
   rename(location = neighborhood) %&gt;%
@@ -420,46 +418,46 @@ inTrain &lt;- createDataPartition(housing$price.usd, p = 0.7, list = FALSE)
 
 training &lt;- housing[inTrain, ]
 testing &lt;- housing[-inTrain, ]</code></pre>
-<p>On the 22nd of March, 2022, there were 5,932 apartments for
+<p>On the 2nd of August, 2022, there were 5,980 apartments for
 residential use listed in supercasas.com that were located in Santo
-Domingo. For creating the data cleaning process, I’ll use a (randomly
-selected) subset of 4,154 apartments with the same overall
+Domingo. For creating the data cleaning process, I’ll use a randomly
+selected subset of 4,188 apartments with the same overall
 characteristics.</p>
 <pre class="r"><code>dim(housing)</code></pre>
-<pre><code>## [1] 5932   21</code></pre>
+<pre><code>## [1] 5980   21</code></pre>
 <pre class="r"><code>dim(training)</code></pre>
-<pre><code>## [1] 4154   21</code></pre>
+<pre><code>## [1] 4188   21</code></pre>
 <pre class="r"><code>dim(testing)</code></pre>
-<pre><code>## [1] 1778   21</code></pre>
+<pre><code>## [1] 1792   21</code></pre>
 </div>
 <div id="data-cleaning" class="section level2">
 <h2>Data cleaning</h2>
-<p>First, let’s see what’s on the dataset:</p>
+<p>First, let’s take a look at the dataset:</p>
 <pre class="r"><code>glimpse(training)</code></pre>
-<pre><code>## Rows: 4,154
+<pre><code>## Rows: 4,188
 ## Columns: 21
-## $ id        &lt;chr&gt; &quot;/apartamentos-venta-piantini/1265273/&quot;, &quot;/apartamentos-vent…
-## $ parking   &lt;dbl&gt; 3, 2, 2, 3, NA, 3, 2, 2, 2, 1, 3, 1, 3, 3, 3, 1, 2, 1, 2, 2,…
-## $ bathrooms &lt;dbl&gt; 3.0, 2.5, 2.5, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5, 2.0, 3.0, 1.5, …
-## $ bedrooms  &lt;dbl&gt; 2, 2, 2, 3, 3, 3, 3, 3, 2, 1, 2, 1, 3, 3, 3, 1, 1, 1, 2, 3, …
-## $ currency  &lt;chr&gt; &quot;US$&quot;, &quot;US$&quot;, &quot;US$&quot;, &quot;US$&quot;, &quot;US$&quot;, &quot;US$&quot;, &quot;US$&quot;, &quot;US$&quot;, &quot;US$…
-## $ price     &lt;dbl&gt; 258000, 220000, 296250, 408825, 390000, 370000, 275000, 3000…
-## $ seller    &lt;chr&gt; &quot;BAEZ MUESES INMOBILIARIA&quot;, &quot;Premium Real Estate&quot;, &quot;Algonovo…
+## $ id        &lt;chr&gt; &quot;/apartamentos-venta-piantini/1286053/&quot;, &quot;/apartamentos-vent…
+## $ parking   &lt;dbl&gt; 1, 4, NA, 2, 2, NA, NA, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 3, …
+## $ bathrooms &lt;dbl&gt; 2.0, 4.5, NA, 2.0, 2.0, NA, 3.5, 3.5, 2.0, 3.5, 2.0, 2.5, 2.…
+## $ bedrooms  &lt;dbl&gt; 1, 4, 3, 3, 3, NA, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 2, 3, 2,…
+## $ currency  &lt;chr&gt; &quot;US$&quot;, &quot;US$&quot;, &quot;US$&quot;, &quot;US$&quot;, &quot;US$&quot;, &quot;US$&quot;, &quot;US$&quot;, &quot;US$&quot;, &quot;RD$…
+## $ price     &lt;dbl&gt; 227000, 340000, 440000, 200000, 200000, 190000, 300000, 2700…
+## $ seller    &lt;chr&gt; &quot;KW Capital&quot;, &quot;Innova By Bello Jaquez&quot;, &quot;Premium Real Estate…
 ## $ location  &lt;chr&gt; &quot;Piantini&quot;, &quot;Piantini&quot;, &quot;Piantini&quot;, &quot;Piantini&quot;, &quot;Piantini&quot;, …
-## $ status    &lt;chr&gt; &quot;Segundo Uso&quot;, &quot;Segundo Uso&quot;, &quot;En Construcción&quot;, &quot;En Constru…
-## $ area      &lt;dbl&gt; 180, 100, 153, 185, NA, 217, NA, NA, 142, NA, 225, 70, 175, …
-## $ story     &lt;dbl&gt; 2, 2, 4, 3, NA, NA, NA, NA, NA, NA, NA, NA, 3, 13, NA, NA, N…
-## $ planta    &lt;lgl&gt; TRUE, FALSE, TRUE, TRUE, FALSE, FALSE, TRUE, TRUE, TRUE, TRU…
-## $ lift      &lt;lgl&gt; TRUE, TRUE, TRUE, TRUE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE,…
-## $ pool      &lt;lgl&gt; TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, FA…
-## $ pozo      &lt;lgl&gt; TRUE, FALSE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, …
-## $ terraza   &lt;lgl&gt; TRUE, TRUE, TRUE, TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, TR…
-## $ lobby     &lt;lgl&gt; TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, FAL…
-## $ balcon    &lt;lgl&gt; TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, F…
-## $ jacuzzi   &lt;lgl&gt; FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALS…
-## $ gimnasio  &lt;lgl&gt; TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, FAL…
-## $ price.usd &lt;dbl&gt; 258000, 220000, 296250, 408825, 390000, 370000, 275000, 3000…</code></pre>
-<p>Our training dataset contains 4,154 observations and 21 variables. Of
+## $ status    &lt;chr&gt; &quot;Nueva&quot;, &quot;Segundo Uso&quot;, &quot;En Construcción&quot;, &quot;Segundo Uso&quot;, &quot;S…
+## $ area      &lt;dbl&gt; 76, 336, NA, 180, 180, NA, 280, 230, 176, 190, 155, 123, 153…
+## $ story     &lt;dbl&gt; 3, 5, NA, 3, 3, NA, NA, 2, 4, 5, 3, NA, 3, NA, 9, 8, 2, NA, …
+## $ planta    &lt;lgl&gt; TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, T…
+## $ lift      &lt;lgl&gt; TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, T…
+## $ pool      &lt;lgl&gt; TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE…
+## $ pozo      &lt;lgl&gt; TRUE, FALSE, TRUE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, …
+## $ terraza   &lt;lgl&gt; TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,…
+## $ lobby     &lt;lgl&gt; TRUE, TRUE, TRUE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, TR…
+## $ balcon    &lt;lgl&gt; TRUE, FALSE, TRUE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, …
+## $ jacuzzi   &lt;lgl&gt; TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,…
+## $ gimnasio  &lt;lgl&gt; TRUE, FALSE, TRUE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, …
+## $ price.usd &lt;dbl&gt; 227000.0, 340000.0, 440000.0, 200000.0, 200000.0, 190000.0, …</code></pre>
+<p>Our training dataset contains 4,188 observations and 21 variables. Of
 them, we can highlight <code>price</code>, <code>currency</code> and
 <code>price.usd</code>. Where <code>price</code> and
 <code>currency</code> is the actual price shown in the listing’s site.
@@ -467,13 +465,20 @@ Any apartment can be listed in local currency or US dollars, depending
 on the seller’s preference. I created <code>price.usd</code> on the data
 collection step to show prices on the same currency: US dollars. Hence,
 if prices were stated in local currency, they were converted into US
-dollars. Otherwise, they stay the same. I’ll drop <code>currency</code>
-and <code>price</code>, and keep <code>price.usd</code>. Then, and for
-simplicity’s sake, I’ll rename <code>price.usd</code> as simply
-<code>price</code>.</p>
+dollars. Otherwise, they stayed the same. I’ll drop
+<code>currency</code> and <code>price</code>, and keep
+<code>price.usd</code>. Then, and for simplicity’s sake, I’ll rename
+<code>price.usd</code> as simply <code>price</code>.</p>
 <pre class="r"><code>training &lt;- training %&gt;%
   select(-c(currency, price)) %&gt;%
+  rename(price = price.usd)
+
+testing &lt;- testing %&gt;%
+  select(-c(currency, price)) %&gt;%
   rename(price = price.usd)</code></pre>
+</div>
+<div id="missing-values" class="section level2">
+<h2>Missing values</h2>
 <p>When looking at the proportion of <code>NA</code>s are present per
 variable, over 50% of listings did not provide information regarding the
 floor the apartment is located at. And so, I removed that variable. The
@@ -487,69 +492,73 @@ proportion of missing values for all other variables is acceptable.</p>
         prop.na &lt;- na / n * 100
         })</code></pre>
 <pre><code>##         id    parking  bathrooms   bedrooms     seller   location     status 
-##  0.0000000  6.7645643  5.0072220  2.4795378  0.0000000  0.4573905  6.6441984 
+##  0.0000000  6.8529131  4.4890162  2.4116523  0.0000000  0.5730659  4.7755492 
 ##       area      story     planta       lift       pool       pozo    terraza 
-## 10.7125662 51.4443909  0.0000000  0.0000000  0.0000000  0.0000000  0.0000000 
+## 10.7927412 52.4832856  0.0000000  0.0000000  0.0000000  0.0000000  0.0000000 
 ##      lobby     balcon    jacuzzi   gimnasio      price 
 ##  0.0000000  0.0000000  0.0000000  0.0000000  0.0000000</code></pre>
 <pre class="r"><code>training &lt;- training %&gt;%
+  select(-c(story))
+
+testing &lt;- testing %&gt;%
   select(-c(story))</code></pre>
+</div>
+<div id="first-look-at-outliers" class="section level2">
+<h2>First look at outliers</h2>
 <p>Before implementing some formal procedure for removing outliers,
 let’s analyse the data at hand. First, we can see that <code>area</code>
 has some outstanding observations: a minimum value of 30 and a maximum
 of 650,000 squared meters.</p>
 <pre class="r"><code>summary(training)</code></pre>
-<pre><code>##       id               parking         bathrooms        bedrooms    
-##  Length:4154        Min.   : 1.000   Min.   :1.000   Min.   :1.000  
-##  Class :character   1st Qu.: 2.000   1st Qu.:2.000   1st Qu.:2.000  
-##  Mode  :character   Median : 2.000   Median :2.500   Median :3.000  
-##                     Mean   : 2.012   Mean   :2.719   Mean   :2.554  
-##                     3rd Qu.: 2.000   3rd Qu.:3.500   3rd Qu.:3.000  
-##                     Max.   :25.000   Max.   :6.500   Max.   :6.000  
-##                     NA&#39;s   :281      NA&#39;s   :208     NA&#39;s   :103    
+<pre><code>##       id               parking       bathrooms        bedrooms    
+##  Length:4188        Min.   :1.00   Min.   :1.000   Min.   :1.000  
+##  Class :character   1st Qu.:1.00   1st Qu.:2.000   1st Qu.:2.000  
+##  Mode  :character   Median :2.00   Median :2.500   Median :3.000  
+##                     Mean   :1.99   Mean   :2.694   Mean   :2.534  
+##                     3rd Qu.:2.00   3rd Qu.:3.500   3rd Qu.:3.000  
+##                     Max.   :7.00   Max.   :7.500   Max.   :8.000  
+##                     NA&#39;s   :287    NA&#39;s   :188     NA&#39;s   :101    
 ##     seller            location            status               area         
-##  Length:4154        Length:4154        Length:4154        Min.   :    30.0  
-##  Class :character   Class :character   Class :character   1st Qu.:   100.0  
-##  Mode  :character   Mode  :character   Mode  :character   Median :   151.0  
-##                                                           Mean   :   582.8  
-##                                                           3rd Qu.:   220.0  
+##  Length:4188        Length:4188        Length:4188        Min.   :    30.0  
+##  Class :character   Class :character   Class :character   1st Qu.:    97.0  
+##  Mode  :character   Mode  :character   Mode  :character   Median :   149.0  
+##                                                           Mean   :   470.7  
+##                                                           3rd Qu.:   222.0  
 ##                                                           Max.   :650000.0  
-##                                                           NA&#39;s   :445       
+##                                                           NA&#39;s   :452       
 ##    planta           lift            pool            pozo        
 ##  Mode :logical   Mode :logical   Mode :logical   Mode :logical  
-##  FALSE:1516      FALSE:1283      FALSE:2732      FALSE:2962     
-##  TRUE :2638      TRUE :2871      TRUE :1422      TRUE :1192     
+##  FALSE:1682      FALSE:1368      FALSE:2808      FALSE:3247     
+##  TRUE :2506      TRUE :2820      TRUE :1380      TRUE :941      
 ##                                                                 
 ##                                                                 
 ##                                                                 
 ##                                                                 
 ##   terraza          lobby           balcon         jacuzzi       
 ##  Mode :logical   Mode :logical   Mode :logical   Mode :logical  
-##  FALSE:2424      FALSE:1665      FALSE:1307      FALSE:3372     
-##  TRUE :1730      TRUE :2489      TRUE :2847      TRUE :782      
+##  FALSE:2483      FALSE:1833      FALSE:1372      FALSE:3516     
+##  TRUE :1705      TRUE :2355      TRUE :2816      TRUE :672      
 ##                                                                 
 ##                                                                 
 ##                                                                 
 ##                                                                 
-##   gimnasio           price          
-##  Mode :logical   Min.   :        1  
-##  FALSE:1991      1st Qu.:   138000  
-##  TRUE :2163      Median :   210000  
-##                  Mean   :   496043  
-##                  3rd Qu.:   300000  
-##                  Max.   :257500000  
+##   gimnasio           price           
+##  Mode :logical   Min.   :        65  
+##  FALSE:2057      1st Qu.:    142975  
+##  TRUE :2131      Median :    220000  
+##                  Mean   :   1263377  
+##                  3rd Qu.:    320000  
+##                  Max.   :1350000000  
 ## </code></pre>
-<p>By viewing the “largest apartments”, some things become apparent.</p>
+<p>By viewing the “largest apartments”, two things became apparent:</p>
 <ol style="list-style-type: decimal">
 <li><p>First, there are repeated observations on this small sample: see
 the third and fourth rows, for instance.</p></li>
 <li><p>Second, the first four rows are obviously typos: the seller typed
 650,000 instead of 650 squared meters, to cited the first case.</p></li>
-<li><p>Third, the apartment listed on the fifth row is no longer
-available rising some doubts on its veracity.</p></li>
-<li><p>Last, the sixth “apartment” is actually a house. When analyzing
-the “smallest apartments”, everything seems in order.</p></li>
 </ol>
+<p>When analyzing the “smallest apartments”, everything seems in
+order.</p>
 <pre class="r"><code>training %&gt;%
   arrange(desc(area)) %&gt;%
   head(10)</code></pre>
@@ -557,15 +566,15 @@ the “smallest apartments”, everything seems in order.</p></li>
 ##    id      parking bathrooms bedrooms seller location status   area planta lift 
 ##    &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;    &lt;chr&gt;   &lt;dbl&gt; &lt;lgl&gt;  &lt;lgl&gt;
 ##  1 /apart…       5       3.5        3 Flavi… Piantini Segun… 650000 TRUE   TRUE 
-##  2 /apart…       3       3.5        3 Flavi… Piantini Segun… 400000 TRUE   TRUE 
+##  2 /apart…       2       3.5        3 Premi… Alma Ro… En Co… 220000 TRUE   TRUE 
 ##  3 /apart…       2       3.5        3 Premi… Alma Ro… En Co… 220000 TRUE   TRUE 
-##  4 /apart…       2       3.5        3 Premi… Alma Ro… En Co… 220000 TRUE   TRUE 
-##  5 /apart…       3       3.5        3 Gineb… Los Cac… Segun…   2016 FALSE  FALSE
-##  6 /apart…      NA       5.5        5 Vícto… Cuesta … Segun…   1431 TRUE   FALSE
-##  7 /apart…      NA       5          4 Patri… Paraiso  Segun…    952 TRUE   TRUE 
+##  4 /apart…      NA       5.5        5 Vícto… Cuesta … Segun…   1431 TRUE   FALSE
+##  5 /apart…       5       4.5        4 Paez … La Espe… Segun…    964 TRUE   TRUE 
+##  6 /apart…       5       4.5        4 Anyel… La Espe… Fidei…    963 FALSE  FALSE
+##  7 /apart…       5       5.5        5 Top S… Serrall… Segun…    918 TRUE   TRUE 
 ##  8 /apart…       4       6          4 Paez … La Espe… Segun…    890 FALSE  FALSE
 ##  9 /apart…      NA      NA          4 Paez … Anacaona &lt;NA&gt;      890 FALSE  FALSE
-## 10 /apart…       5       4.5        4 Flavi… Anacaona Segun…    854 FALSE  TRUE 
+## 10 /apart…       4       4.5        4 Hogar… Anacaona Segun…    873 TRUE   TRUE 
 ## # … with 8 more variables: pool &lt;lgl&gt;, pozo &lt;lgl&gt;, terraza &lt;lgl&gt;, lobby &lt;lgl&gt;,
 ## #   balcon &lt;lgl&gt;, jacuzzi &lt;lgl&gt;, gimnasio &lt;lgl&gt;, price &lt;dbl&gt;</code></pre>
 <p>So, to fix (1) I eliminated duplicates. To solve (2), I divided by
@@ -573,8 +582,10 @@ the “smallest apartments”, everything seems in order.</p></li>
 area. Finally, as for (3), I removed those apartments that are obviously
 not of interest.</p>
 <pre class="r"><code>training &lt;- training %&gt;%
-  filter(id != &quot;/apartamentos-venta-cuesta-hermosa-ii/1236477/&quot;,
-         id != &quot;/apartamentos-venta-los-cacicazgos/1272251/&quot;) %&gt;%
+  mutate(area = ifelse(area &gt; 10000, area / 1000, area)) %&gt;%
+  unique()
+
+testing &lt;- testing %&gt;%
   mutate(area = ifelse(area &gt; 10000, area / 1000, area)) %&gt;%
   unique()</code></pre>
 <p>Let’s do the same with <code>price</code>. But viewing
@@ -584,20 +595,20 @@ with 280 squared meters could hardly be worth $10,256. What I mean is,
 price must be analyse in regards with area. Price per squared meter
 could tell us more about how extreme of a value it is.</p>
 <pre class="r"><code>summary(training$price)</code></pre>
-<pre><code>##      Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
-##         1    142000    215000    528651    315000 257500000</code></pre>
+<pre><code>##       Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
+##         65     150000     226300    1265877     330000 1350000000</code></pre>
 <pre class="r"><code>ggplot(training, aes(price)) +
   geom_histogram()</code></pre>
 <pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
-<p><img src="data:image/png;base64,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" /><!-- --></p>
+<p><img src="data:image/png;base64,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" /><!-- --></p>
 <pre class="r"><code>summary(training$area)</code></pre>
 <pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA&#39;s 
-##    30.0   102.0   155.0   184.8   226.0   952.0     365</code></pre>
+##    30.0   100.0   151.0   183.7   225.0  1431.0     364</code></pre>
 <pre class="r"><code>ggplot(training, aes(area)) +
   geom_histogram()</code></pre>
 <pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
-<pre><code>## Warning: Removed 365 rows containing non-finite values (stat_bin).</code></pre>
-<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAqAAAAHgCAMAAABNUi8GAAAAsVBMVEUAAAAAADoAAGYAOpAAZrYzMzM6AAA6ADo6AGY6kNtNTU1NTW5NTY5NbqtNjshZWVlmAABmADpmtv9uTU1uTW5uTY5ubo5ubqtuq+SOTU2OTW6OTY6Obk2OyP+QOgCQkDqQ27aQ2/+rbk2rbm6rbo6ryKur5OSr5P+2ZgC2///Ijk3I///bkDrb///kq27k///r6+v/tmb/yI7/25D/29v/5Kv//7b//8j//9v//+T///+Aa62aAAAACXBIWXMAAA7DAAAOwwHHb6hkAAASY0lEQVR4nO2dbVsb1xVFyYvdRgmum8Q1tiu3IU1JwIEaV5aZ///DKoFQUBHS3HvmoqXjtT5Yjgzbe7aWRi9+UA46ETAHuy4gsgkFFTQKKmgUVNAoqKBRUEFTJ+h/7rPuuhqGyjHo8XJaBCmoQbxCCmpQixwFNahJEK6QghrUIkdBDWoShCukoAa1yFFQg5oE4QopqEEtchTUoCZBuEIKalCLHAU1qEkQrpCCGtQiR0ENahKEK6SgBrXIUVCDmgThCimoQS1yFNSgJkG4QgpqUIuchIL+5R51ORsw6NFyPgtB1zDUsQbJG4QrpKAGtchR0NixBskbhCukoAa1yFHQ2LEGyRuEK6SgBrXIUdDYsQbJG4QrpKAGtchR0NixBskbhCukoAa1yFHQ2LEGyRuEK6SgBrXIUdDYsQbJG4QrpKAGtchR0NixBskbhCukoAa1yFHQ2LEGyRuEKzSYoGF6CbqbaoLCM+hnHIQr5EO8QS1yFDR2rEHyBuEKKahBLXIUNHasQfIG4QopqEEtchQ0dqxB8gbhCimoQS1yFDR2rEHyBuEKKahBLXIUNHasQfIG4QopqEEtchQ0dqxB8gbhCimoQS1yFDR2rEHyBuEKKahBLXIUNHasQfIG4QopqEEtchQ0dqxB8gbhCimoQS1yFDR2rEHyBuEKKahBLXIUNHasQfIG4QopqEEtchQ0dqxB8gbhCimoQS1yFDR2rEHyBuEKKahBLXIUNHasQfIG4QopqEEtchQ0dqxB8gbhCimoQS1yFDR2rEHyBuEKKahBLXL2XdBeNiro4wfhCimoQS1yFDR2rEHyBuEKlQp6dTzuuumr0eHF8kJBEwXhCpUKej4aX0t6/uz2QkEzBeEKFQo6+dvfx930zVk3eXG2uFDQTEG4QmWCXv3879lpc/Lyopu+PllczK5+MmPTafc+tYKW/S2Skg2Cnh/NH9cvD6/NXFws/qjsTuQZFBqEK1R0Bp2dM6/WnUEVNE0QrlCRoOejOUc+B80bhCtU8zbT1fHRzav4I1/FZwvCFdqz90FjypLXhwThCu3ZvyQpaOMgXCEFrSFvEK6QgtaQNwhXSEFryBuEK6SgNeQNwhVS0BryBuEKKWgNeYNwhRS0hrxBuEIKWkPeIFwhBa0hbxCukILWkDcIV0hBa8gbhCukoDXkDcIVUtAa8gbhCiloDXmDcIUUtIa8QbhCClpD3iBcIQWtIW8QrpCC1pA3CFdIQWvIG4QrpKA15A3CFVLQGvIG4QopaA15g3CFFLSGvEG4QgpaQ94gXCEFrSFvEK6QgtaQNwhXSEFryBuEK6SgNeQNwhVS0BryBuEKKWgNeYNwhRS0hrxBuEIKWkPeIFwhBa0hbxCukILWkDcIV2gwQcsYTtBHKCssPIN+xkG4Qj7E15A3CFdIQWvIG4QrpKA15A3CFVLQGvIG4QopaA15g3CFFLSGvEG4QgpaQ94gXCEFrSFvEK6QgtaQNwhXSEFryBuEK6SgNeQNwhVS0BryBuEKKWgNeYNwhRS0hrxBuEIKWkPeIFwhBa0hbxCukILWkDcIV0hBa8gbhCukoDXkDcIVUtAa8gbhCiloDXmDcIUUtIa8QbhCClpD3iBcIQWtIW8QrpCC1pA3CFdIQWvIG4QrpKA15A3CFVLQGvIG4QopaA15g3CFFLSGvEG4QgpaQ94gXCEFrSFvEK7Q3gta4ix5fUgQrpCC1pA3CFdIQWvIG4QrpKA15A3CFVLQGvIG4QqVCXo5Gn131nXTV6PDi+WFgiYKwhUqEnTy4qw7f9ZdHY/vXChopiBcoeKH+Jmk0zdndy4UNFMQrlCxoLNz5uTlRTd9fbK4mF33ZMbGb7pHU0HLqsi+sUnQyQ/fnnSXh9dmLi4Wf1J2J2oqaI87Y5C8QbhCxWfQP06df5xBFTRNEK5Q+dtMp2Ofg+YNwhUqEnTxoH51fHTzKv7IV/HZgnCFys6g56PR7Dmo74PmDcIV8l+SasgbhCukoDXkDcIVUtAa8gbhCiloDXmDcIUUtIa8QbhCClpD3iBcIQWtIW8QrpCC1pA3CFdIQWvIG4QrpKA15A3CFVLQGvIG4QopaA15g3CFFLSGvEG4QgpaQ94gXCEFrSFvEK6QgtaQNwhXSEFryBuEK6SgNeQNwhXKKOiDypLXhwThCilobLRsQbhCChobLVsQrpCCxkbLFoQrpKCx0bIF4QopaGy0bEG4QgoaGy1bEK6QgsZGyxaEK6SgsdGyBeEKKWhstGxBuEIKGhstWxCu0BZBPz7/fn7x/svfFLTfke15EK6QgsZGyxaEK7RR0HcHt3y9zU8FzRGEK9TvDNqDso4KCg3CFfJFUmy0bEG4QtsE/fD0+iHe56B9j2zPg3CFtgj66e32Z581PLKgTY5BdoTPQQvu1dmCcIW2nkEVtOzI9jwIV2jbc9Ae74AqaKIgXKGtbzMd+CKp6Mj2PAhXyLeZYqNlC8IVUtDYaNmCcIV8iI+Nli0IV6jXGfTjX3/yDNrzyPY8CFeo30P8+69+V9B+R7bnQbhCPQX1Ib7vke15EK5QP0F/9Qza98j2PAhXqN+LpC98Dtr3yPY8CFfIt5lio2ULwhVS0Nho2YJwhbYKev1jH98oaN8j2/MgXKFtgr6bv37/+Hy7oWUdFRQahCu09UWSP9VZdmR7HoQrpKCx0bIF4Qr5EB8bLVsQrpAvkmKjZQvCFfJtptho2YJwhRQ0Nlq2IFyhbYJ+evtNv589LuuooNAgXKFtgv76ddfvp+PLOiooNAhXyLeZYqNlC8IVUtDYaNmCcIV8HzQ2WrYgXKGtr+Lf+z5o0ZHteRCukG8zxUbLFoQrpKCx0bIF4QopaGy0bEG4QgoaGy1bEK6QgsZGyxaEK6SgsdGyBeEKKWhstGxBuEIKGhstWxCukILGRssWhCtUJujkh9Fo3HXTV6PDi+WFgiYKwhUqEnT6+qSb/HhydTzuzp91iwsFzRSEK1Qk6OVcx9Px9M1ZN3lxtrhQ0ExBuELFz0FnZ9HJy4s7F7PrnszY+E33eGRBy8oJm42CXh0fdZeH12YuLhZ/UHYnemRB292rswXhChWeQaevjmYvlf7/DKqgaYJwhUpfxY/nlvocNG0QrlCRoDd+Xj/MX7+KP/JVfLYgXKEiQc9Hc8a+D5o3CFfIf0mKjZYtCFdIQWOjZQvCFVLQ2GjZgnCFFDQ2WrYgXCEFjY2WLQhXSEFjo2ULwhVS0Nho2YJwhRQ0Nlq2IFwhBY2Nli0IV0hBY6NlC8IVUtDYaNmCcIUUNDZatiBcIQWNjZYtCFdIQWOjZQvCFVLQ2GjZgnCFFDQ2WrYgXCEFjY2WLQhXSEFjo2ULwhVS0Nho2YJwhRQ0Nlq2IFwhBY2Nli0IV0hBY6NlC8IVUtDYaNmCcIUUNDZatiBcIQWNjZYtCFdIQWOjZQvCFfo8BH3Y2ehoQXBBuEIKGhstCC4IV0hBY6MFwQXhCilobLQguCBcIQWNjRYEF4QrpKCx0YLggnCFFDQ2WhBcEK6QgsZGC4ILwhVS0NhoQXBBuEIKGhstCC4IV2gwQcvYtZ7+z+f2GM+gBffqILggXCEf4mOjBcEF4QopaGy0ILggXCEFjY0WBBeEK6SgsdGC4IJwhRQ0NloQXBCukILGRguCC8IVUtDYaEFwQbhCChobLQguCFdIQWOjBcEF4QopaGy0ILggXCEFjY0WBBeEK6SgsdGC4IJwhRQ0NloQXBCukILGRguCC8IVUtDYaEFwQbhCChobLQguCFdIQWOjBcEF4QopaGy0ILggXKHPVtD7VI0WBBeEK6SgS6pGC4ILwhVS0CVVowXBBeEKKeiSqtGC4IJwhRR0SdVoQXBBuEIKuqRqtCC4IFwhBV1SNVoQXBCukIIuqRotCC4IV0hBl1SNFgQXhCukoEuqRguCC8IVUtAlVaMFwQXhCinokqrRguCCcIUUdEnVaEFwQbhCCrqkarQguCBcIQVdUjVaEFwQrpCCLqkaLQguCFdIQZdUjRYEF4QrpKBLqkYLggvCFSoVdPLirOumr0aHF8sLBa0HF4QrVCjo5ei7s+7qeNydP7u9UNAAuCBcoTJBT7/9ZXYGnb45m59JFxcKGgAXhCtU8xA/eXnRTV+fLC5mVz6Zsemb7rNrGddRdgSyM7YKenl4bebiYvEHZXeiXcu4jqp7dRBcEK7QIGfQHIKuYftoQXBBuEI1giZ9DrqG7aMFwQXhCtUIenV8dPMq/ijVq/g1bB8tCC4IV8j3QTexfbQguCBcIf8laRPbRwuCC8IVUtBNbB8tCC4IV0hBN7F9tCC4IFwhBd3E9tGC4IJwhRR0E9tHC4ILwhVS0E1sHy0ILghXSEE3sX20ILggXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXCEFLaTV+pAgXKHBBC1j15rV8wjjyGY8g26i1ekBEoQr5EN8Ia3WhwThCilomGHWD6KgCvoQw6wfREEV9CGGWT+IgiroQwyzfhAFVdCHGGb9IAqqoA8xzPpBFFRBH2KY9YMoqII+xDDrB1FQBS2gYv0gCqqgBVSsH0RBFbSAivWDKKiCFlCxfhAFVdACKtYPoqAKWkDF+kEUVEELqFg/iIIqaAEV6wdR0Iigu/YFwOPdjIwcBd0zHu9mZOQo6J7xeDcjI0dB94zHuxkZOQq6Z/S6Gft/35agehT0M6XXzdj/+7YE1aOgcsv9m/GBLyq7GWMoqNxy/2Z84IvKbsYYCiq33L8ZH/iispsxhoLKLfdvxge+6D89vkhBFXQn3F91/RcpqILuhPurrv8iBVXQnXB/1fVfpKAKuk8MoEMQBZUNDKBDEAWVDQygQxAFlQ0MoEMQBZUNDKBDCWsaKKhsYAAdSljTQEGljFIdSljz1xEEnb4aHV4o6J5QqkMJa/46gKBXx+Pu/JmC7gm9tBpO0D4FelEv6PTNWTd5caagibgv6IDZfcQeUtDJy4tu+vpk9rsnM3p+k0iUvoJeHt4KOmfjyTkG+b25bEG4QoOcQRU0TRCu0KM8Bx2sokGtg3CFQq/ij3q+ih+sokGtg3CFHuV90MEqGtQ6CFfoUf4labCKBrUOwhVSUINa5CioQU2CcIUU1KAWOQpqUJMgXCEFNahFjoIa1CQIV0hBDWqRo6AGNQnCFVJQg1rkKKhBTYJwhRTUoBY5CmpQkyBcocEEXQPux0BwhXiNcIXWNFLQxwPXCFdIQXcKrhGukILuFFwjXKGWgoq0QEEFjYIKGgUVNAoqaIYRdOVnknfK5IfRaNx156PR6LszRK/VKrtvNO8z34gz0fUHgqzu80erQQRd/WzGXTL/dJ7Jjyfd6Xj+X4heK1UQjW4+aQsz0eX8frK6z51Wgwi6+rk4u+RyflSn46ufrz9FitBrtQqh0c3dGDPR6be/zP7+1X3utBpE0NVPFts1syazR4j5oxih12oVQqPu+uQEmmiu4uo+d1oNIujqZzPumPmnSM0f5WenCEKv1SqERjcFSBPNBF3d506rdGfQ6aujxe9Ox5heyyqIRpfLV0WMidqfQXf/RGbJ5Ifx7W9Px5heyyqIRqdHy98hJpo0fw66+tmMu2Th5/wccfWvM0Kv1SqERjcvj0ATzVVc3edOq2Tvg955k+/bE0av1SqARovHTs5E7d8HFWmFggoaBRU0CipoFFTQKKigUVBBo6CCRkEFjYK24sPTg4ODb7oPf/7HwZe/fXp7MPt1eaX0RkEb8fH591337svfPjz9uus+vZ398u6r32+v3HW5PUJBG/Hf32e/fPjTTx+ezpx8P3dyZuftlbsut0coaDPezx7Nv/jpWsd3B9d8c3vlrqvtEQraiI/PZx7Oz6DXgn71+8qVO+62TyhoI97PnXy/OIO+X5w0b6/ccbd9QkEbMdfww9OFoJ/ezsycXXN75a7L7REK2opfZ082//n8+5sH9PnbTHMvF1fuutseoaCCRkEFjYIKGgUVNAoqaBRU0CiooFFQQaOggkZBBc3/AEpYrSUdDnwCAAAAAElFTkSuQmCC" /><!-- --></p>
+<pre><code>## Warning: Removed 364 rows containing non-finite values (stat_bin).</code></pre>
+<p><img src="data:image/png;base64,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" /><!-- --></p>
 </div>
 <div id="some-feature-engineering" class="section level2">
 <h2>Some feature engineering</h2>
@@ -608,25 +619,36 @@ of bedrooms? Let’s do some feature engineering to create measures for
 these relations:</p>
 <pre class="r"><code>training &lt;- training %&gt;%
   mutate(price_per_m2 = price / area,
+         area_per_br = area / bedrooms)
+
+testing &lt;- testing %&gt;%
+  mutate(price_per_m2 = price / area,
          area_per_br = area / bedrooms)</code></pre>
 <p>Well, I still got similar results …</p>
 <pre class="r"><code>summary(training$price_per_m2)</code></pre>
+<pre><code>##      Min.   1st Qu.    Median      Mean   3rd Qu.      Max.      NA&#39;s 
+##       0.7    1166.7    1576.9    5833.6    2027.0 2596153.8       364</code></pre>
+<pre class="r"><code>summary(training$area_per_br)</code></pre>
 <pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA&#39;s 
-##       0    1100    1472    3566    1864 1984252     365</code></pre>
+##   20.33   51.00   65.00   70.62   81.00  381.50     390</code></pre>
 <pre class="r"><code>ggplot(training, aes(price_per_m2)) +
   geom_histogram()</code></pre>
 <pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
-<pre><code>## Warning: Removed 365 rows containing non-finite values (stat_bin).</code></pre>
-<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAqAAAAHgCAMAAABNUi8GAAAAq1BMVEUAAAAAADoAAGYAOpAAZrYzMzM6AAA6ADo6AGY6kNtNTU1NTW5NTY5NbqtNjshZWVlmAABmADpmtv9uTU1uTW5uTY5ubqtuq+SOTU2OTW6OTY6OyP+QOgCQkDqQkGaQtpCQ2/+rbk2rbm6rbo6ryKur5P+2ZgC225C2///Ijk3I///bkDrb///kq27k///r6+v/tmb/yI7/25D/5Kv//7b//8j//9v//+T////GyA62AAAACXBIWXMAAA7DAAAOwwHHb6hkAAANAElEQVR4nO3cbVvb5h2HYSfNQ+OULEuaR2dr2EoWoLCAcdD3/2SzjA02EUK2kPULO/8vqtY2p290XNyy3QMGhTHBM+h7AcbUjUBN9AjURI9ATfQI1ESPQE30tAr0v02m2aM6JiIWgViDECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKa6DrQv/043X0z2xAQ2yUaBHoyHP52UBST98Od4+sHgSK6JW4PdPzmoDh6UZzvjn48CBTRMdFgB72IdPLx4MeDQBEdE80CnW6W47fHxeTD3uphetfj6dR8ZUWgtc9kTOXUBTp+/XyvONmZJbl6mD+g5gfADopoRTQJtPhx67zaQQWK6JJoFmixP/IaFNEHcXug86v5+e67i7fvyweBIjomGuygR8Ph9DWoz0ERfRANL/H1U+MLFNGKECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKaECgimhAoIpoQKCKauJNAa6Yi0I6eydzrsYMiIgmBIqIJgSKiCYEiogmBIqIJgSKiCYEiogmBIqIJgSKiCYEiogmBIqIJgSKiCYEiogmBIqIJgSKi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" /><!-- --></p>
+<pre><code>## Warning: Removed 364 rows containing non-finite values (stat_bin).</code></pre>
+<p><img src="data:image/png;base64,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" /><!-- --></p>
 <p>It’s still rather blurry… I cannot see a clear pattern in the data
 distribution. Let’s filter data below the third quartile, based on price
 per squared meter.</p>
 <pre class="r"><code>training %&gt;%
-  filter(price_per_m2 &lt; 1864) %&gt;%
-  ggplot(aes(price)) +
+  filter(price_per_m2 &lt; 2027) %&gt;%
+  ggplot(aes(price_per_m2)) +
   geom_histogram()</code></pre>
 <pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
-<p><img src="data:image/png;base64,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" /><!-- --></p>
+<p><img src="data:image/png;base64,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" /><!-- --></p>
+<p>Now I can see something interesting. It seems that
+<code>price_per_m2</code> shows a right skewed distribution. Also, there
+are some weird values such a 70 cents per squared meter. That seems too
+low of a price, right?</p>
 </div>
 <div id="removing-outliers" class="section level2">
 <h2>Removing outliers</h2>
@@ -646,44 +668,54 @@ these cutoff values for <code>price_per_m2</code>:</p>
 <pre class="r"><code>(cutoff &lt;- adjboxStats(training$price_per_m2)$fence)</code></pre>
 <pre><code>## The default of &#39;doScale&#39; is FALSE now for stability;
 ##   set options(mc_doScale_quiet=TRUE) to suppress this (once per session) message</code></pre>
-<pre><code>## [1]  226.7685 3270.8771</code></pre>
+<pre><code>## [1]  167.5614 3590.6857</code></pre>
 <p>When I filtered using these new cutoff values, the distribution looks
 a lot better:</p>
 <pre class="r"><code>training &lt;- training %&gt;%
   filter(between(price_per_m2, cutoff[1], cutoff[2]))
 
+testing &lt;- testing %&gt;%
+  filter(between(price_per_m2, cutoff[1], cutoff[2]))
+
 summary(training$price_per_m2)</code></pre>
 <pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-##   268.9  1100.0  1456.3  1505.9  1847.7  3219.2</code></pre>
+##   314.9  1166.7  1565.2  1617.9  2007.2  3588.5</code></pre>
 <pre class="r"><code>ggplot(training, aes(price)) +
   geom_histogram()</code></pre>
 <pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
-<p><img src="data:image/png;base64,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" /><!-- --></p>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAqAAAAHgCAMAAABNUi8GAAAAqFBMVEUAAAAAADoAAGYAOpAAZrYzMzM6AAA6ADo6AGY6kNtNTU1NTW5NTY5NbqtNjshZWVlmAABmADpmtv9uTU1uTW5uTY5ubqtuq+SOTU2OTW6OTY6OyP+QOgCQkDqQkGaQ2/+rbk2rbm6rbo6ryKur5P+2ZgC225C2///Ijk3I///bkDrb///kq27k///r6+v/tmb/yI7/25D/5Kv//7b//8j//9v//+T///9pGpU8AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAN/ElEQVR4nO3cC3cT1wGFUTeBPASmaXgYEG2cRCkWsYsRRvP//1k1sgwRjsVcPa7OoH3WasYNsDXYn2ckZcFRYxa8o32fgNmqCdSiJ1CLnkAtegK16AnUordRoP/rsm4/a72x69oVT1yg7DBcoOxoXKDsaFyg7GhcoOxoXKDsaFyg7GhcoOxoXKDsaFyg7GhcoOxoXKDsaFyg7GhcoOxoXKDsaFyg7GhcoOxoXKDsaDww0H/e2ka/p+2OXRkXKDsaXyPQydNx01w9HxxffH4Q6EHaYYFeDh6Om+npsDl/9NlBoIdpZwV69uD32RX06uW4vZIuHwR6mHZWoNe3+Mmzi+bqxWj5MPux+7Ot+rVddjvQTUX72vbFQC+P50kuHxY/vsY3xtJcQXtm9+kKKtADtBMD9RyUXQdfM9Dp6cn1y/e/HgR6mHZioN4HZdfB/ZckdjQuUHY0LlB2NC5QdjQuUHY0LlB2NC5QdjQuUHY0LlB2NC5QdjQuUHY0LlB2NC5QdjQuUHY0LlB2NC5QdjQuUHY0LlB2NC5QdjQuUHY0LlB2NC5QdjQuUHY0LlB2NC5QdjQuUHY0LlB2NC5QdjQuUHY0LlB2NC5QdjQuUHY0LlB2NC5QdjQuUHY0LlB2NC5QdjQuUHY0LlB2NC5QdjQuUHY0LlB2NL6DQDfd7UD3eTaWOFdQdgjuFs+OxgXKjsYFyo7GBcqOxgXKjsYFyo7GBcqOxgXKjsYFyo7GBcqOxgXKjsYFyo7GBcqOxgXKjsYFyo7GBcqOxgXKjsYFyo7GBcqOxgXKjsYFyo7GBcqOxgXKjsYFyo7GBcqOxgXKjsYFyo7GBcqOxgXKjsYFyo7GBcqOxgXKjsYFyo7GBcqOxgXKjsYFyo7GBcqOxgXKjsYFyo7GBcqOxgXKjsYFyo7GBcqOxtcM9HzQbjg/Phw3V88HxxcCPVA7MdB2l7Mmz4btR9PTWaqPBHqgdmigVy9GzfTX0fzDl+Nm8nQs0MO0QwNtL5mzW3t7o588u5j32jT3Z+ty9V2124FuKtrXtg6BzoOcPJlfRdub/XWg7db4xliaK2jP7Mwr6OXHV0Vnw09XUIEeoJ0Z6NnJx4+GnoMetB0Z6PXLo/YyOv1tPD098Sr+cO3IQBd39PPB4MGo8T7oQduRga7YGo+7NIH2zBboRr+n7Y5dGRcoOxoXKDsaFyg7GhcoOxoXKDsaFyg7GhcoOxoXKDsaFyg7GhcoOxoXKDsaFyg7GhcoOxoXKDsaFyg7GhcoOxoXKDsaFyg7Gt97oLdzFGjPbIFu9Hva7tiVcYGyo3GBsqNxgbKjcYGyo3GBsqNxgbKjcYGyo3GBsqNxgbKjcYGyo3GBsqNxgbKjcYGyo3GBsqNxgbKjcYGyo3GBsqNxgbKjcYGyo3GBsqPxHQRati6B1jsb68dcQdkhuFs8OxoXKDsa70Wghc329QvdV1ugAo22BSrQaFugAo22BSrQaFugAo22BSrQaFugAo22BSrQaFugAo22BSrQaFugAo22BSrQaFugAo22BSrQaFugAo22BSrQaFugAo22BSrQaFugAo22BSrQaFugAo22BSrQaFugAo229xzo+59+bg9vv3ktUHZ1XKBlY1fGvxTom6Ob3evYp0APzc64gnZf2eMKtPe2F0kCjbb3Hei77+a3eM9B2XvAvxzoh1edn30K9CBtz0EFGm3v/QoqUPbe8A7PQbu/AyrQg7T3fos/8iKJvS/c20xlY1fGBVo2dmXcLb5s7Mp41yvo+3/94grKro93vsW//fZPgbKr490DdYtn7wHvHOgfy1fQ88Fg8HDcXD0fHF80NweBHqSd8SLpH8vPQc+G7T+np8Pm/NHNQaCHaWdcQZc3/XXUHq5ejpvJ0/HiINDDtBMDnd3TB4NhM3l20Vy9GC0Os39/f7Yv/drlrRlo2YPYV7blQOd/7OPHpX81eTJqr6KXx/MyF4fFj5V9Y7iC9t7e9xX0Tfv6/f1Py4W2OxveuoIK9ADtvb9IuutPdZ4NPQdl7xhfM9D2pj79bTw9Pbl+FX/iVfzh2pG3+PPB4MGo8T4oe8d4l1fxf/MiadXKHlegvbf3Hmjhyh5XoL23BSrQaHvfgX549WPRnz0ue1yB9t7ed6B/3GuK/nR82eMKtPd24ttMAmXXwQVaNnZlfJP/1ClQ9s7xLq/i33oflL0v3NtMZWNXxgVaNnZlXKBlY1fGBVo2dmVcoGVjV8YFWjZ2ZVygZWNXxgVaNnZlXKBlY1fGBVo2dmVcoGVjV8YFWjZ2ZVygZWNXxgVaNnZlXKBlY1fGBVo2dmVcoGVjV8YFWjZ2ZVygZWNXxgVaNnZlXKBlY1fGBVo2dmVcoGVjV8YFWjZ2ZVygZWNXxgVaNnZlXKBlY1fGBVo2dmVcoGVjV8YFWjZ2ZVygZWNXxgVaNnZlXKBlY1fGdxBo2dYMtN4JWuBcQdkhuFt82diVcYGWjV0ZF2jZ2JVxgZaNXRkXaNnYlXGBlo1dGRdo2diVcYGWjV0ZF2jZ2JVxgZaNXRkXaNnYlXGBlo1dGRdo2diVcYGWjV0ZF2jZ2JVxgZaNXRkXaNnYlXGBlo1dGRdo2diVcYGWjV0ZF2jZ2JVxgZaNXRkXaNnYlXGBlo1dGRdo2diVcYGWjV0ZF2jZ2JVxgZaNXRkXaNnYlXGBlo1dGRdo2diVcYGWjV0ZF2jZ2JVxgZaNXRkXaNnYlXGBlo1dGRdo2diVcYGWjV0ZF2jZ2JVxgZaNXRkXaNnYlXGBlo1dGRdo2diV8XUDnTweDIZNcz4YDB6Om6vng+MLgR6onRjo1YtRM3kyas6G7f+bng6b80dVA12VbF+/0H21EwO9bHM8G05/Hc1zfTluJk/HAj1MOzHQxVV0dmtv7/STZxfza2rT3J+ty6/9tK0FWvaw1ut1CXR6ejK/y8+uopfHN4G2K/vG2Fqgd33TbXfsyvjaV9Cr5yeLj86Gn66gAj1AOzLQyePhzYdnQ89BD9pODHTRZ3tvn/42bu/2XsUfrJ0YaPv+Z/vyaHZ8MGr28D6oQHPsxEBXrexxBdp7W6ACjbYFKtBoW6ACjbYFKtBoW6ACjbYFKtBoW6ACjbYFKtBoW6ACjbYFKtBoW6ACjbYFKtBoW6ACjbYFKtBoW6ACjbYFKtBoW6ACjbYFKtBoW6ACjbYFKtBoW6ACjbYFKtBoW6ACjbYFKtBoW6ACjbYFKtBoW6AbJ7u99TUigQr0YG2BCjTaFqhAo22BCjTaFqhAo22BCjTaFqhAo22BCjTaFqhAo22BCjTaFqhAo22BCjTaFqhAo22BCjTa7lugZdthoPV+E1Z5rqBfPG92Hdwtvmx9jUigAj1YW6ACjbYFKtBoW6ACjbYFKtBoW6ACjbYFKtBoW6ACjbYFKtBoW6ACjbYFKtBoW6ACjbYFKtBoW6BBzfY1IoEK9GBtgQo02haoQKNtgQo02haoQKNtgQo02haoQKNtgQo02haoQKNtgQo02haoQKNtgdYNdOUv62tEAhXoxuurLdBd7vaprfxJfY1IoALdeH21BbrL3T61lT+prxEJVKAbr6+2QHe526e28if1NSKBCnTj9dUW6C53+9RW/qS+RiRQgW68vtoC3eVun9rKn9TXiAQq0I3XV1uge99dn6/trq+2QPe+uz5f211fbYEGbrtfhc8+Jz2zBRq47X4VPvuc9MwWaOC2+1X47HNya5s/vkA7BVo/pHrb9tei9PO2rr2F5Qd69XxwfHHggXZawdei9PNW8nXe8uIDnZ4Om/NHAt3O1vy8lXydt7z4QK9ejpvJ07FAv9YVRbTqy90pie0HOnl20Vy9GM0+uj9b2a81K19hoJfHN4G2+8K32+pvum2MXdfOv8V/uoIK9ADt/EA7Pwe963G3O3ZdOz/Q6elJt1fxdz3udseua+cH2vl90Lsed7tj17V7EOjS1njc7Y5d1xZo4dh1bYEWjl3XFmjh2HVtgRaOXdcWaOHYdW2BFo5d1xZo4dh1bYEWjl3XFmjh2HVtgRaOXdcWaOHYdW2BFo5d1+5boJ3W1z8Y4rwr7+9PXKB3zXlXnkDL5rwrT6Blc96Vt69AzTaYQC16ArXoCdSiJ1CL3o4DXfpTyqmb/00UizPtcAjZ5PFgMOzheTeXg8HD7p/w3Qa6/Lc1hu6y/XwtzrTDIWTtX0A0eTLq3XnPLwfdznh+2G2gy39TTubOHvw+O8PFmXY47Pt8F7tskzsb9u685+t2xvPDbgNd/rvGUtd+9RZn2uGw77P9y7qdcN55t5fHrie+20CX/7bG1LWBLs60w2HfZ/tp7V+U1cfznjx+MOp84q6gvb2CXj0/afp43k3Rpd9z0OtA+/dcbvJ49hq+h+c9X/cnz7t+FX+S9ALyjrVfvcWZdjiE7LrP/p33zb2964l7H7Sn74OeD9oNe3fe8zOfPQfNeB/UbMMJ1KInUIueQC16ArXoCdSiJ9A6e/f9L/s+hX5OoBY9gVr0BLqzvfv+P0dH3/7ZvPvh30ff/Hd2i//w6ujo3uwH2uM3r/d9ej2ZQHe2d9998/rDq3uz4735c9D24/c//dy0x+bNrFzrMIHubO+++3ke5sfj4nXS2/bq2ZZqHSbQnW0e5CzE+XH2j7eL2/qbo/l+3PPp9WQC3dnuDNTdvWAC3dmub+0/vL4J9OMt/h/eEu0+ge5sH18kLQJtP77+3+wSqtKOE+jONn+b6V7zMdClt5n02XEC3dn8181tTKA7m0C3MYHubALdxgRq0ROoRU+gFj2BWvQEatETqEVPoBa9/wMzsHdL42LxPAAAAABJRU5ErkJggg==" /><!-- --></p>
 <p>By the way, when I analysed a sample of the apartments tagged as
 outliers, it turned out that they were typos. Either they were listed in
 the wrong currency or it missed some zeros.</p>
 <p>I used the same method to remove `area_per_br` outliers:</p>
 <pre class="r"><code>summary(training$area_per_br)</code></pre>
 <pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA&#39;s 
-##   21.25   51.50   64.67   70.37   81.50  248.33      25</code></pre>
+##   20.33   51.33   65.00   70.57   81.00  381.50      26</code></pre>
 <pre class="r"><code>(cutoff &lt;- adjboxStats(training$area_per_br)$fence)</code></pre>
-<pre><code>## [1]  27.28568 153.12550</code></pre>
+<pre><code>## [1]  26.20338 149.31030</code></pre>
 <pre class="r"><code>training &lt;- training %&gt;%
+  filter(between(area_per_br, cutoff[1], cutoff[2]))
+
+testing &lt;- testing %&gt;%
   filter(between(area_per_br, cutoff[1], cutoff[2]))
 
 summary(training$area_per_br)</code></pre>
 <pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-##   27.33   51.67   64.00   68.33   80.00  150.00</code></pre>
-<p>Many times, the same apartment is listed by different sellers. So,
-eliminating duplicates is not enough to remove confliting. Some seller
-are not as rigourous as to list all the amaneties, so we are going to
-keep the most complete listing:</p>
+##   26.67   51.00   64.00   67.76   80.00  149.00</code></pre>
 </div>
 <div id="some-more-feature-engineering" class="section level2">
 <h2>Some more feature engineering</h2>
 <p><code>status</code> refers to the current status of the apartment
-listed. It should be an ordered categorical variable as it goes through
-several stages from blueprint up to used:</p>
+listed. By nature, this is a categorial variable, so it must be parsed
+as so. Furthermore, It should be an ordered categorical variable as it
+goes through several stages from blueprint up to used. There’s an
+exception for this: “Trust”, and it refers to the way the building
+company is structured. Meaning that the building company is building the
+apartments through a trust fund. But the actual stage is “In blueprint”.
+So, it is recoded as so.</p>
+<pre class="r"><code>summary(training$status)</code></pre>
+<pre><code>##    Length     Class      Mode 
+##      2897 character character</code></pre>
 <pre class="r"><code>training &lt;- training %&gt;%
   mutate(status = case_when(status == &quot;En Planos&quot; ~ &quot;In blueprint&quot;,
                             status == &quot;En Construcción&quot; ~ &quot;Building&quot;,
@@ -691,51 +723,61 @@ several stages from blueprint up to used:</p>
                             status == &quot;Remodelada&quot; ~ &quot;Rebuilt&quot;,
                             status == &quot;A Remodelar&quot; ~ &quot;Rebuilding&quot;,
                             status == &quot;Segundo Uso&quot; ~ &quot;Used&quot;,
-                            status == &quot;Fideicomiso&quot; ~ &quot;Trust&quot;,
+                            status == &quot;Fideicomiso&quot; ~ &quot;In blueprint&quot;,
                             TRUE ~ status),
          status = factor(status, levels = c(&quot;In blueprint&quot;, &quot;Building&quot;,
                                             &quot;New&quot;, &quot;Rebuilt&quot;, &quot;Rebuilding&quot;,
-                                            &quot;Used&quot;, &quot;Other&quot;)))</code></pre>
-<p>There’s an exception for this: Trust, and it refers to the way the
-building company is structured. Meaning that the building company is
-building the apartments through a trust fund. But the actual stage is
-unknown. Let’s see how many are there.</p>
-<pre class="r"><code>training[training$status == &quot;Trust&quot; &amp; !is.na(training$status), ]</code></pre>
-<pre><code>## # A tibble: 0 × 20
-## # … with 20 variables: id &lt;chr&gt;, parking &lt;dbl&gt;, bathrooms &lt;dbl&gt;,
-## #   bedrooms &lt;dbl&gt;, seller &lt;chr&gt;, location &lt;chr&gt;, status &lt;fct&gt;, area &lt;dbl&gt;,
-## #   planta &lt;lgl&gt;, lift &lt;lgl&gt;, pool &lt;lgl&gt;, pozo &lt;lgl&gt;, terraza &lt;lgl&gt;,
-## #   lobby &lt;lgl&gt;, balcon &lt;lgl&gt;, jacuzzi &lt;lgl&gt;, gimnasio &lt;lgl&gt;, price &lt;dbl&gt;,
-## #   price_per_m2 &lt;dbl&gt;, area_per_br &lt;dbl&gt;</code></pre>
-<p>There are only two listings with this status. Let’s remove them.</p>
-<pre class="r"><code>Training &lt;- training %&gt;%
-  filter(status != &quot;Trust&quot;)</code></pre>
-<p>Our final data frame has 20 columns wide and 2,851 rows long. I’ll
-store it in a new location with a new name.</p>
+                                            &quot;Used&quot;, &quot;Other&quot;)))
+
+testing &lt;- testing %&gt;%
+  mutate(status = case_when(status == &quot;En Planos&quot; ~ &quot;In blueprint&quot;,
+                            status == &quot;En Construcción&quot; ~ &quot;Building&quot;,
+                            status == &quot;Nueva&quot; ~ &quot;New&quot;,
+                            status == &quot;Remodelada&quot; ~ &quot;Rebuilt&quot;,
+                            status == &quot;A Remodelar&quot; ~ &quot;Rebuilding&quot;,
+                            status == &quot;Segundo Uso&quot; ~ &quot;Used&quot;,
+                            status == &quot;Fideicomiso&quot; ~ &quot;In blueprint&quot;,
+                            TRUE ~ status),
+         status = factor(status, levels = c(&quot;In blueprint&quot;, &quot;Building&quot;,
+                                            &quot;New&quot;, &quot;Rebuilt&quot;, &quot;Rebuilding&quot;,
+                                            &quot;Used&quot;, &quot;Other&quot;)))
+
+summary(training$status)</code></pre>
+<pre><code>## In blueprint     Building          New      Rebuilt   Rebuilding         Used 
+##          164          849          800           28            2          912 
+##        Other         NA&#39;s 
+##            0          142</code></pre>
+<p>Our final training set has 20 columns wide and 2,897 rows long. I’ll
+store it in a new location with a new name. Our final testing set has 20
+columns wide and 1,375 rows long. I’ll store it in a new location with a
+new name.</p>
 <pre class="r"><code>glimpse(training)</code></pre>
-<pre><code>## Rows: 2,851
+<pre><code>## Rows: 2,897
 ## Columns: 20
-## $ id           &lt;chr&gt; &quot;/apartamentos-venta-piantini/1265273/&quot;, &quot;/apartamentos-v…
-## $ parking      &lt;dbl&gt; 3, 2, 2, 3, 3, 2, 3, 3, 3, 3, 1, 2, 1, 2, 2, 3, 2, 3, 3, …
-## $ bathrooms    &lt;dbl&gt; 3.0, 2.5, 2.5, 3.5, 3.5, 2.5, 3.0, 3.5, 3.5, 3.5, 1.5, 1.…
-## $ bedrooms     &lt;dbl&gt; 2, 2, 2, 3, 3, 2, 2, 3, 3, 3, 1, 1, 1, 3, 3, 3, 2, 3, 3, …
-## $ seller       &lt;chr&gt; &quot;BAEZ MUESES INMOBILIARIA&quot;, &quot;Premium Real Estate&quot;, &quot;Algon…
+## $ id           &lt;chr&gt; &quot;/apartamentos-venta-piantini/1286053/&quot;, &quot;/apartamentos-v…
+## $ parking      &lt;dbl&gt; 1, 4, 2, 2, NA, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 3, 2, 1,…
+## $ bathrooms    &lt;dbl&gt; 2.0, 4.5, 2.0, 2.0, 3.5, 3.5, 2.0, 3.5, 2.0, 2.5, 2.0, 3.…
+## $ bedrooms     &lt;dbl&gt; 1, 4, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 2, 3, 2, 1, …
+## $ seller       &lt;chr&gt; &quot;KW Capital&quot;, &quot;Innova By Bello Jaquez&quot;, &quot;Premium Real Est…
 ## $ location     &lt;chr&gt; &quot;Piantini&quot;, &quot;Piantini&quot;, &quot;Piantini&quot;, &quot;Piantini&quot;, &quot;Piantini…
-## $ status       &lt;fct&gt; Used, Used, Building, Building, NA, NA, NA, In blueprint,…
-## $ area         &lt;dbl&gt; 180, 100, 153, 185, 217, 142, 225, 175, 200, 340, 67, 103…
-## $ planta       &lt;lgl&gt; TRUE, FALSE, TRUE, TRUE, FALSE, TRUE, FALSE, TRUE, TRUE, …
-## $ lift         &lt;lgl&gt; TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, TR…
-## $ pool         &lt;lgl&gt; TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, TRUE,…
-## $ pozo         &lt;lgl&gt; TRUE, FALSE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, FALS…
-## $ terraza      &lt;lgl&gt; TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE,…
-## $ lobby        &lt;lgl&gt; TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, TRUE, TRUE, T…
-## $ balcon       &lt;lgl&gt; TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, TRUE,…
-## $ jacuzzi      &lt;lgl&gt; FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FA…
-## $ gimnasio     &lt;lgl&gt; TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, TRUE, TRUE, T…
-## $ price        &lt;dbl&gt; 258000, 220000, 296250, 408825, 370000, 155000, 280000, 3…
-## $ price_per_m2 &lt;dbl&gt; 1433.333, 2200.000, 1936.275, 2209.865, 1705.069, 1091.54…
-## $ area_per_br  &lt;dbl&gt; 90.00000, 50.00000, 76.50000, 61.66667, 72.33333, 71.0000…</code></pre>
-<pre class="r"><code>write_csv(training, &quot;../1_data/training_set.csv&quot;)</code></pre>
+## $ status       &lt;fct&gt; New, Used, Used, Used, Used, Used, Rebuilding, New, Used,…
+## $ area         &lt;dbl&gt; 76, 336, 180, 180, 280, 230, 176, 190, 155, 123, 153, 290…
+## $ planta       &lt;lgl&gt; TRUE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, TRUE,…
+## $ lift         &lt;lgl&gt; TRUE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE…
+## $ pool         &lt;lgl&gt; TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FAL…
+## $ pozo         &lt;lgl&gt; TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FA…
+## $ terraza      &lt;lgl&gt; TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FAL…
+## $ lobby        &lt;lgl&gt; TRUE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, TRUE,…
+## $ balcon       &lt;lgl&gt; TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, TRU…
+## $ jacuzzi      &lt;lgl&gt; TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FA…
+## $ gimnasio     &lt;lgl&gt; TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FAL…
+## $ price        &lt;dbl&gt; 227000.0, 340000.0, 200000.0, 200000.0, 300000.0, 270000.…
+## $ price_per_m2 &lt;dbl&gt; 2986.8421, 1011.9048, 1111.1111, 1111.1111, 1071.4286, 11…
+## $ area_per_br  &lt;dbl&gt; 76.00000, 84.00000, 60.00000, 60.00000, 93.33333, 76.6666…</code></pre>
+<pre class="r"><code>dim(testing)</code></pre>
+<pre><code>## [1] 1375   20</code></pre>
+<pre class="r"><code>write_csv(training, &quot;../1_data/training_set.csv&quot;)
+write_csv(testing, &quot;../1_data/testing_set.csv&quot;)</code></pre>
 </div>
 
 

@@ -95,6 +95,9 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-piantini/1285467/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Piantini,Used,227,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,500000,2202.643171806167,75.66666666666667
 /apartamentos-venta-piantini/1285470/,3,3.5,3,Mr. Home Asesores Inmobiliarios,Piantini,Used,186,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,365000,1962.3655913978494,62
 /apartamentos-venta-piantini/1285474/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Piantini,Used,360,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,496000,1377.7777777777778,120
+/apartamentos-venta-piantini/1284166/,3,3.5,3,Mr. Home Asesores Inmobiliarios,Piantini,NA,185,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,375000,2027.027027027027,61.666666666666664
+/apartamentos-venta-piantini/1281972/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Piantini,NA,201,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,339000,1686.5671641791046,67
+/apartamentos-venta-piantini/1273826/,4,3,3,Mr. Home Asesores Inmobiliarios,Piantini,NA,330,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,350000,1060.6060606060605,110
 /apartamentos-venta-piantini/1225810/,3,3.5,3,INMOBLIAM,Piantini,Used,320,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,365000,1140.625,106.66666666666667
 /apartamentos-venta-piantini/1276779/,2,2.5,2,INMOBLIAM,Piantini,New,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,360000,2769.230769230769,65
 /apartamentos-venta-piantini/1281083/,2,3.5,3,Kw Capital,Piantini,Used,220,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,312000,1418.1818181818182,73.33333333333333
@@ -149,6 +152,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-piantini/1260889/,1,1.5,1,Paez Luxury Real Estate,Piantini,New,80,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,217000,2712.5,80
 /apartamentos-venta-piantini/1260895/,1,1.5,1,Paez Luxury Real Estate,Piantini,New,73,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,235000,3219.178082191781,73
 /apartamentos-venta-piantini/1277984/,2,2.5,2,Paez Luxury Real Estate,Piantini,New,153,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,355000,2320.2614379084966,76.5
+/apartamentos-venta-piantini/1285569/,3,3,3,Seekers Inmobiliaria,Piantini,NA,256,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,630000,2460.9375,85.33333333333333
 /apartamentos-venta-piantini/1260898/,3,3.5,3,Paez Luxury Real Estate,Piantini,New,415,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,915000,2204.8192771084337,138.33333333333334
 /apartamentos-venta-piantini/1283291/,1,2,1,Paez Luxury Real Estate,Piantini,New,86,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,200000,2325.5813953488373,86
 /apartamentos-venta-piantini/1277409/,2,2,2,Time Homes Inmobiliaria,Piantini,Used,137,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,215000,1569.3430656934306,68.5
@@ -183,6 +187,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-y-alquiler-piantini/1271930/,NA,3.5,3,Paez Luxury Real Estate,Piantini,New,415,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,1025000,2469.879518072289,138.33333333333334
 /apartamentos-venta-y-alquiler-piantini/1265627/,1,1.5,1,Paez Luxury Real Estate,Piantini,Rebuilt,70,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,170000,2428.5714285714284,70
 /apartamentos-venta-piantini/1276636/,3,3.5,3,Aurelio Marmolejos,Piantini,New,300,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,850000,2833.3333333333335,100
+/apartamentos-venta-piantini/1276510/,3,3.5,3,Aurelio Marmolejos,Piantini,NA,180,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,355000,1972.2222222222222,60
 /apartamentos-venta-y-alquiler-piantini/1282404/,2,3.5,3,Mario Alberto Aquino,Piantini,Used,235,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,340000,1446.8085106382978,78.33333333333333
 /apartamentos-venta-y-alquiler-piantini/1284703/,2,3.5,3,Innova By Bello Jaquez,Piantini,Used,320,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,395000,1234.375,106.66666666666667
 /apartamentos-venta-piantini/1281335/,2,2.5,2,Aurelio Marmolejos,Piantini,Used,139,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,215000,1546.7625899280577,69.5
@@ -195,16 +200,25 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-piantini/1283536/,2,3.5,3,Ginebra Realty Group,Piantini,Used,190,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,345000,1815.7894736842106,63.333333333333336
 /apartamentos-venta-piantini/1269004/,2,3.5,3,Ginebra Realty Group,Piantini,Used,201,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,350000,1741.2935323383085,67
 /apartamentos-venta-piantini/1283251/,3,3.5,2,Mega Inmobiliaria,Piantini,Used,142,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,335000,2359.154929577465,71
+/apartamentos-venta-piantini/1282745/,2,3.5,3,Elite Brokers,Piantini,NA,326,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,450000,1380.3680981595091,108.66666666666667
+/apartamentos-venta-y-alquiler-piantini/1282714/,2,3.5,3,Elite Brokers,Piantini,NA,315,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,575000,1825.3968253968253,105
+/apartamentos-venta-piantini/1282698/,2,3.5,3,Elite Brokers,Piantini,NA,283,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,440000,1554.7703180212013,94.33333333333333
 /apartamentos-venta-y-alquiler-piantini/1235848/,3,3.5,3,Remax Blu,Piantini,Used,240,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,375000,1562.5,80
 /apartamentos-venta-piantini/1281944/,2,2.5,2,Sole Mare Investments Group,Piantini,New,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,325000,2500,65
 /apartamentos-venta-y-alquiler-piantini/1266299/,5,4.5,4,Seekers Inmobiliaria,Piantini,Used,514,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,825000,1605.058365758755,128.5
 /apartamentos-venta-piantini/1276485/,3,3.5,3,SDQ Propiedades,Piantini,Used,280,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,725000,2589.285714285714,93.33333333333333
 /apartamentos-venta-piantini/1276486/,5,3.5,3,SDQ Propiedades,Piantini,Used,392,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,775000,1977.0408163265306,130.66666666666666
+/apartamentos-venta-piantini/1280759/,2,3.5,3,Elite Brokers,Piantini,NA,360,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,496000,1377.7777777777778,120
+/apartamentos-venta-piantini/1280518/,3,3.5,3,Anyelina Sánchez,Piantini,NA,223,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,355000,1591.9282511210763,74.33333333333333
+/apartamentos-venta-piantini/1280484/,2,NA,2,Anyelina Sánchez,Piantini,NA,154,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,310000,2012.987012987013,77
 /apartamentos-venta-piantini/1279842/,2,3.5,3,Remax Blu,Piantini,Used,231,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,265000,1147.186147186147,77
 /apartamentos-venta-piantini/1249102/,NA,3.5,3,Anyelina Sánchez,Piantini,Used,262,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,510000,1946.5648854961833,87.33333333333333
 /apartamentos-venta-piantini/1249094/,3,3.5,3,Anyelina Sánchez,Piantini,Used,312,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,650000,2083.3333333333335,104
 /apartamentos-venta-piantini/1278882/,2,3.5,3,Seekers Inmobiliaria,Piantini,New,175,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,390000,2228.5714285714284,58.333333333333336
+/apartamentos-venta-piantini/1279209/,2,3.5,3,Elite Brokers,Piantini,NA,235,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,338000,1438.2978723404256,78.33333333333333
 /apartamentos-venta-piantini/1270995/,3,2.5,2,Remax Metropolitana,Piantini,Rebuilt,122,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,250000,2049.1803278688526,61
+/apartamentos-venta-piantini/1278447/,2,2.5,2,Elite Brokers,Piantini,NA,170,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,325000,1911.764705882353,85
+/apartamentos-venta-y-alquiler-piantini/1278314/,4,3.5,3,Elite Brokers,Piantini,NA,415,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,635000,1530.120481927711,138.33333333333334
 /apartamentos-venta-piantini/1257463/,3,3.5,3,Inmobiliaria Hazim Rodriguez,Piantini,Building,200,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,460000,2300,66.66666666666667
 /apartamentos-venta-piantini/1272158/,5,3.5,3,Anyelina Sánchez,Piantini,Used,375,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,795000,2120,125
 /apartamentos-venta-piantini/1274945/,NA,2.5,2,Anyelina Sánchez,Piantini,New,105,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,295000,2809.5238095238096,52.5
@@ -213,14 +227,17 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-piantini/1243816/,1,1.5,1,Roshanna Carrasco,Piantini,New,85,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,242600,2854.1176470588234,85
 /apartamentos-venta-piantini/1273189/,2,3.5,2,Plusval Puente Azul,Piantini,New,141,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,315000,2234.0425531914893,70.5
 /apartamentos-venta-piantini/1258049/,NA,3.5,3,Estrella Inmobiliaria,Piantini,Used,375,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,775000,2066.6666666666665,125
+/apartamentos-venta-y-alquiler-piantini/1269713/,2,3.5,3,Elite Brokers,Piantini,NA,345,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,360000,1043.4782608695652,115
 /apartamentos-venta-piantini/1269174/,2,3.5,3,Inmobiliaria Vita Home,Piantini,Used,200,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,235000,1175,66.66666666666667
 /apartamentos-venta-piantini/1262852/,3,3.5,3,Inmobiliaria Vita Home,Piantini,Used,400,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,920000,2300,133.33333333333334
 /apartamentos-venta-piantini/1234924/,3,3.5,3,Grupo Inmobiliario Elite,Piantini,New,210,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,377750,1798.8095238095239,70
 /apartamentos-venta-piantini/1257772/,2,2.5,2,Grupo Nin Inmobiliario,Piantini,Building,135,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,300000,2222.222222222222,67.5
 /apartamentos-venta-piantini/1257769/,1,1.5,1,Grupo Nin Inmobiliario,Piantini,New,82,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,230000,2804.878048780488,82
+/apartamentos-venta-piantini/1223072/,3,3.5,3,Elite Brokers,Piantini,NA,204,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,550000,2696.078431372549,68
 /apartamentos-venta-avenida-espana/1282636/,2,3.5,3,Indisarq Global Group,Avenida España,Building,155,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,185000,1193.5483870967741,51.666666666666664
 /apartamentos-venta-avenida-espana/1283656/,1,1,2,Mr. Home Asesores Inmobiliarios,Avenida España,Building,114,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,165000,1447.3684210526317,57
 /apartamentos-venta-avenida-espana/1285635/,2,2,3,Inmobiliaria Grupal,Avenida España,New,250,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,185000,740,83.33333333333333
+/apartamentos-venta-avenida-espana/1280616/,1,1.5,1,Mr. Home Asesores Inmobiliarios,Avenida España,NA,82,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,90000,1097.560975609756,82
 /apartamentos-venta-avenida-espana/1282586/,NA,1,1,Indisarq Global Group,Avenida España,Building,82,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,90000,1097.560975609756,82
 /apartamentos-venta-alma-rosa-i/1242264/,2,2,3,Bonillamultiservice,Alma Rosa I,New,132,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,181716,1376.6363636363637,44
 /apartamentos-venta-alma-rosa-i/1285836/,2,2.5,3,Plusval Puente Azul,Alma Rosa I,Building,153,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,216000,1411.764705882353,51
@@ -241,16 +258,28 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-alma-rosa-i/1274644/,2,3,3,Stephanie  Peña,Alma Rosa I,Used,155,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,160683.7606837607,1036.669423766198,51.666666666666664
 /apartamentos-venta-alma-rosa-i/1284871/,1,2,3,Stephanie  Peña,Alma Rosa I,Used,149,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,105982.90598290598,711.2946710262147,49.666666666666664
 /apartamentos-venta-alma-rosa-i/1283799/,2,2,3,Mr. Home Asesores Inmobiliarios,Alma Rosa I,New,137,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,143500,1047.4452554744526,45.666666666666664
+/apartamentos-venta-alma-rosa-i/1285930/,3,3,4,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,325,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,440000,1353.8461538461538,81.25
 /apartamentos-venta-alma-rosa-i/1285596/,2,2.5,3,Plusval Puente Azul,Alma Rosa I,In blueprint,154,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,108000,701.2987012987013,51.333333333333336
 /apartamentos-venta-alma-rosa-i/1281963/,2,2.5,3,Doble Altura Real Estate SRL,Alma Rosa I,New,128,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,198000,1546.875,42.666666666666664
 /apartamentos-venta-alma-rosa-i/1279193/,2,3.5,3,Mudate,Alma Rosa I,New,275,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,340000,1236.3636363636363,91.66666666666667
 /apartamentos-venta-alma-rosa-i/1279195/,2,3.5,3,Mudate,Alma Rosa I,New,225,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,215000,955.5555555555555,75
 /apartamentos-venta-alma-rosa-i/1263715/,2,3.5,3,Mudate,Alma Rosa I,New,180,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,172000,955.5555555555555,60
+/apartamentos-venta-alma-rosa-i/1283894/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,167,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,260000,1556.88622754491,55.666666666666664
+/apartamentos-venta-alma-rosa-i/1280599/,1,2.5,2,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,100,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,135000,1350,50
+/apartamentos-venta-alma-rosa-i/1280603/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,220,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,279000,1268.1818181818182,73.33333333333333
+/apartamentos-venta-alma-rosa-i/1283924/,2,3.5,2,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,212,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,213570,1007.4056603773585,106
+/apartamentos-venta-alma-rosa-i/1283929/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,170,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,216100,1271.1764705882354,56.666666666666664
 /apartamentos-venta-alma-rosa-i/1280618/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Alma Rosa I,New,208,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,260000,1250,69.33333333333333
+/apartamentos-venta-alma-rosa-i/1284159/,2,3,3,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,154,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,204182,1325.857142857143,51.333333333333336
 /apartamentos-venta-alma-rosa-i/1250466/,2,2,3,Bonillamultiservice,Alma Rosa I,Building,205,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,246000,1200,68.33333333333333
+/apartamentos-venta-alma-rosa-i/1283086/,1,1.5,1,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,75,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,101250,1350,75
 /apartamentos-venta-alma-rosa-i/1285983/,2,2.5,3,Premium Real Estate,Alma Rosa I,New,131,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,199000,1519.0839694656488,43.666666666666664
 /apartamentos-venta-alma-rosa-i/1283200/,2,3,3,Mr. Home Asesores Inmobiliarios,Alma Rosa I,New,152,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,200200,1317.1052631578948,50.666666666666664
 /apartamentos-venta-alma-rosa-i/1283182/,1,2,2,Mr. Home Asesores Inmobiliarios,Alma Rosa I,Building,100,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,135000,1350,50
+/apartamentos-venta-alma-rosa-i/1283192/,2,3,2,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,213,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,213570,1002.6760563380282,106.5
+/apartamentos-venta-alma-rosa-i/1283178/,2,2.5,3,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,285,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,220000,771.9298245614035,95
+/apartamentos-venta-alma-rosa-i/1283082/,2,2.5,3,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,216100,1662.3076923076924,43.333333333333336
+/apartamentos-venta-alma-rosa-i/1283169/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,205,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,260000,1268.2926829268292,68.33333333333333
 /apartamentos-venta-alma-rosa-i/1283368/,1,1,1,Mr. Home Asesores Inmobiliarios,Alma Rosa I,Building,75,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,97500,1300,75
 /apartamentos-venta-alma-rosa-i/1254104/,1,2,2,KW Dominicana,Alma Rosa I,Building,75,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,89704,1196.0533333333333,37.5
 /apartamentos-venta-alma-rosa-i/1285599/,2,3.5,3,Remax Blu,Alma Rosa I,Used,190,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,205128.20512820513,1079.6221322537112,63.333333333333336
@@ -356,11 +385,13 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-bella-vista-sur/1279057/,2,2.5,2,Megacasa RD,Bella Vista Sur,New,117,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,194000,1658.1196581196582,58.5
 /apartamentos-venta-bella-vista-sur/1264668/,2,2.5,2,Habitame Inmobiliaria,Bella Vista Sur,New,102,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,228000,2235.294117647059,51
 /apartamentos-venta-bella-vista-sur/1275667/,NA,2.5,2,Taty Fontbernard,Bella Vista Sur,New,210,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,342720,1632,105
+/apartamentos-venta-bella-vista-sur/1258689/,3,3.5,3,Elite Brokers,Bella Vista Sur,NA,365,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,625000,1712.3287671232877,121.66666666666667
 /apartamentos-venta-bella-vista-sur/1247930/,1,1.5,1,Vidalpe Inmobiliaria,Bella Vista Sur,Building,74,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,125400,1694.5945945945946,74
 /apartamentos-venta-arismar/1267546/,1,2,3,Centro Juridico Dra. Angela Rojas,Arismar,Building,105,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,104950,999.5238095238095,35
 /apartamentos-venta-santo-domingo-oeste/1256725/,1,2,3,Algonovo Real Estate,NA,In blueprint,96,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,100000,1041.6666666666667,32
 /apartamentos-venta-santo-domingo-oeste/1257170/,1,2,3,Algonovo Real Estate,NA,In blueprint,106,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,99500,938.6792452830189,35.333333333333336
 /apartamentos-venta-santo-domingo-oeste/1261732/,1,1,1,Republic Real State,NA,In blueprint,68,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,119900,1763.235294117647,68
+/apartamentos-venta-santo-domingo-oeste/1266717/,1,2,3,Mr. Home Asesores Inmobiliarios,NA,NA,101,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,67521.36752136752,668.5283913006684,33.666666666666664
 /apartamentos-venta-julieta-morales/1285933/,1,2.5,2,Ana Karina Gracia,Julieta Morales,Used,115,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,185000,1608.695652173913,57.5
 /apartamentos-venta-julieta-morales/1284795/,2,2.5,3,Remax Metropolitana,Julieta Morales,Used,180,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,250000,1388.888888888889,60
 /apartamentos-venta-julieta-morales/1285989/,2,2.5,3,Inmobiliaria Bevistam,Julieta Morales,Used,214,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,151282.05128205128,706.9254732806135,71.33333333333333
@@ -368,6 +399,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-julieta-morales/1262995/,2,3.5,3,Ginebra Realty Group,Julieta Morales,Building,142,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,200000,1408.4507042253522,47.333333333333336
 /apartamentos-venta-urbanizacion-fernandez/1272963/,2,2.5,2,Kaza Inmobiliaria,Urbanización Fernández,Building,132,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,241110,1826.590909090909,66
 /apartamentos-venta-urbanizacion-fernandez/1281293/,3,4,4,Doble Altura Real Estate SRL,Urbanización Fernández,Used,360,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,316239.31623931625,878.4425451092118,90
+/apartamentos-venta-urbanizacion-fernandez/1280684/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Urbanización Fernández,NA,135,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,180000,1333.3333333333333,45
 /apartamentos-venta-urbanizacion-fernandez/1254932/,NA,NA,1,Seekers Inmobiliaria,Urbanización Fernández,Building,42,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,140018,3333.7619047619046,42
 /apartamentos-venta-urbanizacion-fernandez/1255203/,NA,NA,2,Seekers Inmobiliaria,Urbanización Fernández,Building,109,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,336953,3091.3119266055046,54.5
 /apartamentos-venta-urbanizacion-fernandez/1254818/,NA,2,2,Seekers Inmobiliaria,Urbanización Fernández,Building,109,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,336953,3091.3119266055046,54.5
@@ -487,7 +519,9 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-evaristo-morales/1283626/,2,2.5,2,Stalin Florentino,Evaristo Morales,Building,122,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,220000,1803.27868852459,61
 /apartamentos-venta-evaristo-morales/1268228/,1,2.5,2,Víctor García Asesor Inmobiliario,Evaristo Morales,In blueprint,86,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,178500,2075.5813953488373,43
 /apartamentos-venta-evaristo-morales/1279511/,2,1.5,1,Maravila Properties,Evaristo Morales,Building,53,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,130095,2454.622641509434,53
+/apartamentos-venta-evaristo-morales/1273568/,1,1.5,1,Mr. Home Asesores Inmobiliarios,Evaristo Morales,NA,53,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,108100,2039.622641509434,53
 /apartamentos-venta-evaristo-morales/1285151/,4,3.5,3,Dreamhome Real Estate,Evaristo Morales,Used,248,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,350000,1411.2903225806451,82.66666666666667
+/apartamentos-venta-evaristo-morales/1285429/,1,1,1,Mr. Home Asesores Inmobiliarios,Evaristo Morales,NA,65,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,110000,1692.3076923076924,65
 /apartamentos-venta-evaristo-morales/1285854/,1,1.5,1,Virna Reyes,Evaristo Morales,New,72,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,174500,2423.6111111111113,72
 /apartamentos-venta-evaristo-morales/1266275/,2,3,3,Seekers Inmobiliaria,Evaristo Morales,New,167,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,312400,1870.6586826347304,55.666666666666664
 /apartamentos-venta-evaristo-morales/1266284/,2,2.5,2,Seekers Inmobiliaria,Evaristo Morales,New,116,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,243600,2100,58
@@ -533,6 +567,11 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-evaristo-morales/1277336/,2,2.5,2,Tropical Living,Evaristo Morales,Building,130,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,205000,1576.923076923077,65
 /apartamentos-venta-evaristo-morales/1258286/,1,1.5,1,Tropical Living,Evaristo Morales,Building,73,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,132000,1808.2191780821918,73
 /apartamentos-venta-evaristo-morales/1277335/,2,2.5,2,Tropical Living,Evaristo Morales,Building,119,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,212100,1782.3529411764705,59.5
+/apartamentos-venta-evaristo-morales/1272817/,1,1.5,1,Mr. Home Asesores Inmobiliarios,Evaristo Morales,NA,72,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,137520,1910,72
+/apartamentos-venta-evaristo-morales/1254723/,2,2,3,Mr. Home Asesores Inmobiliarios,Evaristo Morales,NA,150,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,189000,1260,50
+/apartamentos-venta-evaristo-morales/1281961/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Evaristo Morales,NA,188,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,218000,1159.5744680851064,62.666666666666664
+/apartamentos-venta-evaristo-morales/1273679/,1,1.5,1,Mr. Home Asesores Inmobiliarios,Evaristo Morales,NA,44,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,89856,2042.1818181818182,44
+/apartamentos-venta-evaristo-morales/1265858/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Evaristo Morales,NA,161,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,295000,1832.2981366459628,53.666666666666664
 /apartamentos-venta-evaristo-morales/1273281/,2,2.5,3,INMOBLIAM,Evaristo Morales,Building,134,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,234500,1750,44.666666666666664
 /apartamentos-venta-evaristo-morales/1270051/,2,2.5,3,DOBLE ALTURA REAL ESTATE SRL,Evaristo Morales,New,165,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,295000,1787.878787878788,55
 /apartamentos-venta-evaristo-morales/1274812/,2,2.5,2,DOBLE ALTURA REAL ESTATE SRL,Evaristo Morales,New,159,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,200000,1257.861635220126,79.5
@@ -619,6 +658,9 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-evaristo-morales/1264644/,2,2.5,2,Habitame Inmobiliaria,Evaristo Morales,Building,130,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,185000,1423.076923076923,65
 /apartamentos-venta-evaristo-morales/1264643/,1,1.5,1,Habitame Inmobiliaria,Evaristo Morales,Building,73,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,137000,1876.7123287671234,73
 /apartamentos-venta-evaristo-morales/1274343/,1,2.5,2,Seekers Inmobiliaria,Evaristo Morales,Building,82,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,155800,1900,41
+/apartamentos-venta-evaristo-morales/1273277/,3,3.5,3,Elite Brokers,Evaristo Morales,NA,145,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,245000,1689.655172413793,48.333333333333336
+/apartamentos-venta-evaristo-morales/1273272/,4,3.5,3,Elite Brokers,Evaristo Morales,NA,340,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,350000,1029.4117647058824,113.33333333333333
+/apartamentos-venta-evaristo-morales/1273263/,2,3.5,3,Elite Brokers,Evaristo Morales,NA,225,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,245000,1088.888888888889,75
 /apartamentos-venta-evaristo-morales/1268025/,3,4,3,Ginebra Realty Group,Evaristo Morales,Used,276,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,390000,1413.0434782608695,92
 /apartamentos-venta-evaristo-morales/1267725/,2,2.5,2,Grupo Nin Inmobiliario,Evaristo Morales,Building,113,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,223400,1976.9911504424779,56.5
 /apartamentos-venta-evaristo-morales/1267333/,1,1,1,Seekers Inmobiliaria,Evaristo Morales,Building,65,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,123500,1900,65
@@ -631,12 +673,14 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-evaristo-morales/1255829/,1,1.5,1,Grupo Inmobiliario Elite,Evaristo Morales,Building,65,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,106480,1638.1538461538462,65
 /apartamentos-venta-evaristo-morales/1237809/,1,1.5,1,Grupo Inmobiliario Elite,Evaristo Morales,Building,73,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,112000,1534.2465753424658,73
 /apartamentos-venta-evaristo-morales/1255836/,2,2.5,2,Grupo Inmobiliario Elite,Evaristo Morales,Building,130,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,174000,1338.4615384615386,65
+/apartamentos-venta-evaristo-morales/1253008/,2,3.5,3,Elite Brokers,Evaristo Morales,NA,270,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,240000,888.8888888888889,90
 /apartamentos-venta-evaristo-morales/1248913/,1,1.5,1,Vidalpe Inmobiliaria,Evaristo Morales,Building,60,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,106000,1766.6666666666667,60
 /apartamentos-venta-evaristo-morales/1243898/,1,1.5,1,Grupo Nin Inmobiliario,Evaristo Morales,Building,58,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,121947,2102.5344827586205,58
 /apartamentos-venta-av--winston-churchill/1258390/,2,2,2,Mudate,Av. Winston Churchill,New,109,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,271995,2495.3669724770643,54.5
 /apartamentos-venta-av--winston-churchill/1258388/,1,1.5,1,Mudate,Av. Winston Churchill,New,82,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,225500,2750,82
 /apartamentos-venta-av--winston-churchill/1258386/,2,2.5,2,Mudate,Av. Winston Churchill,New,115,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,316250,2750,57.5
 /apartamentos-venta-av--winston-churchill/1258393/,1,1,1,Mudate,Av. Winston Churchill,New,40,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,109800,2745,40
+/apartamentos-venta-av--winston-churchill/1277619/,4,2.5,4,Tu Casa RD,Av. Winston Churchill,Used,418,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,1500000,3588.5167464114834,104.5
 /apartamentos-venta-av--winston-churchill/1277343/,NA,2,2,HouseLink,Av. Winston Churchill,Building,109,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,311304,2856,54.5
 /apartamentos-venta-av-enriquillo/1285950/,2,3.5,3,Remax Metropolitana,Av Enriquillo,New,195,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,362505,1859,65
 /apartamentos-venta-gazcue/1252002/,2,1,1,Bonillamultiservice,Gazcue,Building,54,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,103085,1908.9814814814815,54
@@ -659,6 +703,8 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-gazcue/1258341/,2,2.5,3,Mudate,Gazcue,New,123,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,245000,1991.8699186991869,41
 /apartamentos-venta-gazcue/1258340/,2,2,2,Mudate,Gazcue,New,90,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,172000,1911.111111111111,45
 /apartamentos-venta-gazcue/1258276/,2,1.5,1,Tropical Living,Gazcue,Building,54,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,124215,2300.277777777778,54
+/apartamentos-venta-gazcue/1272716/,3,3.5,3,Mr. Home Asesores Inmobiliarios,Gazcue,NA,288,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,275000,954.8611111111111,96
+/apartamentos-venta-gazcue/1271368/,1,1.5,1,Mr. Home Asesores Inmobiliarios,Gazcue,NA,50,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,94445,1888.9,50
 /apartamentos-venta-gazcue/1266719/,2,2,1,X-TRIBA Inmobiliaria,Gazcue,New,54,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,103000,1907.4074074074074,54
 /apartamentos-venta-gazcue/1279340/,2,2,2,X-TRIBA Inmobiliaria,Gazcue,Building,107,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,166000,1551.4018691588785,53.5
 /apartamentos-venta-gazcue/1229811/,2,1.5,1,Borbón Rodríguez,Gazcue,Building,52,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,103085,1982.4038461538462,52
@@ -761,10 +807,13 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-naco/1279519/,2,1.5,1,Maravila Properties,Naco,Building,61,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,181521,2975.754098360656,61
 /apartamentos-venta-naco/1269063/,2,3.5,3,Top Side Brokers Realty Group,Naco,Used,373,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,380000,1018.7667560321715,124.33333333333333
 /apartamentos-venta-naco/1271476/,1,1.5,1,Maravila Properties,Naco,In blueprint,73,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,158895,2176.6438356164385,73
+/apartamentos-venta-naco/1272749/,2,3.5,2,Mr. Home Asesores Inmobiliarios,Naco,NA,280,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,450000,1607.142857142857,140
+/apartamentos-venta-naco/1272727/,3,4,4,Mr. Home Asesores Inmobiliarios,Naco,NA,435,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,450000,1034.4827586206898,108.75
 /apartamentos-venta-naco/1282979/,2,3.5,3,Dreamhome Real Estate,Naco,New,182,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,417600,2294.5054945054944,60.666666666666664
 /apartamentos-venta-naco/1282975/,2,2.5,2,Dreamhome Real Estate,Naco,New,152,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,318000,2092.1052631578946,76
 /apartamentos-venta-naco/1280405/,2,3.5,3,Dreamhome Real Estate,Naco,New,130,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,274784,2113.723076923077,43.333333333333336
 /apartamentos-venta-naco/1278603/,2,3.5,3,Dreamhome Real Estate,Naco,Used,298,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,335000,1124.1610738255033,99.33333333333333
+/apartamentos-venta-naco/1285287/,3,4,4,Mr. Home Asesores Inmobiliarios,Naco,NA,296,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,260000,878.3783783783783,74
 /apartamentos-venta-naco/1285849/,2,3.5,3,Virna Reyes,Naco,Used,150,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,229000,1526.6666666666667,50
 /apartamentos-venta-naco/1266867/,1,1.5,1,Seekers Inmobiliaria,Naco,Building,105,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,172000,1638.095238095238,105
 /apartamentos-venta-naco/1283230/,3,3.5,3,Flavia Cortina Unique Properties,Naco,Used,240,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,470000,1958.3333333333333,80
@@ -797,6 +846,13 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-naco/1277349/,2,2.5,2,Tropical Living,Naco,Building,162,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,260000,1604.9382716049383,81
 /apartamentos-venta-naco/1284333/,1,1.5,1,Tropical Living,Naco,Used,101,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,160000,1584.1584158415842,101
 /apartamentos-venta-naco/1277347/,2,1.5,1,Tropical Living,Naco,Building,103,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,172000,1669.9029126213593,103
+/apartamentos-venta-naco/1272739/,1,2,1,Mr. Home Asesores Inmobiliarios,Naco,NA,67,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,167500,2500,67
+/apartamentos-venta-naco/1285291/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Naco,NA,185,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,320000,1729.7297297297298,61.666666666666664
+/apartamentos-venta-naco/1270098/,NA,1,1,Mr. Home Asesores Inmobiliarios,Naco,NA,67,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,167500,2500,67
+/apartamentos-venta-naco/1270085/,NA,1.5,1,Mr. Home Asesores Inmobiliarios,Naco,NA,60,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,129641,2160.6833333333334,60
+/apartamentos-venta-naco/1278650/,4,3.5,3,Mr. Home Asesores Inmobiliarios,Naco,NA,230,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,360000,1565.2173913043478,76.66666666666667
+/apartamentos-venta-naco/1281038/,1,1.5,1,Mr. Home Asesores Inmobiliarios,Naco,NA,87,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,170000,1954.0229885057472,87
+/apartamentos-venta-naco/1273676/,1,1.5,1,Mr. Home Asesores Inmobiliarios,Naco,NA,63,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,140200,2225.3968253968255,63
 /apartamentos-venta-naco/1281215/,1,1.5,1,BAEZ MUESES INMOBILIARIA,Naco,Used,80,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,195000,2437.5,80
 /apartamentos-venta-naco/1284536/,2,3,3,Hogarium Real Estate,Naco,Used,195,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,315000,1615.3846153846155,65
 /apartamentos-venta-naco/1281834/,2,3.5,3,Kw Capital,Naco,New,195,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,290000,1487.179487179487,65
@@ -955,6 +1011,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-naco/1265646/,1,1.5,1,Mr. Home Asesores Inmobiliarios,Naco,New,55,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,118000,2145.4545454545455,55
 /apartamentos-venta-naco/1230566/,1,1.5,1,Vidalpe Inmobiliaria,Naco,Building,63,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,156000,2476.190476190476,63
 /apartamentos-venta-naco/1242186/,1,1,1,Mr. Home Asesores Inmobiliarios,Naco,New,55,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,166000,3018.181818181818,55
+/apartamentos-venta-naco/1261850/,3,2.5,2,Elite Brokers,Naco,NA,185,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,310000,1675.6756756756756,92.5
 /apartamentos-venta-naco/1250707/,2,2.5,2,Vidalpe Inmobiliaria,Naco,Building,162,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,186000,1148.148148148148,81
 /apartamentos-venta-naco/1234980/,1,1.5,1,Inverfisa,Naco,In blueprint,74,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,189000,2554.054054054054,74
 /apartamentos-venta-la-esperilla/1283029/,2,3.5,3,Innova By Bello Jaquez,La Esperilla,Used,180,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,210000,1166.6666666666667,60
@@ -998,6 +1055,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-la-esperilla/1267877/,2,2.5,2,Domus Mea Caribe Inmobiliaria,La Esperilla,Building,125,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,231000,1848,62.5
 /apartamentos-venta-la-esperilla/1212187/,2,3.5,3,Domus Mea Caribe Inmobiliaria,La Esperilla,Building,163,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,292000,1791.4110429447853,54.333333333333336
 /apartamentos-venta-la-esperilla/1282049/,2,3.5,3,Inmobiliaria Grupal,La Esperilla,Used,156,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,270000,1730.7692307692307,52
+/apartamentos-venta-la-esperilla/1259026/,2,3.5,3,Mr. Home Asesores Inmobiliarios,La Esperilla,NA,250,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,275000,1100,83.33333333333333
 /apartamentos-venta-la-esperilla/1285387/,3,3.5,3,Dreamhome Real Estate,La Esperilla,New,230,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,301000,1308.695652173913,76.66666666666667
 /apartamentos-venta-la-esperilla/1285399/,3,3.5,3,Dreamhome Real Estate,La Esperilla,New,255,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,378500,1484.313725490196,85
 /apartamentos-venta-la-esperilla/1285386/,2,1,1,Dreamhome Real Estate,La Esperilla,New,85,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,168000,1976.4705882352941,85
@@ -1020,6 +1078,12 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-la-esperilla/1276000/,3,4,4,Tropical Living,La Esperilla,Used,515,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,595000,1155.3398058252428,128.75
 /apartamentos-venta-la-esperilla/1267634/,2,1.5,1,Tropical Living,La Esperilla,New,92,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,168000,1826.0869565217392,92
 /apartamentos-venta-la-esperilla/1267636/,3,3.5,3,Tropical Living,La Esperilla,New,226,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,301000,1331.858407079646,75.33333333333333
+/apartamentos-venta-la-esperilla/1272714/,2,3.5,3,Mr. Home Asesores Inmobiliarios,La Esperilla,NA,231,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,240000,1038.9610389610389,77
+/apartamentos-venta-la-esperilla/1284161/,3,3,2,Mr. Home Asesores Inmobiliarios,La Esperilla,NA,92,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,170500,1853.2608695652175,46
+/apartamentos-venta-la-esperilla/1285293/,3,3.5,3,Mr. Home Asesores Inmobiliarios,La Esperilla,NA,220,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,495000,2250,73.33333333333333
+/apartamentos-venta-la-esperilla/1270095/,1,2.5,1,Mr. Home Asesores Inmobiliarios,La Esperilla,NA,87,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,148000,1701.1494252873563,87
+/apartamentos-venta-la-esperilla/1272715/,3,3,3,Mr. Home Asesores Inmobiliarios,La Esperilla,NA,311,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,350000,1125.40192926045,103.66666666666667
+/apartamentos-venta-la-esperilla/1276833/,2,3.5,3,Mr. Home Asesores Inmobiliarios,La Esperilla,In blueprint,256,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,235000,917.96875,85.33333333333333
 /apartamentos-venta-la-esperilla/1284387/,1,1.5,1,Kw Capital,La Esperilla,New,60,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,174000,2900,60
 /apartamentos-venta-la-esperilla/1284900/,2,3.5,3,DOBLE ALTURA REAL ESTATE SRL,La Esperilla,Used,234,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,335000,1431.6239316239316,78
 /apartamentos-venta-la-esperilla/1270680/,2,3.5,3,Paez Luxury Real Estate,La Esperilla,New,228,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,360000,1578.9473684210527,76
@@ -1088,6 +1152,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-la-esperilla/1256922/,2,2.5,2,Remax Metropolitana,La Esperilla,Used,144,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,350000,2430.5555555555557,72
 /apartamentos-venta-y-alquiler-la-esperilla/1246481/,4,3.5,3,Vidalpe Inmobiliaria,La Esperilla,Used,310,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,460000,1483.8709677419354,103.33333333333333
 /apartamentos-venta-la-esperilla/1250930/,2,2.5,2,Remax Metropolitana,La Esperilla,New,133,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,295000,2218.0451127819547,66.5
+/apartamentos-venta-la-esperilla/1247129/,2,2.5,2,Elite Brokers,La Esperilla,NA,159,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,255000,1603.7735849056603,79.5
 /apartamentos-venta-la-esperilla/1221895/,3,6,3,Inmobiliaria Paf SRL,La Esperilla,Rebuilt,440,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,495000,1125,146.66666666666666
 /apartamentos-venta-el-vergel/1284915/,2,3.5,3,Plusval Puente Azul,El Vergel,New,150,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,248000,1653.3333333333333,50
 /apartamentos-venta-el-vergel/1233400/,2,3.5,3,Marrero Luxury,El Vergel,Used,160,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,260000,1625,53.333333333333336
@@ -1096,6 +1161,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-el-vergel/1274222/,3,3.5,3,Maravila Properties,El Vergel,Used,130,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,250000,1923.076923076923,43.333333333333336
 /apartamentos-venta-el-vergel/1279572/,3,3.5,3,Maravila Properties,El Vergel,Used,269,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,250000,929.368029739777,89.66666666666667
 /apartamentos-venta-el-vergel/1238141/,4,6,5,Mudate,El Vergel,New,720,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,900000,1250,144
+/apartamentos-venta-el-vergel/1285302/,2,3.5,3,Mr. Home Asesores Inmobiliarios,El Vergel,NA,192,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,270000,1406.25,64
 /apartamentos-venta-el-vergel/1285621/,2,2.5,2,Quattro Realtors,El Vergel,Used,142,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,206000,1450.7042253521126,71
 /apartamentos-venta-el-vergel/1277859/,2,2.5,3,Remax Metropolitana,El Vergel,New,190,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,250000,1315.7894736842106,63.333333333333336
 /apartamentos-venta-el-vergel/1256471/,2,3.5,3,Remax Metropolitana,El Vergel,New,179,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,248000,1385.4748603351954,59.666666666666664
@@ -1123,6 +1189,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-zona-universitaria/1279306/,1,1.5,1,Mudate,Zona Universitaria,New,68,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,115038,1691.735294117647,68
 /apartamentos-venta-zona-universitaria/1279305/,2,2.5,2,Mudate,Zona Universitaria,New,88,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,170016,1932,44
 /apartamentos-venta-zona-universitaria/1279304/,2,2.5,3,Mudate,Zona Universitaria,New,155,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,215000,1387.0967741935483,51.666666666666664
+/apartamentos-venta-zona-universitaria/1278645/,1,1,2,Mr. Home Asesores Inmobiliarios,Zona Universitaria,NA,69,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,145000,2101.449275362319,34.5
 /apartamentos-venta-zona-universitaria/1276570/,1,2,3,Sena Real Estate,Zona Universitaria,Used,158,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,128205.1282051282,811.4248620577735,52.666666666666664
 /apartamentos-venta-zona-universitaria/1285874/,1,1.5,1,Seekers Inmobiliaria,Zona Universitaria,Building,68,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,120000,1764.7058823529412,68
 /apartamentos-venta-zona-universitaria/1271008/,1,1.5,2,Premium Real Estate,Zona Universitaria,Building,66,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,128714,1950.2121212121212,33
@@ -1176,6 +1243,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-la-julia/1283180/,2,2,2,Tropical Living,La Julia,Building,128,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,275600,2153.125,64
 /apartamentos-venta-y-alquiler-la-julia/1280500/,2,3.5,3,Tropical Living,La Julia,Used,170,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,320000,1882.3529411764705,56.666666666666664
 /apartamentos-venta-la-julia/1281181/,2,2.5,2,Tu Casa RD,La Julia,New,160,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,285000,1781.25,80
+/apartamentos-venta-la-julia/1275773/,4,4,4,Inmobiliaria Grupal,La Julia,Used,418,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1500000,3588.5167464114834,104.5
 /apartamentos-venta-la-julia/1283287/,2,2,2,X-TRIBA Inmobiliaria,La Julia,New,205,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,316673,1544.7463414634146,102.5
 /apartamentos-venta-la-julia/1255381/,2,2.5,2,Vidalpe Inmobiliaria,La Julia,New,160,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,262000,1637.5,80
 /apartamentos-venta-la-julia/1278246/,2,2.5,2,Seekers Inmobiliaria,La Julia,Used,124,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,250000,2016.1290322580646,62
@@ -1227,6 +1295,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-serralles/1285544/,1,2,3,Premium Real Estate,Serralles,Used,160,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,133333.33333333334,833.3333333333334,53.333333333333336
 /apartamentos-venta-serralles/1272683/,2,3.5,3,Maravila Properties,Serralles,Used,220,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,245000,1113.6363636363637,73.33333333333333
 /apartamentos-venta-serralles/1279571/,2,3,3,Maravila Properties,Serralles,Used,392,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,425000,1084.1836734693877,130.66666666666666
+/apartamentos-venta-serralles/1272821/,2,2.5,2,Mr. Home Asesores Inmobiliarios,Serralles,NA,119,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,228053,1916.4117647058824,59.5
 /apartamentos-venta-serralles/1267127/,3,3.5,3,Seekers Inmobiliaria,Serralles,Used,390,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,460000,1179.4871794871794,130
 /apartamentos-venta-serralles/1284133/,2,3.5,3,Inmobiliaria Grupal,Serralles,Used,230,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,290000,1260.8695652173913,76.66666666666667
 /apartamentos-venta-serralles/1285312/,3,2.5,3,Parmelia Matos Broker,Serralles,Used,157,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,242000,1541.4012738853503,52.333333333333336
@@ -1238,6 +1307,10 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-serralles/1280987/,2,2.5,2,Seekers Inmobiliaria,Serralles,Building,100,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,134653,1346.53,50
 /apartamentos-venta-serralles/1270495/,2,2.5,2,Seekers Inmobiliaria,Serralles,Building,91,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,220000,2417.5824175824177,45.5
 /apartamentos-venta-serralles/1285475/,2,3,3,Mr. Home Asesores Inmobiliarios,Serralles,Used,192,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,260000,1354.1666666666667,64
+/apartamentos-venta-serralles/1272818/,1,1,1,Mr. Home Asesores Inmobiliarios,Serralles,NA,54,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,140000,2592.5925925925926,54
+/apartamentos-venta-serralles/1281958/,3,3.5,3,Mr. Home Asesores Inmobiliarios,Serralles,NA,182,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,265000,1456.043956043956,60.666666666666664
+/apartamentos-venta-serralles/1273065/,NA,2.5,3,Mr. Home Asesores Inmobiliarios,Serralles,NA,160,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,210000,1312.5,53.333333333333336
+/apartamentos-venta-serralles/1272823/,2,2.5,2,Mr. Home Asesores Inmobiliarios,Serralles,NA,91,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,220000,2417.5824175824177,45.5
 /apartamentos-venta-y-alquiler-serralles/1278505/,NA,3.5,3,Paez Luxury Real Estate,Serralles,Used,390,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,450000,1153.8461538461538,130
 /apartamentos-venta-y-alquiler-serralles/1285028/,2,2.5,3,Paez Luxury Real Estate,Serralles,Used,180,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,230000,1277.7777777777778,60
 /apartamentos-venta-y-alquiler-serralles/1267463/,3,3.5,3,Mis Casas RD,Serralles,Used,390,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,450000,1153.8461538461538,130
@@ -1275,13 +1348,16 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-serralles/1283878/,2,2.5,2,Top Side Brokers Realty Group,Serralles,New,110,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,230000,2090.909090909091,55
 /apartamentos-venta-y-alquiler-serralles/1284510/,2,2.5,3,Inmobiliaria Grupal,Serralles,Used,180,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,230000,1277.7777777777778,60
 /apartamentos-venta-serralles/1242603/,3,3.5,3,Carmelia Suero,Serralles,New,182,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,256000,1406.5934065934066,60.666666666666664
+/apartamentos-venta-serralles/1284015/,3,4.5,5,Elite Brokers,Serralles,NA,436,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,500000,1146.788990825688,87.2
 /apartamentos-venta-serralles/1283735/,3,3.5,3,Inmobiliaria Vita Home,Serralles,Building,261,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,522012,2000.0459770114942,87
 /apartamentos-venta-serralles/1278960/,1,1,2,AC INMOBILIARIA,Serralles,Rebuilt,117,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,117948.71794871795,1008.1087004163927,58.5
+/apartamentos-venta-y-alquiler-serralles/1282707/,3,3.5,4,Elite Brokers,Serralles,NA,295,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,475000,1610.1694915254238,73.75
 /apartamentos-venta-serralles/1275562/,3,3.5,3,Remax Blu,Serralles,Used,357,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,426000,1193.2773109243697,119
 /apartamentos-venta-serralles/1278991/,2,2.5,2,Michelle Mosteanu,Serralles,Building,75,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,163913,2185.5066666666667,37.5
 /apartamentos-venta-serralles/1281158/,1,1.5,1,Michelle Mosteanu,Serralles,Building,50,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,133320,2666.4,50
 /apartamentos-venta-serralles/1281166/,NA,2,2,Michelle Mosteanu,Serralles,Building,75,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,168879,2251.72,37.5
 /apartamentos-venta-serralles/1277713/,1,1.5,1,Seekers Inmobiliaria,Serralles,Building,63,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,150000,2380.9523809523807,63
+/apartamentos-venta-serralles/1281489/,2,3.5,3,Elite Brokers,Serralles,NA,218,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,240000,1100.9174311926606,72.66666666666667
 /apartamentos-venta-serralles/1275156/,2,2.5,2,Inverfisa,Serralles,Building,118,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,228053,1932.6525423728813,59
 /apartamentos-venta-serralles/1270897/,2,2.5,3,Plusval Venta Directa,Serralles,New,156,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,210000,1346.1538461538462,52
 /apartamentos-venta-serralles/1280141/,2,3.5,3,Miladys Albania Espinal Reyes,Serralles,Used,250,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,210000,840,83.33333333333333
@@ -1289,6 +1365,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-serralles/1274944/,2,3.5,3,Anyelina Sánchez,Serralles,Used,397,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,425000,1070.5289672544081,132.33333333333334
 /apartamentos-venta-serralles/1257179/,2,3.5,3,Inmobiliaria Hazim Rodriguez,Serralles,Building,204,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,377590,1850.9313725490197,68
 /apartamentos-venta-serralles/1246322/,2,2.5,2,Roshanna Carrasco,Serralles,Building,110,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,171000,1554.5454545454545,55
+/apartamentos-venta-serralles/1269165/,3,3.5,3,Elite Brokers,Serralles,NA,375,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,495000,1320,125
 /apartamentos-venta-serralles/1239647/,2,2.5,3,Mr. Home Asesores Inmobiliarios,Serralles,New,192,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,260000,1354.1666666666667,64
 /apartamentos-venta-serralles/1261851/,NA,2.5,2,Kensami Bienes Raices,Serralles,New,145,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,222000,1531.0344827586207,72.5
 /apartamentos-venta-serralles/1256820/,3,3.5,3,Grupo Nin Inmobiliario,Serralles,Building,204,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,377590,1850.9313725490197,68
@@ -1333,6 +1410,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-ensanche-paraiso/1270754/,2,3.5,3,Maravila Properties,Ensanche Paraíso,New,150,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,320000,2133.3333333333335,50
 /apartamentos-venta-ensanche-paraiso/1270149/,3,3.5,3,Maravila Properties,Ensanche Paraíso,Building,260,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,553770,2129.8846153846152,86.66666666666667
 /apartamentos-venta-ensanche-paraiso/1279706/,2,3.5,3,Maravila Properties,Ensanche Paraíso,New,150,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,320000,2133.3333333333335,50
+/apartamentos-venta-ensanche-paraiso/1252861/,1,1,1,Mr. Home Asesores Inmobiliarios,Ensanche Paraíso,NA,60,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,117000,1950,60
 /apartamentos-venta-ensanche-paraiso/1283346/,4,3.5,3,Flavia Cortina Unique Properties,Ensanche Paraíso,Used,316,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,630000,1993.6708860759493,105.33333333333333
 /apartamentos-venta-ensanche-paraiso/1280591/,NA,3.5,3,Ríos Real Estate,Ensanche Paraíso,Used,187,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,235000,1256.6844919786097,62.333333333333336
 /apartamentos-venta-ensanche-paraiso/1285597/,2,2.5,3,Estrella Inmobiliaria,Ensanche Paraíso,Used,170,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,142000,835.2941176470588,56.666666666666664
@@ -1346,6 +1424,8 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-ensanche-paraiso/1285993/,3,3.5,3,Mudate,Ensanche Paraíso,New,208,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,435000,2091.346153846154,69.33333333333333
 /apartamentos-venta-ensanche-paraiso/1285472/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Ensanche Paraíso,Used,195,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,285000,1461.5384615384614,65
 /apartamentos-venta-ensanche-paraiso/1285985/,2,2,3,Inmobiliaria Bevistam,Ensanche Paraíso,Used,140,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,140000,1000,46.666666666666664
+/apartamentos-venta-ensanche-paraiso/1272978/,3,3.5,3,Mr. Home Asesores Inmobiliarios,Ensanche Paraíso,NA,208,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,405000,1947.1153846153845,69.33333333333333
+/apartamentos-venta-ensanche-paraiso/1273861/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Ensanche Paraíso,NA,208,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,450000,2163.4615384615386,69.33333333333333
 /apartamentos-venta-ensanche-paraiso/1260583/,3,3.5,3,INMOBLIAM,Ensanche Paraíso,New,208,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,435000,2091.346153846154,69.33333333333333
 /apartamentos-venta-ensanche-paraiso/1280438/,1,1.5,1,DOBLE ALTURA REAL ESTATE SRL,Ensanche Paraíso,New,55,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,159888,2907.0545454545454,55
 /apartamentos-venta-ensanche-paraiso/1280923/,2,3.5,3,Tu Casa RD,Ensanche Paraíso,New,326,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,450000,1380.3680981595091,108.66666666666667
@@ -1374,8 +1454,10 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-ensanche-paraiso/1271454/,3,3.5,3,Maravila Properties,Ensanche Paraíso,New,208,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,435000,2091.346153846154,69.33333333333333
 /apartamentos-venta-ensanche-paraiso/1285048/,3,3.5,3,Felipe Celeste,Ensanche Paraíso,Building,215,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,475000,2209.3023255813955,71.66666666666667
 /apartamentos-venta-ensanche-paraiso/1276521/,3,3.5,3,Aurelio Marmolejos,Ensanche Paraíso,New,208,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,455000,2187.5,69.33333333333333
+/apartamentos-venta-ensanche-paraiso/1284604/,2,3.5,3,Elite Brokers,Ensanche Paraíso,NA,212,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,480000,2264.1509433962265,70.66666666666667
 /apartamentos-venta-ensanche-paraiso/1281998/,1,1.5,1,Premium Real Estate,Ensanche Paraíso,New,55,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,159888,2907.0545454545454,55
 /apartamentos-venta-ensanche-paraiso/1268196/,1,1.5,1,DARAD Real Estate RD,Ensanche Paraíso,In blueprint,70,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,168000,2400,70
+/apartamentos-venta-ensanche-paraiso/1284022/,2,2.5,2,Elite Brokers,Ensanche Paraíso,NA,175,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,275000,1571.4285714285713,87.5
 /apartamentos-venta-ensanche-paraiso/1278868/,1,1.5,1,HouseLink,Ensanche Paraíso,New,67,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,159888,2386.3880597014927,67
 /apartamentos-venta-ensanche-paraiso/1281952/,2,3.5,3,Inmobiliaria Grupal,Ensanche Paraíso,Used,173,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,215000,1242.7745664739884,57.666666666666664
 /apartamentos-venta-ensanche-paraiso/1278878/,1,1,1,HouseLink,Ensanche Paraíso,New,55,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,161628,2938.690909090909,55
@@ -1386,9 +1468,11 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-ensanche-paraiso/1278997/,2,2.5,2,Plusval Venta Directa,Ensanche Paraíso,Used,130,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,370000,2846.153846153846,65
 /apartamentos-venta-paraiso/1245914/,2,4,3,Top inmobiliario Srl,Paraiso,Used,326,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,450000,1380.3680981595091,108.66666666666667
 /apartamentos-venta-ensanche-paraiso/1281291/,1,1.5,1,Megacasa RD,Ensanche Paraíso,New,60,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,189000,3150,60
+/apartamentos-venta-ensanche-paraiso/1253914/,4,NA,4,Anyelina Sánchez,Ensanche Paraíso,NA,450,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,1075000,2388.8888888888887,112.5
 /apartamentos-venta-paraiso/1270415/,2,3.5,3,Inmobiliaria Hazim Rodriguez,Paraiso,Building,217,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,475000,2188.9400921658985,72.33333333333333
 /apartamentos-venta-ensanche-paraiso/1243691/,3,3.5,3,Seekers Inmobiliaria,Ensanche Paraíso,Building,207,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,400000,1932.3671497584542,69
 /apartamentos-venta-ensanche-paraiso/1272652/,3,3.5,3,Grupo Nin Inmobiliario,Ensanche Paraíso,New,208,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,430000,2067.3076923076924,69.33333333333333
+/apartamentos-venta-ensanche-paraiso/1267732/,3,3.5,3,Elite Brokers,Ensanche Paraíso,NA,273,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,405000,1483.5164835164835,91
 /apartamentos-venta-ensanche-paraiso/1265054/,3,3.5,3,Grupo Nin Inmobiliario,Ensanche Paraíso,New,208,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,450000,2163.4615384615386,69.33333333333333
 /apartamentos-venta-los-prados/1265865/,1,2.5,1,Remax Blu,Los Prados,Building,63,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,104600,1660.3174603174602,63
 /apartamentos-venta-los-prados/1280097/,2,2,2,Inmobiliaria e Inversiones Peguero & Asociados,Los Prados,Building,160,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,165000,1031.25,80
@@ -1475,6 +1559,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-bella-vista/1284869/,2,NA,3,Keller Williams Gold,Bella Vista,Used,286,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,174358.97435897434,609.6467634929173,95.33333333333333
 /apartamentos-venta-bella-vista/1268885/,2,2.5,3,Maravila Properties,Bella Vista,New,123,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,280000,2276.4227642276423,41
 /apartamentos-venta-bella-vista/1268891/,2,3.5,3,Maravila Properties,Bella Vista,Building,121,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,323700,2675.206611570248,40.333333333333336
+/apartamentos-venta-bella-vista/1273561/,1,1.5,1,Mr. Home Asesores Inmobiliarios,Bella Vista,NA,58,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,116000,2000,58
 /apartamentos-venta-y-alquiler-bella-vista/1285895/,2,3.5,3,Dreamhome Real Estate,Bella Vista,New,330,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,400000,1212.121212121212,110
 /apartamentos-venta-bella-vista/1267130/,3,3.5,3,Seekers Inmobiliaria,Bella Vista,Building,176,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,395000,2244.318181818182,58.666666666666664
 /apartamentos-venta-bella-vista/1266626/,2,2.5,2,Seekers Inmobiliaria,Bella Vista,Building,100,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,165000,1650,50
@@ -1495,6 +1580,8 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-bella-vista/1258284/,1,2,1,Tropical Living,Bella Vista,Building,74,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,157500,2128.3783783783783,74
 /apartamentos-venta-bella-vista/1275977/,1,1.5,1,Tropical Living,Bella Vista,Building,70,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,129931,1856.1571428571428,70
 /apartamentos-venta-bella-vista/1272299/,1,2.5,2,Tropical Living,Bella Vista,Building,97,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,162000,1670.1030927835052,48.5
+/apartamentos-venta-bella-vista/1267796/,2,2,2,Mr. Home Asesores Inmobiliarios,Bella Vista,NA,145,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,228000,1572.4137931034484,72.5
+/apartamentos-venta-bella-vista/1280694/,2,2.5,2,Mr. Home Asesores Inmobiliarios,Bella Vista,NA,145,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,228000,1572.4137931034484,72.5
 /apartamentos-venta-bella-vista/1222122/,3,3.5,3,INMOBLIAM,Bella Vista,Building,244,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,515000,2110.655737704918,81.33333333333333
 /apartamentos-venta-bella-vista/1285915/,2,3.5,3,Mis Casas RD,Bella Vista,Used,217,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,225000,1036.8663594470047,72.33333333333333
 /apartamentos-venta-bella-vista/1281593/,2,3.5,3,Sena Real Estate,Bella Vista,Used,245,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,320000,1306.1224489795918,81.66666666666667
@@ -1609,10 +1696,12 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-anacaona/1267818/,2,3.5,3,Marco Rivero,Anacaona,New,225,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,580000,2577.777777777778,75
 /apartamentos-venta-anacaona/1284281/,2,3.5,3,Tu Inmobiliaria City,Anacaona,Building,358,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,870000,2430.167597765363,119.33333333333333
 /apartamentos-venta-anacaona/1264627/,3,3.5,3,Vivenzas Real Estate,Anacaona,Building,317,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,878500,2771.2933753943216,105.66666666666667
+/apartamentos-venta-anacaona/1270225/,3,3.5,3,Premium Real Estate,Anacaona,Used,447,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,575000,1286.3534675615213,149
 /apartamentos-venta-anacaona/1282393/,3,4.5,4,Flavia Cortina Unique Properties,Anacaona,Used,465,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,895000,1924.731182795699,116.25
 /apartamentos-venta-anacaona/1247454/,3,4.5,4,Flavia Cortina Unique Properties,Anacaona,Used,390,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,525000,1346.1538461538462,97.5
 /apartamentos-venta-anacaona/1269471/,2,3.5,3,Estrella Inmobiliaria,Anacaona,Rebuilt,250,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,320000,1280,83.33333333333333
 /apartamentos-venta-anacaona/1263402/,3,3.5,3,Estrella Inmobiliaria,Anacaona,New,370,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,858000,2318.9189189189187,123.33333333333333
+/apartamentos-venta-anacaona/1267857/,3,4.5,3,Inmobiliaria Grupal,Anacaona,Used,447,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,510000,1140.9395973154362,149
 /apartamentos-venta-anacaona/1281350/,3,4.5,4,Gomez Inmobiliaria,Anacaona,Used,447,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,470000,1051.4541387024608,111.75
 /apartamentos-venta-anacaona/1272872/,2,3.5,3,Gomez Inmobiliaria,Anacaona,Used,340,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,400000,1176.4705882352941,113.33333333333333
 /apartamentos-venta-anacaona/1267801/,2,3.5,3,Marco Rivero,Anacaona,Used,243,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,575000,2366.2551440329216,81
@@ -1627,6 +1716,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-anacaona/1283985/,4,3.5,3,Vidalpe Inmobiliaria,Anacaona,Building,417,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,850000,2038.369304556355,139
 /apartamentos-venta-anacaona/1273467/,4,3.5,3,Premium Real Estate,Anacaona,Building,358,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,870000,2430.167597765363,119.33333333333333
 /apartamentos-venta-anacaona/1285693/,2,3.5,3,Ingrid María Rua Selman,Anacaona,Used,340,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,370000,1088.235294117647,113.33333333333333
+/apartamentos-venta-anacaona/1234262/,3,3.5,3,Paez Luxury Real Estate,Anacaona,Used,447,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,580000,1297.5391498881431,149
 /apartamentos-venta-anacaona/1264799/,2,2.5,2,Paez Luxury Real Estate,Anacaona,Building,104,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,200000,1923.076923076923,52
 /apartamentos-venta-anacaona/923903/,4,4.5,4,Paez Luxury Real Estate,Anacaona,New,460,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,1345000,2923.913043478261,115
 /apartamentos-venta-anacaona/923905/,6,4.5,4,Paez Luxury Real Estate,Anacaona,New,582,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,1700000,2920.962199312715,145.5
@@ -1667,12 +1757,15 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-mirador-norte/1285182/,1,2.5,3,Inmobiliaria Grupal,Mirador Norte,Used,240,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,170000,708.3333333333334,80
 /apartamentos-venta-mirador-norte/1275525/,2,3.5,3,Inmobiliaria Grupal,Mirador Norte,New,213,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,220000,1032.8638497652582,71
 /apartamentos-venta-mirador-norte/1285257/,1,2,3,Inmobiliaria Grupal,Mirador Norte,Used,240,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,170000,708.3333333333334,80
+/apartamentos-venta-mirador-norte/1265859/,1,1.5,1,Mr. Home Asesores Inmobiliarios,Mirador Norte,NA,57,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,109725,1925,57
+/apartamentos-venta-mirador-norte/1285427/,2,2.5,3,Mr. Home Asesores Inmobiliarios,Mirador Norte,NA,142,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,174358.97435897434,1227.8801011195376,47.333333333333336
 /apartamentos-venta-mirador-norte/1279351/,1,2,1,Mudate,Mirador Norte,New,84,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,148000,1761.904761904762,84
 /apartamentos-venta-mirador-norte/1279331/,2,2.5,2,Mudate,Mirador Norte,New,144,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,189400,1315.2777777777778,72
 /apartamentos-venta-mirador-norte/1279329/,2,2,3,Mudate,Mirador Norte,New,147,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,234600,1595.9183673469388,49
 /apartamentos-venta-mirador-norte/1279316/,2,2.5,2,Mudate,Mirador Norte,New,108,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,216000,2000,54
 /apartamentos-venta-mirador-norte/1279314/,1,1.5,1,Mudate,Mirador Norte,New,61,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,138775,2275,61
 /apartamentos-venta-mirador-norte/1282304/,2,3,3,Tropical Living,Mirador Norte,Building,151,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,244475,1619.0397350993378,50.333333333333336
+/apartamentos-venta-mirador-norte/1283909/,2,2.5,3,Mr. Home Asesores Inmobiliarios,Mirador Norte,NA,188,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,208000,1106.3829787234042,62.666666666666664
 /apartamentos-venta-mirador-norte/1273525/,2,3.5,3,Tu Casa RD,Mirador Norte,New,170,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,182051.2820512821,1070.8898944193065,56.666666666666664
 /apartamentos-venta-mirador-norte/1273524/,2,3.5,3,Tu Casa RD,Mirador Norte,New,178,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,210000,1179.7752808988764,59.333333333333336
 /apartamentos-venta-mirador-norte/1284976/,1,2.5,3,Inmobiliaria Grupal,Mirador Norte,Used,240,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,170000,708.3333333333334,80
@@ -1814,6 +1907,11 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-los-cacicazgos/1257101/,2,3.5,3,Tropical Living,Los Cacicazgos,Building,222,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,421430,1898.3333333333333,74
 /apartamentos-venta-los-cacicazgos/1285471/,3,3.5,3,Mr. Home Asesores Inmobiliarios,Los Cacicazgos,New,359,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,400000,1114.2061281337046,119.66666666666667
 /apartamentos-venta-los-cacicazgos/1277342/,2,3.5,3,Tropical Living,Los Cacicazgos,Used,273,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,310000,1135.5311355311355,91
+/apartamentos-venta-los-cacicazgos/1285352/,2,2.5,2,Mr. Home Asesores Inmobiliarios,Los Cacicazgos,NA,115,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,262752,2284.8,57.5
+/apartamentos-venta-los-cacicazgos/1285271/,2,2.5,3,Mr. Home Asesores Inmobiliarios,Los Cacicazgos,NA,196,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,260000,1326.530612244898,65.33333333333333
+/apartamentos-venta-los-cacicazgos/1273053/,3,4.5,4,Mr. Home Asesores Inmobiliarios,Los Cacicazgos,NA,412,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,650000,1577.6699029126214,103
+/apartamentos-venta-los-cacicazgos/1272675/,2,4,3,Mr. Home Asesores Inmobiliarios,Los Cacicazgos,NA,189,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,285000,1507.936507936508,63
+/apartamentos-venta-los-cacicazgos/1273088/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Los Cacicazgos,NA,265,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,337000,1271.698113207547,88.33333333333333
 /apartamentos-venta-los-cacicazgos/1280805/,2,3.5,3,Kw Capital,Los Cacicazgos,Used,328,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,580000,1768.2926829268292,109.33333333333333
 /apartamentos-venta-los-cacicazgos/1268538/,2,2.5,2,Paez Luxury Real Estate,Los Cacicazgos,In blueprint,100,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,231000,2310,50
 /apartamentos-venta-los-cacicazgos/1269088/,4,4.5,4,Paez Luxury Real Estate,Los Cacicazgos,Rebuilt,500,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,700000,1400,125
@@ -1887,9 +1985,13 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-los-cacicazgos/1277436/,3,4.5,4,Top inmobiliario Srl,Los Cacicazgos,Used,465,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,885000,1903.225806451613,116.25
 /apartamentos-venta-los-cacicazgos/1281651/,2,3.5,3,Estrella Inmobiliaria,Los Cacicazgos,Used,280,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,325000,1160.7142857142858,93.33333333333333
 /apartamentos-venta-los-cacicazgos/1261425/,3,3.5,3,Estrella Inmobiliaria,Los Cacicazgos,New,319,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,597500,1873.0407523510971,106.33333333333333
+/apartamentos-venta-los-cacicazgos/1280656/,4,6.5,5,Anyelina Sánchez,Los Cacicazgos,NA,391,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,550000,1406.6496163682864,78.2
+/apartamentos-venta-los-cacicazgos/1280486/,2,NA,3,Anyelina Sánchez,Los Cacicazgos,NA,250,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,315000,1260,83.33333333333333
+/apartamentos-venta-los-cacicazgos/1280476/,3,3.5,3,Anyelina Sánchez,Los Cacicazgos,NA,340,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,470000,1382.3529411764705,113.33333333333333
 /apartamentos-venta-los-cacicazgos/1279283/,2,3.5,3,Seekers Inmobiliaria,Los Cacicazgos,New,174,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,294500,1692.528735632184,58
 /apartamentos-venta-y-alquiler-los-cacicazgos/1279675/,2,3.5,3,Taty Fontbernard,Los Cacicazgos,Used,214,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,490000,2289.7196261682243,71.33333333333333
 /apartamentos-venta-los-cacicazgos/1277286/,3,3.5,3,HouseLink,Los Cacicazgos,In blueprint,220,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,483500,2197.7272727272725,73.33333333333333
+/apartamentos-venta-y-alquiler-los-cacicazgos/1277657/,2,3.5,3,Elite Brokers,Los Cacicazgos,NA,274,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,310000,1131.3868613138686,91.33333333333333
 /apartamentos-venta-los-cacicazgos/1275030/,2,3.5,3,Taty Fontbernard,Los Cacicazgos,Rebuilding,353,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,291750,826.4872521246459,117.66666666666667
 /apartamentos-venta-los-cacicazgos/1274938/,3,3.5,3,Anyelina Sánchez,Los Cacicazgos,New,335,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,770000,2298.507462686567,111.66666666666667
 /apartamentos-venta-los-cacicazgos/1246392/,4,4.5,4,Roshanna Carrasco,Los Cacicazgos,Building,485,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,850000,1752.5773195876288,121.25
@@ -1900,6 +2002,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-los-cacicazgos/1271106/,3,3.5,3,Estrella Inmobiliaria,Los Cacicazgos,Used,270,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,340000,1259.2592592592594,90
 /apartamentos-venta-los-cacicazgos/1271401/,3,3.5,3,SDQ Propiedades,Los Cacicazgos,Used,367,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,390000,1062.6702997275204,122.33333333333333
 /apartamentos-venta-los-cacicazgos/1264811/,3,3.5,3,Grupo Nin Inmobiliario,Los Cacicazgos,New,220,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,465000,2113.6363636363635,73.33333333333333
+/apartamentos-venta-los-cacicazgos/1258060/,3,3.5,3,Elite Brokers,Los Cacicazgos,NA,447,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,550000,1230.4250559284117,149
 /apartamentos-venta-los-cacicazgos/1257573/,3,3.5,3,Grupo Nin Inmobiliario,Los Cacicazgos,Building,260,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,555000,2134.6153846153848,86.66666666666667
 /apartamentos-venta-los-cacicazgos/1246015/,4,4.5,4,Grupo Nin Inmobiliario,Los Cacicazgos,Building,485,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,925000,1907.2164948453608,121.25
 /apartamentos-venta-y-alquiler-los-cacicazgos/1215305/,2,4.5,4,Remax Metropolitana,Los Cacicazgos,Used,297,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,400000,1346.8013468013469,74.25
@@ -1923,6 +2026,10 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-urbanizacion-real/1266547/,2,3,3,Inmobiliaria Grupal,Urbanizacion Real,Used,158,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,207000,1310.126582278481,52.666666666666664
 /apartamentos-venta-urbanizacion-real/1265766/,2,2.5,2,Inmobiliaria Grupal,Urbanizacion Real,Used,140,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,195000,1392.857142857143,70
 /apartamentos-venta-urbanizacion-real/1283775/,2,2.5,2,Doble Altura Real Estate SRL,Urbanizacion Real,Used,140,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,195000,1392.857142857143,70
+/apartamentos-venta-urbanizacion-real/1245381/,1,2,1,Mr. Home Asesores Inmobiliarios,Urbanizacion Real,NA,88,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,148000,1681.8181818181818,88
+/apartamentos-venta-urbanizacion-real/1273646/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Urbanizacion Real,NA,208,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,270000,1298.076923076923,69.33333333333333
+/apartamentos-venta-urbanizacion-real/1280693/,2,2,2,Mr. Home Asesores Inmobiliarios,Urbanizacion Real,NA,138,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,195000,1413.0434782608695,69
+/apartamentos-venta-urbanizacion-real/1261180/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Urbanizacion Real,NA,201,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,223000,1109.452736318408,67
 /apartamentos-venta-urbanizacion-real/1285820/,1,1.5,1,INMOBLIAM,Urbanizacion Real,New,74,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,178000,2405.4054054054054,74
 /apartamentos-venta-urbanizacion-real/1250746/,2,2.5,2,Inmobiliaria Grupal,Urbanizacion Real,Used,140,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,195000,1392.857142857143,70
 /apartamentos-venta-urbanizacion-real/1275765/,2,3.5,3,eXp Realty,Urbanizacion Real,New,150,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,243050,1620.3333333333333,50
@@ -1959,8 +2066,10 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-renacimiento/1285168/,2,3.5,3,Algonovo Real Estate,Renacimiento,New,176,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,291635,1657.0170454545455,58.666666666666664
 /apartamentos-venta-renacimiento/1284783/,1,1.5,1,Republic Real State,Renacimiento,In blueprint,56,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,119950,2141.964285714286,56
 /apartamentos-venta-renacimiento/1267749/,2,3.5,3,Stalin Florentino,Renacimiento,Building,234,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,350000,1495.7264957264956,78
+/apartamentos-venta-renacimiento/1273245/,2,3.5,2,Mr. Home Asesores Inmobiliarios,Renacimiento,NA,188,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,245000,1303.1914893617022,94
 /apartamentos-venta-renacimiento/1266826/,NA,2.5,2,Seekers Inmobiliaria,Renacimiento,Building,146,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,195137,1336.554794520548,73
 /apartamentos-venta-renacimiento/1285336/,2,3,3,Republic Real State,Renacimiento,Building,188,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,270000,1436.1702127659576,62.666666666666664
+/apartamentos-venta-renacimiento/1285272/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Renacimiento,NA,250,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,250000,1000,83.33333333333333
 /apartamentos-venta-renacimiento/1283146/,2,3.5,3,KW Dominicana,Renacimiento,New,154,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,270000,1753.2467532467533,51.333333333333336
 /apartamentos-venta-renacimiento/1256116/,2,3.5,3,Tu Casa RD,Renacimiento,New,210,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,205000,976.1904761904761,70
 /apartamentos-venta-renacimiento/1281592/,2,2.5,3,AC INMOBILIARIA,Renacimiento,Used,160,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,133333.33333333334,833.3333333333334,53.333333333333336
@@ -1992,6 +2101,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-zona-colonial/1282503/,NA,3,2,Tropical Living,Zona Colonial,Used,158,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,155000,981.0126582278481,79
 /apartamentos-venta-zona-colonial/1260001/,NA,5,4,Remax Blu,Zona Colonial,Used,150,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,135000,900,37.5
 /apartamentos-venta-zona-colonial/1253874/,NA,2.5,2,Plusval Venta Directa,Zona Colonial,Used,107,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,325000,3037.3831775700933,53.5
+/apartamentos-venta-zona-colonial/1212626/,NA,1.5,1,Elite Brokers,Zona Colonial,NA,60,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,210000,3500,60
 /apartamentos-venta-ciudad-nueva/1281783/,NA,2,3,Remax Blu,Ciudad Nueva,Used,137,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,110000,802.9197080291971,45.666666666666664
 /apartamentos-venta-y-alquiler-malecon/1253073/,2,2.5,2,Algonovo Real Estate,Malecon,Used,184,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,340000,1847.8260869565217,92
 /apartamentos-venta-malecon/1252227/,2,2.5,2,Algonovo Real Estate,Malecon,New,184,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,340000,1847.8260869565217,92
@@ -2044,6 +2154,8 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-tropical/1278582/,2,2.5,3,Doble Altura Real Estate SRL,Tropical,Used,197,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,180000,913.7055837563452,65.66666666666667
 /apartamentos-venta-tropical/1264775/,2,2.5,4,BELFER INNOVARTHOMERD,Tropical,In blueprint,141,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,226300,1604.9645390070923,35.25
 /apartamentos-venta-miramar/1279678/,1,2.5,2,Mis Casas RD,Miramar,Used,150,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,134615.38461538462,897.4358974358975,75
+/apartamentos-venta-miramar/1278306/,1,2,3,Mr. Home Asesores Inmobiliarios,Miramar,NA,100,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,126495.7264957265,1264.957264957265,33.333333333333336
+/apartamentos-venta-miramar/1278304/,1,2,2,Mr. Home Asesores Inmobiliarios,Miramar,NA,80,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,99145.29914529914,1239.3162393162393,40
 /apartamentos-venta-miramar/1273733/,1,2,3,The Crestman Group,Miramar,Building,100,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,100000,1000,33.333333333333336
 /apartamentos-venta-miramar/1233596/,2,3.5,3,Plusval Venta Directa,Miramar,Used,189,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,178000,941.7989417989418,63
 /apartamentos-venta-el-millon/1284923/,2,3.5,3,Keller Williams Gold,El Millon,New,135,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,239400,1773.3333333333333,45
@@ -2078,6 +2190,10 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-el-millon/1283683/,2,3.5,4,Inmobiliaria Grupal,El Millon,Used,230,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,285000,1239.1304347826087,57.5
 /apartamentos-venta-el-millon/1281395/,4,2.5,3,Doble Altura Real Estate SRL,El Millon,Used,180,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,208547.00854700856,1158.5944919278254,60
 /apartamentos-venta-el-millon/1278094/,2,NA,1,Seekers Inmobiliaria,El Millon,Building,110,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,187000,1700,110
+/apartamentos-venta-el-millon/1278373/,2,2.5,2,Mr. Home Asesores Inmobiliarios,El Millon,NA,87,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,148000,1701.1494252873563,43.5
+/apartamentos-venta-el-millon/1282699/,2,2.5,2,Mr. Home Asesores Inmobiliarios,El Millon,NA,96,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,149500,1557.2916666666667,48
+/apartamentos-venta-el-millon/1278292/,2,2,3,Mr. Home Asesores Inmobiliarios,El Millon,NA,218,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,196581.1965811966,901.7486081706265,72.66666666666667
+/apartamentos-venta-el-millon/1271527/,3,2.5,2,Mr. Home Asesores Inmobiliarios,El Millon,NA,130,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,215000,1653.8461538461538,65
 /apartamentos-venta-el-millon/1285676/,2,3.5,3,Kw Capital,El Millon,Used,184,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,238000,1293.4782608695652,61.333333333333336
 /apartamentos-venta-el-millon/1282579/,2,2.5,3,Mis Casas RD,El Millon,Used,180,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,220000,1222.2222222222222,60
 /apartamentos-venta-el-millon/1277222/,2,2.5,2,Tu Casa RD,El Millon,New,107,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,198800,1857.943925233645,53.5
@@ -2125,6 +2241,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-los-restauradores/1283652/,2,3.5,3,Stalin Florentino,Los Restauradores,Building,147,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,198450,1350,49
 /apartamentos-venta-los-restauradores/1267785/,2,3.5,3,Stalin Florentino,Los Restauradores,Building,151,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,187200,1239.7350993377484,50.333333333333336
 /apartamentos-venta-los-restauradores/1283653/,2,2.5,2,Stalin Florentino,Los Restauradores,Building,116,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,162400,1400,58
+/apartamentos-venta-los-restauradores/1285418/,2,2.5,3,Mr. Home Asesores Inmobiliarios,Los Restauradores,NA,156,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,187200,1200,52
 /apartamentos-venta-los-restauradores/1273822/,2,1,2,The Crestman Group,Los Restauradores,Building,110,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,134200,1220,55
 /apartamentos-venta-los-restauradores/1256957/,2,2.5,2,Grupo Nin Inmobiliario,Los Restauradores,Building,116,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,162400,1400,58
 /apartamentos-venta-los-restauradores/1254051/,2,3.5,3,Plusval Venta Directa,Los Restauradores,Building,156,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,187200,1200,52
@@ -2149,6 +2266,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-gala/1275719/,2,3,3,Virna Reyes,Gala,Used,130,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,132000,1015.3846153846154,43.333333333333336
 /apartamentos-venta-gala/1265994/,1,NA,3,Inmobiliaria Grupal,Gala,New,114,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,105982.90598290598,929.6746138851402,38
 /apartamentos-venta-gala/1274970/,2,2,3,Inmobiliaria Grupal,Gala,Used,130,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,140000,1076.923076923077,43.333333333333336
+/apartamentos-venta-gala/1273514/,1,2.5,2,Mr. Home Asesores Inmobiliarios,Gala,NA,102,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,148400,1454.9019607843138,51
 /apartamentos-venta-gala/1283319/,1,1,1,Seekers Inmobiliaria,Gala,Building,51,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,96484,1891.8431372549019,51
 /apartamentos-venta-altos-de-arroyo-hondo/1285570/,1,1.5,1,Premium Real Estate,Altos de Arroyo Hondo,New,60,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,106750,1779.1666666666667,60
 /apartamentos-venta-altos-de-arroyo-hondo/1276274/,2,2.5,3,Maravila Properties,Altos de Arroyo Hondo,New,120,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,157264.95726495725,1310.5413105413104,40
@@ -2257,6 +2375,8 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-villa-aura/1283057/,2,2.5,3,Premium Real Estate,Villa Aura,Building,160,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,136500,853.125,53.333333333333336
 /apartamentos-venta-villa-aura/1282574/,1,2,3,Ciudad Inmobiliaria,Villa Aura,Building,96,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,102000,1062.5,32
 /apartamentos-venta-villa-aura/1282027/,1,2,3,Inmobiliaria Grupal,Villa Aura,Used,94,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,76923.07692307692,818.3306055646481,31.333333333333332
+/apartamentos-venta-villa-aura/1273128/,1,2,3,Mr. Home Asesores Inmobiliarios,Villa Aura,NA,106,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,107000,1009.433962264151,35.333333333333336
+/apartamentos-venta-villa-aura/1273135/,2,3,2,Mr. Home Asesores Inmobiliarios,Villa Aura,NA,135,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,123931.62393162394,918.0120291231402,67.5
 /apartamentos-venta-villa-aura/1258724/,2,3.5,4,Tu Casa RD,Villa Aura,New,166,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,176000,1060.2409638554218,41.5
 /apartamentos-venta-villa-aura/1275441/,2,2.5,3,HouseLink,Villa Aura,New,135,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,124786.32478632478,924.3431465653688,45
 /apartamentos-venta-villa-aura/1276009/,1,2,3,Inmobiliaria Grupal,Villa Aura,Used,90,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,73504.2735042735,816.7141500474834,30
@@ -2268,7 +2388,9 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-ciudad/1281724/,2,4.5,5,Premium Real Estate,Ciudad,Used,247,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,193000,781.3765182186235,49.4
 /apartamentos-venta-olimpo/1258228/,2,2.5,3,United Group DR,Olimpo,Building,104,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,143220,1377.1153846153845,34.666666666666664
 /apartamentos-venta-cerros-de-palmarejos/1266873/,1,2,3,Plusval Puente Azul,Cerros de Palmarejos,Building,93,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,52051.282051282054,559.6912048524952,31
+/apartamentos-venta-prolongacion-27-de-febrero/1273515/,1,1.5,1,Mr. Home Asesores Inmobiliarios,Prolongacion 27 de Febrero,NA,73,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,98400,1347.945205479452,73
 /apartamentos-venta-prolongacion-27-de-febrero/1270478/,1,1.5,1,Seekers Inmobiliaria,Prolongacion 27 de Febrero,Building,66,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,98400,1490.909090909091,66
+/apartamentos-venta-prolongacion-27-de-febrero/1270090/,1,1.5,1,Mr. Home Asesores Inmobiliarios,Prolongacion 27 de Febrero,NA,73,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,98400,1347.945205479452,73
 /apartamentos-venta-mirador-del-oeste/1283567/,2,2,3,Inmobiliaria Grupal,Mirador del Oeste,Used,90,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,111111.11111111112,1234.5679012345681,30
 /apartamentos-venta-mirador-del-oeste/1285811/,1,2,2,HouseLink,Mirador del Oeste,Building,94,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,92000,978.7234042553191,47
 /apartamentos-venta-mirador-del-oeste/1283976/,2,2,3,United Group DR,Mirador del Oeste,New,120,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,114529.91452991452,954.4159544159543,40
@@ -2283,7 +2405,14 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-ozama/1252008/,2,3,3,Bonillamultiservice,Ozama,New,185,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,205446,1110.5189189189189,61.666666666666664
 /apartamentos-venta-ozama/1253478/,1,2,3,Premium Real Estate,Ozama,In blueprint,123,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,136000,1105.6910569105692,41
 /apartamentos-venta-ozama/1274955/,1,2.5,3,Premium Real Estate,Ozama,Building,120,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,152700,1272.5,40
+/apartamentos-venta-ozama/1283908/,1,3,4,Mr. Home Asesores Inmobiliarios,Ozama,NA,117,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,168000,1435.8974358974358,29.25
 /apartamentos-venta-ozama/1283910/,1,2,2,Mr. Home Asesores Inmobiliarios,Ozama,Building,89,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,142185,1597.5842696629213,44.5
+/apartamentos-venta-ozama/1283896/,2,2.5,3,Mr. Home Asesores Inmobiliarios,Ozama,NA,177,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,164102.5641025641,927.133130522961,59
+/apartamentos-venta-ozama/1283901/,1,2.5,3,Mr. Home Asesores Inmobiliarios,Ozama,NA,120,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,158000,1316.6666666666667,40
+/apartamentos-venta-ozama/1283891/,2,2.5,3,Mr. Home Asesores Inmobiliarios,Ozama,NA,279,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,188034.18803418803,673.957663204975,93
+/apartamentos-venta-ozama/1283948/,2,3.5,5,Mr. Home Asesores Inmobiliarios,Ozama,NA,254,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,170085.4700854701,669.6278349821657,50.8
+/apartamentos-venta-ozama/1280620/,1,2,2,Mr. Home Asesores Inmobiliarios,Ozama,NA,80,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,94500,1181.25,40
+/apartamentos-venta-ozama/1280622/,1,2,3,Mr. Home Asesores Inmobiliarios,Ozama,NA,123,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,136000,1105.6910569105692,41
 /apartamentos-venta-ozama/1280409/,2,2.5,3,Premium Real Estate,Ozama,New,148,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,160000,1081.081081081081,49.333333333333336
 /apartamentos-venta-ozama/1283031/,1,2,2,Mr. Home Asesores Inmobiliarios,Ozama,Building,80,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,94500,1181.25,40
 /apartamentos-venta-ozama/1273895/,4,3,3,Premium Real Estate,Ozama,Building,120,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,150000,1250,40
@@ -2481,6 +2610,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-la-isabelita/1284251/,2,3.5,3,Doble Altura Real Estate SRL,La Isabelita,New,161,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,174300,1082.608695652174,53.666666666666664
 /apartamentos-venta-los-prados-de-san-luis/1272968/,3,2.5,3,Inmobiliaria Grupal,Los Prados de San Luis,Used,310,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,205128.20512820513,661.7038875103391,103.33333333333333
 /apartamentos-venta-vecinos-unidos/1275152/,2,2,2,Bonillamultiservice,Vecinos Unidos,In blueprint,115,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,74572,648.4521739130435,57.5
+/apartamentos-venta-vecinos-unidos/1280624/,1,2,2,Mr. Home Asesores Inmobiliarios,Vecinos Unidos,NA,88,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,82688,939.6363636363636,44
 /apartamentos-venta-autopista-san-isidro/1284226/,NA,2,3,Plusval Puente Azul,Autopista San Isidro,New,96,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,95726.49572649572,997.1509971509971,32
 /apartamentos-venta-autopista-san-isidro/1251069/,2,2,3,Bonillamultiservice,Autopista San Isidro,New,120,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,112203,935.025,40
 /apartamentos-venta-autopista-san-isidro/1272925/,NA,2,2,Bonillamultiservice,Autopista San Isidro,New,112,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,93846.15384615384,837.9120879120879,56
@@ -2499,6 +2629,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-autopista-san-isidro/1284881/,2,2,2,Inmobiliaria Grupal,Autopista San Isidro,New,90,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,61538.46153846154,683.7606837606837,45
 /apartamentos-venta-autopista-san-isidro/1281966/,1,2,3,Doble Altura Real Estate SRL,Autopista San Isidro,New,94,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,98000,1042.5531914893618,31.333333333333332
 /apartamentos-venta-autopista-san-isidro/1284121/,2,2.5,3,Doble Altura Real Estate SRL,Autopista San Isidro,New,88,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,131000,1488.6363636363637,29.333333333333332
+/apartamentos-venta-autopista-san-isidro/1280625/,1,2,3,Mr. Home Asesores Inmobiliarios,Autopista San Isidro,NA,99,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,76923.07692307692,777.000777000777,33
 /apartamentos-venta-autopista-san-isidro/1242314/,1,2,3,Bonillamultiservice,Autopista San Isidro,New,93,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,82051.28205128205,882.2718500137854,31
 /apartamentos-venta-autopista-san-isidro/1280331/,1,2.5,3,Seekers Inmobiliaria,Autopista San Isidro,Building,145,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,245000,1689.655172413793,48.333333333333336
 /apartamentos-venta-autopista-san-isidro/1284662/,2,2,3,Premium Real Estate,Autopista San Isidro,Building,96,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,105600,1100,32
@@ -2543,6 +2674,8 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-olimpo/1279233/,1,2.5,2,Mudate,Olimpo,New,119,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,143220,1203.5294117647059,59.5
 /apartamentos-venta-ciudad/1259510/,1,2.5,3,Mudate,Ciudad,New,96,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,101000,1052.0833333333333,32
 /apartamentos-venta-ciudad/1279307/,1,2,3,Mudate,Ciudad,New,106,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,108000,1018.8679245283018,35.333333333333336
+/apartamentos-venta-villa-aura/1273680/,1,2,3,Mr. Home Asesores Inmobiliarios,Villa Aura,NA,96,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,85000,885.4166666666666,32
+/apartamentos-venta-villa-aura/1273137/,1,2.5,2,Mr. Home Asesores Inmobiliarios,Villa Aura,NA,102,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,85000,833.3333333333334,51
 /apartamentos-venta-los-hidalgos/1282394/,1,2,3,Premier Real Estate,Los Hidalgos,New,83,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,71623.93162393162,862.9389352280919,27.666666666666668
 /apartamentos-venta-mirador-del-oeste/1283578/,1,2,2,United Group DR,Mirador del Oeste,Building,77,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,92000,1194.8051948051948,38.5
 /apartamentos-venta-prolongacion-27-de-febrero/1284695/,2,2.5,3,Seekers Inmobiliaria,Prolongacion 27 de Febrero,Building,144,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,140000,972.2222222222222,48
@@ -2560,6 +2693,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-autopista-las-americas/1281067/,2,2,3,Plusval Puente Azul,Autopista Las Americas,In blueprint,90,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,69000,766.6666666666666,30
 /apartamentos-venta-autopista-las-americas/1267267/,2,2,3,Plusval Puente Azul,Autopista Las Americas,In blueprint,90,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,59000,655.5555555555555,30
 /apartamentos-venta-autopista-las-americas/1281513/,2,2,3,Premium Real Estate,Autopista Las Americas,Building,100,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,69000,690,33.333333333333336
+/apartamentos-venta-autopista-las-americas/1281417/,1,2,3,Mr. Home Asesores Inmobiliarios,Autopista Las Americas,NA,90,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,70000,777.7777777777778,30
 /apartamentos-venta-autopista-las-americas/1265897/,2,2,3,Sena Real Estate,Autopista Las Americas,In blueprint,90,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,69000,766.6666666666666,30
 /apartamentos-venta-autopista-las-americas/1281554/,2,2,3,Premium Real Estate,Autopista Las Americas,Building,100,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,69000,690,33.333333333333336
 /apartamentos-venta-autopista-las-americas/1266613/,2,2,3,Centro Juridico Dra. Angela Rojas,Autopista Las Americas,New,100,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,69000,690,33.333333333333336
@@ -2630,9 +2764,16 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-charles-de-gaulle/1283761/,NA,3,3,Mr. Home Asesores Inmobiliarios,Charles de Gaulle,Building,89,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,86000,966.2921348314607,29.666666666666668
 /apartamentos-venta-brisa-oriental/1285946/,2,2,3,Mr. Home Asesores Inmobiliarios,Brisa Oriental,Building,104,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,101025.64102564105,971.4003944773177,34.666666666666664
 /apartamentos-venta-nuevo-amanecer/1285948/,2,2,3,Mr. Home Asesores Inmobiliarios,Nuevo Amanecer,New,96,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,85470.08547008547,890.3133903133903,32
+/apartamentos-venta-urb--narcisa-ii/1251453/,1,2,3,Mr. Home Asesores Inmobiliarios,Urb. Narcisa II,NA,108,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,90000,833.3333333333334,36
 /apartamentos-venta-prado-oriental/1283380/,1,3,3,Mr. Home Asesores Inmobiliarios,Prado Oriental,Building,115,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,123800,1076.5217391304348,38.333333333333336
+/apartamentos-venta-alma-rosa-i/1285799/,2,3.5,2,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,120,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,193000,1608.3333333333333,60
 /apartamentos-venta-oriental-zona/1281939/,2,2.5,2,Ríos Real Estate,Oriental Zona,Building,120,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,155000,1291.6666666666667,60
 /apartamentos-venta-los-corales-del-sur/1283546/,2,2.5,3,Doble Altura Real Estate SRL,Los Corales del Sur,Used,180,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,100854.70085470086,560.303893637227,60
+/apartamentos-venta-alma-rosa-i/1283915/,2,2.5,3,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,128,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,199000,1554.6875,42.666666666666664
+/apartamentos-venta-av--ecologica/1285914/,1,2,3,Mr. Home Asesores Inmobiliarios,Av. Ecológica,NA,90,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,71794.8717948718,797.7207977207977,30
+/apartamentos-venta-ozama/1283926/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Ozama,NA,244,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,340000,1393.4426229508197,81.33333333333333
+/apartamentos-venta-alma-rosa-i/1283938/,2,3.5,3,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,154,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,200200,1300,51.333333333333336
+/apartamentos-venta-los-tres-ojos/1283918/,2,3,4,Mr. Home Asesores Inmobiliarios,Los Tres Ojos,NA,267,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,200000,749.0636704119851,66.75
 /apartamentos-venta-alma-rosa-i/1280516/,2,3,3,Seekers Inmobiliaria,Alma Rosa I,Building,120,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,150000,1250,40
 /apartamentos-venta-santo-domingo-este/1278081/,7,3,3,Seekers Inmobiliaria,NA,New,120,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,150000,1250,40
 /apartamentos-venta-santo-domingo-este/1266505/,1,1,1,Seekers Inmobiliaria,NA,Building,95,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,92307.69230769233,971.6599190283403,95
@@ -2640,8 +2781,12 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-autopista-san-isidro/1269428/,2,2,3,Premium Real Estate,Autopista San Isidro,New,100,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,130000,1300,33.333333333333336
 /apartamentos-venta-autopista-las-americas/1282321/,1,2,3,Premium Real Estate,Autopista Las Americas,Building,90,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,72000,800,30
 /apartamentos-venta-charles-de-gaulle/1275366/,1,2,3,Premium Real Estate,Charles de Gaulle,Building,88,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,79500,903.4090909090909,29.333333333333332
+/apartamentos-venta-ozama/1283095/,2,2,3,Mr. Home Asesores Inmobiliarios,Ozama,NA,127,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,164102.5641025641,1292.1461740359377,42.333333333333336
+/apartamentos-venta-ozama/1283106/,1,2,1,Mr. Home Asesores Inmobiliarios,Ozama,NA,123,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,136000,1105.6910569105692,123
 /apartamentos-venta-autopista-san-isidro/1261253/,2,2.5,3,Premium Real Estate,Autopista San Isidro,Building,111,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,101700,916.2162162162163,37
+/apartamentos-venta-alma-rosa-i/1282184/,3,3.5,4,Mr. Home Asesores Inmobiliarios,Alma Rosa I,NA,325,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,440000,1353.8461538461538,81.25
 /apartamentos-venta-autopista-san-isidro/1281161/,2,2,3,Mr. Home Asesores Inmobiliarios,Autopista San Isidro,New,107,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,98000,915.8878504672897,35.666666666666664
+/apartamentos-venta-charles-de-gaulle/1273254/,1,1,2,Mr. Home Asesores Inmobiliarios,Charles de Gaulle,NA,76,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,107000,1407.8947368421052,38
 /apartamentos-venta-santo-domingo-este/1285784/,2,2,2,HouseLink,NA,Building,91,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,85685,941.5934065934066,45.5
 /apartamentos-venta-santo-domingo-este/1284870/,2,3.5,3,X-TRIBA Inmobiliaria,NA,Building,254,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,315000,1240.1574803149606,84.66666666666667
 /apartamentos-venta-avenida-espana/1280399/,2,2,3,Remax Blu,Avenida España,Used,159,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,194871.79487179487,1225.6087727785841,53
@@ -2738,6 +2883,7 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-andres-boca-chica/1278111/,1,1,1,Plusval Venta Directa,Andres Boca Chica,Used,48,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,95000,1979.1666666666667,48
 /apartamentos-venta-av--ecologica/1275929/,2,2,3,Inverfisa,Av. Ecológica,Used,108,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,105982.90598290598,981.3232035454258,36
 /apartamentos-venta-av--ecologica/1240290/,2,2.5,3,Keller Williams Gold,Av. Ecológica,Used,174,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,175000,1005.7471264367816,58
+/apartamentos-venta-las-palmas-de-alma-rosa/1283906/,2,2,3,Mr. Home Asesores Inmobiliarios,Las Palmas de Alma Rosa,NA,107,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,117700,1100,35.666666666666664
 /apartamentos-venta-zona-oriental/1272507/,1,3,3,Inmobiliaria Grupal,Zona Oriental,New,155,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,150000,967.741935483871,51.666666666666664
 /apartamentos-venta-marbella-iii/1193449/,1,2.5,3,Centro Juridico Dra. Angela Rojas,Marbella III,Used,106,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,85470.08547008547,806.3215610385422,35.333333333333336
 /apartamentos-venta-urb--narcisa-ii/1262839/,2,2.5,3,Plusval Puente Azul,Urb. Narcisa II,Building,111,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,96000,864.8648648648649,37
@@ -2747,4 +2893,6 @@ id,parking,bathrooms,bedrooms,seller,location,status,area,planta,lift,pool,pozo,
 /apartamentos-venta-bella-vista-norte/1279117/,5,5.5,5,Inmobiliaria Grupal,Bella Vista Norte,Rebuilt,550,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,595000,1081.8181818181818,110
 /apartamentos-venta-bella-vista-norte/1281784/,1,2.5,2,Habitame Inmobiliaria,Bella Vista Norte,Building,105,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,198000,1885.7142857142858,52.5
 /apartamentos-venta-maranon-ii/1284394/,1,2,3,Maravila Properties,Marañon II,Building,96,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,71794.8717948718,747.8632478632479,32
+/apartamentos-venta-maranon-ii/1272951/,1,2.5,3,Mr. Home Asesores Inmobiliarios,Marañon II,NA,96,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,71791,747.8229166666666,32
+/apartamentos-venta-maranon-ii/1272950/,1,1,2,Mr. Home Asesores Inmobiliarios,Marañon II,NA,80,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,49661.53846153846,620.7692307692307,40
 /apartamentos-venta-jacobo-majluta/1252337/,1,2,2,Ciudad Inmobiliaria,Jacobo majluta,Building,86,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,70000,813.953488372093,43

@@ -1,0 +1,4 @@
+"0","training %>%"
+"0","  filter(price_per_m2 < 2027) %>%"
+"0","  ggplot(aes(price_per_m2)) +"
+"0","  geom_histogram()"

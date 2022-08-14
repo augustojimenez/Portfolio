@@ -1,0 +1,2 @@
+"0","write_csv(training, ""../../2_Exploratory Data Analysis/1_data/training_set.csv"")"
+"0","write_csv(testing, ""../../2_Exploratory Data Analysis/1_data/testing_set.csv"")"
