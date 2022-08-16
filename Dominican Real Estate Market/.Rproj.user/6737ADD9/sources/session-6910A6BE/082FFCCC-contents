@@ -1,6 +1,8 @@
 ---
 title: "Modelling Bella Vista, Santo Domingo"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 date: "2022-08-09"
 ---
 
