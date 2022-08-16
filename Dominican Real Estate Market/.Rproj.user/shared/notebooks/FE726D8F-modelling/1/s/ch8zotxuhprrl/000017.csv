@@ -1,2 +1,0 @@
-"0","cutoff <- 4 / (nrow(training) - length(model$coefficients) - 2)"
-"0","plot(model, which = 4, cook.levels = cutoff)"

@@ -1,0 +1,4 @@
+"0",""
+"0","ggplot(training, aes( y = logPrice, x = area)) +"
+"0","  geom_point() +"
+"0","  geom_smooth()"

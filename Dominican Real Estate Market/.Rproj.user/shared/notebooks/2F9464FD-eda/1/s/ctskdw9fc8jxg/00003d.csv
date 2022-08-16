@@ -1,0 +1,2 @@
+"0","myvars <- append(myvars, c(""logPrice"", ""logArea""))"
+"0","ggpairs(training[myvars])"

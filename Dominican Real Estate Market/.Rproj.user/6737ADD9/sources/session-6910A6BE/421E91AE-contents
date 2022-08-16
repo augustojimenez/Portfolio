@@ -1,0 +1,235 @@
+---
+title: 'EDA: Dominican Real Estate Market'
+output:
+  html_document: 
+    toc: yes
+    keep_md: yes
+---
+
+## Introduction
+
+For this analysis, we will examine the effect that area (measured in squared meters) has on the value of apartment, for residential use, in Santo Domingo, Domincan Republic. Prices and apartment's characteristics are collect via web scraping. Specifically, data were retrieved on 2nd of August, 2022, from supercasas.com, a beacon on the online dominican real estate market.
+
+## Loading the training dataset
+
+Let's start by loading the libraries and the dataset to be used here. I already cleaned the data by detecting and removing outliers, and performed some initial feature engineering on it. Now, I have to a bit deeper analyzing each feature and how they relate to each other.
+
+```{r}
+rm(list = ls())
+
+library(tidyverse)
+library(pastecs)
+library(GGally)
+
+training <- read_csv("../../1_Data Cleaning/1_data/training_set.csv")
+testing <- read_csv("../../1_Data Cleaning/1_data/testing_set.csv")
+```
+
+## Reviewing the dataset
+
+Let's start by review the dataset. It contains 20 features for 2,897 observations. Of these 20 features, only `area`, `price`, `parking`, `bedrooms`, `bathrooms`, `price_per_m2` and `area_per_br` are numerical. All others are categorical, such as `status` and `lift`.
+
+```{r}
+glimpse(training)
+```
+
+## Univariate analysis
+
+So, let's calculate some descriptive statistics on these. For this, I used `pastec` library. it includes a nice function that calculates the number of observations, number of null values, mean, and some other statistics that can give me an idea on these features.
+
+```{r}
+myvars <- c("price", "area", "parking", "bedrooms", "bathrooms", "price_per_m2",
+            "area_per_br")
+
+pastecs::stat.desc(training[myvars], norm = TRUE)
+```
+
+The mean and median for `price`, `price_per_m2`, `area_per_br` and `area` look substantially different, and not so much for the other variables. This suggests that they might not follow a normal distribution as shown in the cleaning process. Let's plot the histogram for all numerical variables.
+
+```{r}
+g <- ggplot(training)
+g + geom_histogram(aes(price))
+g + geom_histogram(aes(area))
+g + geom_histogram(aes(parking))
+g + geom_histogram(aes(bedrooms))
+g + geom_histogram(aes(bathrooms))
+g + geom_histogram(aes(price_per_m2))
+g + geom_histogram(aes(area_per_br))
+```
+
+So, `price` and `area` are right-skewed, and so are the calculated features `price_per_m2` and `area_per_br`.
+
+From the previous plots, it is evident that `parking`, `bedrooms`, and `bathrooms` are categorical, despite initial impressions.
+
+## Bivariate analysis
+
+Let's start by looking at feature-pairwise plots:
+
+```{r}
+ggpairs(training[myvars])
+```
+
+Some observations from the previous plot:
+
+-   `price` and `area` are highly correlated, as expected.
+
+-   `price` is also highly correlated with `parking` and `area_per_ber`.
+
+-   `price_per_m2` is not highly correlated with other variables, except for `bedrooms`. The relationship is negative. This suggests that `price_per_m2` is sort of fixed for this location and correlates with the number of bedrooms (not considering categorical variables yet). This makes sense. Would you pay the same for an apartment with 90 squared meters with two bedrooms as with another with three bedrooms in the same area? Probably not, because it would mean less room (lol) for other spaces (such as kitchen, living room, etc.)
+
+Now, let's zoom in at the plot of area against price:
+
+```{r}
+ggplot(training, aes(area, price)) +
+  geom_point()
+```
+
+The relationship is positive, as expected. But, it seems as if the variance changes as area increases. That is, my certainty about the asking price for any apartment decreases as the area increases. This is preliminary as I am not yet controlling for other variables.
+
+Viewing how prices changes as the amount of parking spots increases
+
+```{r}
+summary(as.factor(training$parking))
+
+ggplot(training, aes(x = factor(parking), y = price, colour = factor(parking))) +
+  geom_boxplot()
+```
+
+Now, I use Kabacoff's function (sourced from his personal site) to compare differences in price by the number of parking spots. This function uses the Wilcoxon signed rank test while controlling for Type I errors (using the method developed by Holm). Find out more on this at his website or in his book: R in Action, section 7.5.
+
+```{r}
+source("http://www.statmethods.net/RiA/wmc.txt")
+wmc(price ~ parking, data = training, method = "holm")
+```
+
+This confirms what can be seem on the plot: price stop increasing from 4 parking spots onwards. And so, I grouped them as one:
+
+```{r}
+training <- training %>%
+  mutate(prk = ifelse(as.numeric(parking) >= 4, "4 or more", parking),
+         prk = factor(prk, ordered = is.ordered(prk)))
+
+testing <- testing %>%
+  mutate(prk = ifelse(as.numeric(parking) >= 4, "4 or more", parking),
+         prk = factor(prk, ordered = is.ordered(prk)))
+
+summary(training$prk)
+
+ggplot(training, aes(x = prk, y = price, colour = prk)) +
+  geom_boxplot()
+```
+
+I'll repeat the same process with `status`. This feature tells me whether an apartment is in construction, newly constructed or used.
+
+```{r}
+training$status <- as.factor(training$status)
+
+testing$status <- as.factor(testing$status)
+
+summary(training$status)
+
+ggplot(training, aes(x = status, y = price, colour = status)) + geom_boxplot()
+```
+
+```{r}
+wmc(price ~ status, data = training, method = "holm")
+```
+
+`rebuilding` and `rebuit` don't have enough data to state significant differences among categories. All other categories show significant differences with each other.
+
+When testing whether there is significant differences in `price` among apartments with a `gym` versus those that don't, I can conclude that it exists. In this case, I use the Wilcoxon test as the distribution of `price` is right skewed.
+
+```{r}
+prop.table(table(training$gimnasio))
+
+ggplot(training, aes(y = price, x= gimnasio, colour = as.factor(gimnasio))) +
+  geom_boxplot()
+
+wilcox.test(price ~ gimnasio, data = training)
+```
+
+Apartments with more than three bedrooms are relatively rare. Furthermore, there is not obvious difference in price between apartments with 4 rooms or more.
+
+```{r}
+ggplot(training, aes(x = factor(bedrooms), y = price, colour = factor(bedrooms))) +
+  geom_boxplot()
+
+prop.table(table(training$bedrooms))
+
+wmc(price ~ bedrooms, data = training, method = "holm")
+```
+
+Grouping apartments with four or more bedrooms into one category:
+
+```{r}
+training <- training %>%
+  mutate(bdrm = ifelse(bedrooms >= 4, "4 or more", bedrooms),
+         bdrm = factor(bdrm, ordered = is.ordered(bdrm)))
+
+testing <- testing %>%
+  mutate(bdrm = ifelse(bedrooms >= 4, "4 or more", bedrooms),
+         bdrm = factor(bdrm, ordered = is.ordered(bdrm)))
+
+summary(training$bdrm)
+
+ggplot(training, aes(x = bdrm, y = price, colour = bdrm)) + geom_boxplot()
+```
+
+Now on `planta`, that is whether the condo where the apartment is located has its own power plant:
+
+```{r}
+prop.table(table(training$planta))
+
+ggplot(training, aes(y = price, x = planta, colour = planta)) + geom_boxplot()
+
+wilcox.test(price ~ planta, data = training)
+```
+
+On lift:
+
+```{r}
+prop.table(table(training$lift))
+
+ggplot(training, aes(y = price, x = lift, colour = lift)) + geom_boxplot()
+
+wilcox.test(price ~ lift, data = training)
+```
+
+About `location`, I am pretty sure that it provides valuable information to make inference and predictions on apartments' price. Nevertheless, there are 144 different locations. It would be cumbersome to create that many dummy variables. For the time being, we will focus on the locations specified by the constructing company.
+
+```{r}
+length(unique(training$location))
+```
+
+## Transforming price
+
+`price` does not follow a normal distribution. And so, it is necessary to transform it. The most common transformation is the logarithmic one, which i used here:
+
+```{r}
+training <- training %>%
+  mutate(logPrice = log(price))
+
+testing <- testing %>%
+  mutate(logPrice = log(price))
+
+ggplot(training, aes(logPrice)) + geom_histogram()
+```
+
+## Conclusions
+
+-   `price`, as it doesn't follow a normal distribution, was log-transformed. By doing this, it might satisfy all the assumptions of the linear regression model.
+
+-   As expected, `area` and `price` are highly correlated.
+
+-   At first glance, the assumption of homoscedasticity does not seem to hold. This will be tested on the modelling stage.
+
+-   Without controlling for other variables, the presence of lifts, gyms and other amenities are positively correlated with price. This might change when controlling for other variables, especially status, as I would expect for newer apartments to have more amenities.
+
+-   There doesn't seem to be an association between `price_per_m2` and other numerical variables, except for the number of bedrooms. It is negatively correlated with the latter.
+
+-   There are too many unique locations, as to model each one individually (through dummy variables). I'll focus on the locations of interest. In the future, it will be interesting to group locations by some common characteristic (such as income level or socioeconomic status) using external data or by modelling using K-means algorithm.
+
+```{r}
+write_csv(training, "../../2_Exploratory Data Analysis/1_data/training_set.csv")
+write_csv(testing, "../../2_Exploratory Data Analysis/1_data/testing_set.csv")
+```

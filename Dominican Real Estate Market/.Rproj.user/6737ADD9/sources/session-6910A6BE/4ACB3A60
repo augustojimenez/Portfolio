@@ -1,0 +1,31 @@
+{
+    "id": "4ACB3A60",
+    "path": "~/GitHub/Portfolio/Dominican Real Estate Market/2_Exploratory Data Analysis/0_source/eda.Rmd",
+    "project_path": "2_Exploratory Data Analysis/0_source/eda.Rmd",
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1660669760589.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "cursorPosition": "163,55",
+        "scrollLine": "0",
+        "rmdVisualModeLocation": "124:0",
+        "rmdVisualCollapsedChunks": ""
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1660680446,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1660680446362,
+    "read_only": false,
+    "read_only_alternatives": []
+}

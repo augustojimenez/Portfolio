@@ -1,0 +1,7 @@
+"0","training <- training %>%"
+"0","  mutate(price_per_m2 = price / area,"
+"0","         area_per_br = area / bedrooms)"
+"0",""
+"0","testing <- testing %>%"
+"0","  mutate(price_per_m2 = price / area,"
+"0","         area_per_br = area / bedrooms)"

@@ -1,2 +1,0 @@
-"0","ggplot(training, aes(x = factor(bedrooms), y = price, colour = factor(bedrooms))) +"
-"0","  geom_boxplot()"

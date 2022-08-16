@@ -1,0 +1,1 @@
+"0","ggplot(training, aes(y = logPrice, x = logArea_per_room)) + geom_point()"

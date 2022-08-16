@@ -70,7 +70,8 @@ library(GGally)
 ```
 
 ```r
-training <- read_csv("../../1_Data Cleaning/1_data/training_set.csv")
+training <- read_csv("../../1_Data Cleaning/1_data/training_set.csv") %>%
+  na.omit()
 ```
 
 ```
@@ -89,7 +90,8 @@ training <- read_csv("../../1_Data Cleaning/1_data/training_set.csv")
 ```
 
 ```r
-testing <- read_csv("../../1_Data Cleaning/1_data/testing_set.csv")
+testing <- read_csv("../../1_Data Cleaning/1_data/testing_set.csv") %>%
+  na.omit()
 ```
 
 ```
@@ -114,28 +116,28 @@ glimpse(training)
 ```
 
 ```
-## Rows: 2,897
+## Rows: 2,594
 ## Columns: 20
 ## $ id           <chr> "/apartamentos-venta-piantini/1286053/", "/apartamentos-v…
-## $ parking      <dbl> 1, 4, 2, 2, NA, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 3, 2, 1,…
-## $ bathrooms    <dbl> 2.0, 4.5, 2.0, 2.0, 3.5, 3.5, 2.0, 3.5, 2.0, 2.5, 2.0, 3.…
-## $ bedrooms     <dbl> 1, 4, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 2, 3, 2, 1, …
+## $ parking      <dbl> 1, 4, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 3, 2, 1, 1, …
+## $ bathrooms    <dbl> 2.0, 4.5, 2.0, 2.0, 3.5, 2.0, 3.5, 2.0, 2.5, 2.0, 3.5, 3.…
+## $ bedrooms     <dbl> 1, 4, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 2, 3, 2, 1, 1, …
 ## $ seller       <chr> "KW Capital", "Innova By Bello Jaquez", "Premium Real Est…
 ## $ location     <chr> "Piantini", "Piantini", "Piantini", "Piantini", "Piantini…
-## $ status       <chr> "New", "Used", "Used", "Used", "Used", "Used", "Rebuildin…
-## $ area         <dbl> 76, 336, 180, 180, 280, 230, 176, 190, 155, 123, 153, 290…
-## $ planta       <lgl> TRUE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, TRUE,…
-## $ lift         <lgl> TRUE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE…
-## $ pool         <lgl> TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FAL…
+## $ status       <chr> "New", "Used", "Used", "Used", "Used", "Rebuilding", "New…
+## $ area         <dbl> 76, 336, 180, 180, 230, 176, 190, 155, 123, 153, 290, 148…
+## $ planta       <lgl> TRUE, TRUE, FALSE, FALSE, TRUE, FALSE, TRUE, TRUE, TRUE, …
+## $ lift         <lgl> TRUE, TRUE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, TRUE,…
+## $ pool         <lgl> TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRU…
 ## $ pozo         <lgl> TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FA…
-## $ terraza      <lgl> TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FAL…
-## $ lobby        <lgl> TRUE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, TRUE,…
-## $ balcon       <lgl> TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, TRU…
-## $ jacuzzi      <lgl> TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FA…
-## $ gimnasio     <lgl> TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FAL…
-## $ price        <dbl> 227000.0, 340000.0, 200000.0, 200000.0, 300000.0, 270000.…
-## $ price_per_m2 <dbl> 2986.8421, 1011.9048, 1111.1111, 1111.1111, 1071.4286, 11…
-## $ area_per_br  <dbl> 76.00000, 84.00000, 60.00000, 60.00000, 93.33333, 76.6666…
+## $ terraza      <lgl> TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, FAL…
+## $ lobby        <lgl> TRUE, TRUE, FALSE, FALSE, TRUE, FALSE, TRUE, TRUE, TRUE, …
+## $ balcon       <lgl> TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE…
+## $ jacuzzi      <lgl> TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TR…
+## $ gimnasio     <lgl> TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRU…
+## $ price        <dbl> 227000.0, 340000.0, 200000.0, 200000.0, 270000.0, 147008.…
+## $ price_per_m2 <dbl> 2986.8421, 1011.9048, 1111.1111, 1111.1111, 1173.9130, 83…
+## $ area_per_br  <dbl> 76.00000, 84.00000, 60.00000, 60.00000, 76.66667, 58.6666…
 ```
 
 ## Univariate analysis
@@ -152,47 +154,47 @@ pastecs::stat.desc(training[myvars], norm = TRUE)
 
 ```
 ##                     price         area      parking      bedrooms     bathrooms
-## nbr.val      2.897000e+03 2.897000e+03 2.781000e+03  2.897000e+03  2.847000e+03
+## nbr.val      2.594000e+03 2.594000e+03 2.594000e+03  2.594000e+03  2.594000e+03
 ## nbr.null     0.000000e+00 0.000000e+00 0.000000e+00  0.000000e+00  0.000000e+00
-## nbr.na       0.000000e+00 0.000000e+00 1.160000e+02  0.000000e+00  5.000000e+01
-## min          2.000000e+04 3.000000e+01 1.000000e+00  1.000000e+00  1.000000e+00
-## max          1.700000e+06 7.200000e+02 7.000000e+00  6.000000e+00  6.500000e+00
-## range        1.680000e+06 6.900000e+02 6.000000e+00  5.000000e+00  5.500000e+00
-## sum          7.805449e+08 5.003390e+05 5.544000e+03  7.277000e+03  7.719000e+03
-## median       2.250000e+05 1.500000e+02 2.000000e+00  3.000000e+00  2.500000e+00
-## mean         2.694321e+05 1.727094e+02 1.993528e+00  2.511909e+00  2.711275e+00
-## SE.mean      3.418187e+03 1.800643e+00 1.488039e-02  1.511145e-02  1.625032e-02
-## CI.mean.0.95 6.702324e+03 3.530670e+00 2.917772e-02  2.963027e-02  3.186360e-02
-## var          3.384855e+10 9.392982e+03 6.157854e-01  6.615467e-01  7.518159e-01
-## std.dev      1.839797e+05 9.691740e+01 7.847200e-01  8.133552e-01  8.670732e-01
-## coef.var     6.828426e-01 5.611590e-01 3.936339e-01  3.237996e-01  3.198027e-01
-## skewness     2.480541e+00 1.261935e+00 9.846773e-01 -5.464644e-01  3.857991e-02
-## skew.2SE     2.726715e+01 1.387172e+01 1.060530e+01 -6.006966e+00  4.204147e-01
-## kurtosis     9.595150e+00 1.739709e+00 2.274214e+00 -1.731701e-01 -3.572590e-01
-## kurt.2SE     5.275512e+01 9.565099e+00 1.225141e+01 -9.521072e-01 -1.947251e+00
-## normtest.W   7.901780e-01 9.021799e-01 8.044554e-01  7.897759e-01  9.145809e-01
-## normtest.p   1.006719e-51 1.286388e-39 8.772174e-50  9.341870e-52  2.257143e-37
+## nbr.na       0.000000e+00 0.000000e+00 0.000000e+00  0.000000e+00  0.000000e+00
+## min          2.957265e+04 3.500000e+01 1.000000e+00  1.000000e+00  1.000000e+00
+## max          1.700000e+06 7.200000e+02 6.000000e+00  5.000000e+00  6.000000e+00
+## range        1.670427e+06 6.850000e+02 5.000000e+00  4.000000e+00  5.000000e+00
+## sum          7.040213e+08 4.487170e+05 5.179000e+03  6.521000e+03  7.047500e+03
+## median       2.279985e+05 1.500000e+02 2.000000e+00  3.000000e+00  2.500000e+00
+## mean         2.714037e+05 1.729827e+02 1.996530e+00  2.513878e+00  2.716847e+00
+## SE.mean      3.616826e+03 1.894084e+00 1.515562e-02  1.575695e-02  1.693380e-02
+## CI.mean.0.95 7.092158e+03 3.714069e+00 2.971833e-02  3.089747e-02  3.320514e-02
+## var          3.393322e+10 9.306112e+03 5.958229e-01  6.440418e-01  7.438387e-01
+## std.dev      1.842097e+05 9.646819e+01 7.718957e-01  8.025221e-01  8.624609e-01
+## coef.var     6.787296e-01 5.576755e-01 3.866185e-01  3.192367e-01  3.174492e-01
+## skewness     2.514024e+00 1.281258e+00 9.061759e-01 -6.202122e-01  2.669914e-02
+## skew.2SE     2.615169e+01 1.332806e+01 9.426334e+00 -6.451647e+00  2.777331e-01
+## kurtosis     9.903645e+00 1.879650e+00 1.808312e+00 -2.551558e-01 -4.264139e-01
+## kurt.2SE     5.153025e+01 9.780120e+00 9.408938e+00 -1.327616e+00 -2.218700e+00
+## normtest.W   7.876065e-01 9.019626e-01 8.050215e-01  7.817354e-01  9.126321e-01
+## normtest.p   7.064632e-50 6.546488e-38 1.807815e-48  2.488421e-50  2.843246e-36
 ##               price_per_m2  area_per_br
-## nbr.val       2.897000e+03 2.897000e+03
+## nbr.val       2.594000e+03 2.594000e+03
 ## nbr.null      0.000000e+00 0.000000e+00
 ## nbr.na        0.000000e+00 0.000000e+00
-## min           3.148898e+02 2.666667e+01
+## min           3.532764e+02 2.666667e+01
 ## max           3.588517e+03 1.490000e+02
-## range         3.273627e+03 1.223333e+02
-## sum           4.667959e+06 1.963081e+05
-## median        1.565217e+03 6.400000e+01
-## mean          1.611308e+03 6.776256e+01
-## SE.mean       1.052454e+01 4.496987e-01
-## CI.mean.0.95  2.063634e+01 8.817618e-01
-## var           3.208888e+05 5.858572e+02
-## std.dev       5.664705e+02 2.420449e+01
-## coef.var      3.515594e-01 3.571955e-01
-## skewness      4.760365e-01 8.780841e-01
-## skew.2SE      5.232794e+00 9.652270e+00
-## kurtosis     -1.457537e-01 6.271674e-01
-## kurt.2SE     -8.013686e-01 3.448231e+00
-## normtest.W    9.791666e-01 9.475641e-01
-## normtest.p    3.346246e-20 5.767478e-31
+## range         3.235240e+03 1.223333e+02
+## sum           4.202280e+06 1.758297e+05
+## median        1.582904e+03 6.400000e+01
+## mean          1.620000e+03 6.778323e+01
+## SE.mean       1.105049e+01 4.712967e-01
+## CI.mean.0.95  2.166867e+01 9.241559e-01
+## var           3.167619e+05 5.761808e+02
+## std.dev       5.628160e+02 2.400377e+01
+## coef.var      3.474173e-01 3.541254e-01
+## skewness      4.562025e-01 8.934021e-01
+## skew.2SE      4.745565e+00 9.293457e+00
+## kurtosis     -1.512745e-01 6.789671e-01
+## kurt.2SE     -7.871053e-01 3.532775e+00
+## normtest.W    9.804542e-01 9.464208e-01
+## normtest.p    2.031627e-18 9.640536e-30
 ```
 
 The mean and median for `price`, `price_per_m2`, `area_per_br` and `area` look substantially different, and not so much for the other variables. This suggests that they might not follow a normal distribution as shown in the cleaning process. Let's plot the histogram for all numerical variables.
@@ -227,10 +229,6 @@ g + geom_histogram(aes(parking))
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
 
-```
-## Warning: Removed 116 rows containing non-finite values (stat_bin).
-```
-
 ![](eda_files/figure-html/unnamed-chunk-4-3.png)<!-- -->
 
 ```r
@@ -249,10 +247,6 @@ g + geom_histogram(aes(bathrooms))
 
 ```
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
-```
-
-```
-## Warning: Removed 50 rows containing non-finite values (stat_bin).
 ```
 
 ![](eda_files/figure-html/unnamed-chunk-4-5.png)<!-- -->
@@ -277,7 +271,38 @@ g + geom_histogram(aes(area_per_br))
 
 ![](eda_files/figure-html/unnamed-chunk-4-7.png)<!-- -->
 
-So, `price` and `area` are right-skewed, and so are the calculated features `price_per_m2` and `area_per_br`.
+### Transforming `price` and `area`
+
+So, `price` and `area` are right-skewed, and so are the calculated features `price_per_m2` and `area_per_br`. Hence, as `price` and `area` do not follow a normal distribution, it is necessary to transform them. The most common transformation is the logarithmic one, which i used here:
+
+
+```r
+training <- training %>%
+  mutate(logPrice = log(price),
+         logArea = log(area))
+
+testing <- testing %>%
+  mutate(logPrice = log(price),
+         logArea = log(area))
+
+ggplot(training, aes(logPrice)) + geom_histogram()
+```
+
+```
+## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+```
+
+![](eda_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+
+```r
+ggplot(training, aes(logArea)) + geom_histogram()
+```
+
+```
+## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+```
+
+![](eda_files/figure-html/unnamed-chunk-5-2.png)<!-- -->
 
 From the previous plots, it is evident that `parking`, `bedrooms`, and `bathrooms` are categorical, despite initial impressions.
 
@@ -287,107 +312,11 @@ Let's start by looking at feature-pairwise plots:
 
 
 ```r
+myvars <- append(myvars, c("logPrice", "logArea"))
 ggpairs(training[myvars])
 ```
 
-```
-## Warning in ggally_statistic(data = data, mapping = mapping, na.rm = na.rm, :
-## Removed 116 rows containing missing values
-```
-
-```
-## Warning in ggally_statistic(data = data, mapping = mapping, na.rm = na.rm, :
-## Removed 50 rows containing missing values
-```
-
-```
-## Warning in ggally_statistic(data = data, mapping = mapping, na.rm = na.rm, :
-## Removed 116 rows containing missing values
-```
-
-```
-## Warning in ggally_statistic(data = data, mapping = mapping, na.rm = na.rm, :
-## Removed 50 rows containing missing values
-```
-
-```
-## Warning: Removed 116 rows containing missing values (geom_point).
-## Removed 116 rows containing missing values (geom_point).
-```
-
-```
-## Warning: Removed 116 rows containing non-finite values (stat_density).
-```
-
-```
-## Warning in ggally_statistic(data = data, mapping = mapping, na.rm = na.rm, :
-## Removed 116 rows containing missing values
-```
-
-```
-## Warning in ggally_statistic(data = data, mapping = mapping, na.rm = na.rm, :
-## Removed 153 rows containing missing values
-```
-
-```
-## Warning in ggally_statistic(data = data, mapping = mapping, na.rm = na.rm, :
-## Removed 116 rows containing missing values
-
-## Warning in ggally_statistic(data = data, mapping = mapping, na.rm = na.rm, :
-## Removed 116 rows containing missing values
-```
-
-```
-## Warning: Removed 116 rows containing missing values (geom_point).
-```
-
-```
-## Warning in ggally_statistic(data = data, mapping = mapping, na.rm = na.rm, :
-## Removed 50 rows containing missing values
-```
-
-```
-## Warning: Removed 50 rows containing missing values (geom_point).
-## Removed 50 rows containing missing values (geom_point).
-```
-
-```
-## Warning: Removed 153 rows containing missing values (geom_point).
-```
-
-```
-## Warning: Removed 50 rows containing missing values (geom_point).
-```
-
-```
-## Warning: Removed 50 rows containing non-finite values (stat_density).
-```
-
-```
-## Warning in ggally_statistic(data = data, mapping = mapping, na.rm = na.rm, :
-## Removed 50 rows containing missing values
-
-## Warning in ggally_statistic(data = data, mapping = mapping, na.rm = na.rm, :
-## Removed 50 rows containing missing values
-```
-
-```
-## Warning: Removed 116 rows containing missing values (geom_point).
-```
-
-```
-## Warning: Removed 50 rows containing missing values (geom_point).
-```
-
-```
-## Warning: Removed 116 rows containing missing values (geom_point).
-```
-
-```
-## Warning: Removed 50 rows containing missing values (geom_point).
-```
-
-![](eda_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![](eda_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
 
 Some observations from the previous plot:
 
@@ -401,11 +330,28 @@ Now, let's zoom in at the plot of area against price:
 
 
 ```r
-ggplot(training, aes(area, price)) +
-  geom_point()
+ggplot(training, aes( y = logPrice, x = logArea)) +
+  geom_point() +
+  geom_smooth()
 ```
 
-![](eda_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+```
+## `geom_smooth()` using method = 'gam' and formula 'y ~ s(x, bs = "cs")'
+```
+
+![](eda_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+
+```r
+ggplot(training, aes( y = logPrice, x = area)) +
+  geom_point() +
+  geom_smooth()
+```
+
+```
+## `geom_smooth()` using method = 'gam' and formula 'y ~ s(x, bs = "cs")'
+```
+
+![](eda_files/figure-html/unnamed-chunk-7-2.png)<!-- -->
 
 The relationship is positive, as expected. But, it seems as if the variance changes as area increases. That is, my certainty about the asking price for any apartment decreases as the area increases. This is preliminary as I am not yet controlling for other variables.
 
@@ -417,23 +363,23 @@ summary(as.factor(training$parking))
 ```
 
 ```
-##    1    2    3    4    5    6    7 NA's 
-##  687 1572  398  108   10    5    1  116
+##    1    2    3    4    5    6 
+##  624 1486  371   99   10    4
 ```
 
 ```r
-ggplot(training, aes(x = factor(parking), y = price, colour = factor(parking))) +
+ggplot(training, aes(x = factor(parking), y = logPrice, colour = factor(parking))) +
   geom_boxplot()
 ```
 
-![](eda_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+![](eda_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
 
 Now, I use Kabacoff's function (sourced from his personal site) to compare differences in price by the number of parking spots. This function uses the Wilcoxon signed rank test while controlling for Type I errors (using the method developed by Holm). Find out more on this at his website or in his book: R in Action, section 7.5.
 
 
 ```r
 source("http://www.statmethods.net/RiA/wmc.txt")
-wmc(price ~ parking, data = training, method = "holm")
+wmc(logPrice ~ parking, data = training, method = "holm")
 ```
 
 ```
@@ -443,66 +389,205 @@ wmc(price ~ parking, data = training, method = "holm")
 ```
 ## Descriptive Statistics
 ## 
-##                1      7         2        3        4      5       6
-## n         687.00      1   1572.00    398.0    108.0     10       5
-## median 132775.00 150000 235000.00 436500.0 642500.0 755000 1250000
-## mad     48592.21      0  75316.08 159379.5 337291.5 133434       0
+##                  1            2           3          4          5        6
+## n      624.0000000 1486.0000000 371.0000000 99.0000000 10.0000000  4.00000
+## median  11.8093763   12.3673408  12.9831013 13.4444469 13.5341220 14.03865
+## mad      0.3471914    0.3371282   0.3477768  0.4336971  0.1880444  0.00000
 ## 
 ## Multiple Comparisons (Wilcoxon Rank Sum Tests)
 ## Probability Adjustment = holm
 ## 
 ##    Group.1 Group.2        W             p    
-## 1        1       7    242.5  8.502658e-01    
-## 2        1       2 136894.5 1.991842e-174 ***
-## 3        1       3   1585.0 3.401939e-161 ***
-## 4        1       4    459.5  5.142856e-60 ***
-## 5        1       5      0.0  8.303206e-07 ***
-## 6        1       6     12.5  1.556220e-03  **
-## 7        7       2    202.5  7.966351e-01    
-## 8        7       3      0.0  5.976591e-01    
-## 9        7       4      0.5  5.976591e-01    
-## 10       7       5      0.0  7.736446e-01    
-## 11       7       6      0.0  7.966351e-01    
-## 12       2       3  78114.0 2.499969e-117 ***
-## 13       2       4  10364.0  1.716102e-51 ***
-## 14       2       5     61.5  8.564541e-07 ***
-## 15       2       6    619.5  1.243339e-02   *
-## 16       3       4  11587.0  3.166786e-12 ***
-## 17       3       5    423.5  2.751350e-04 ***
-## 18       3       6    355.5  1.355082e-01    
-## 19       4       5    457.0  8.502658e-01    
-## 20       4       6    121.5  3.482542e-01    
-## 21       5       6     10.0  5.976591e-01    
+## 1        1       2 121734.5 1.082716e-156 ***
+## 2        1       3   1268.5 3.253104e-149 ***
+## 3        1       4    435.5  5.665199e-55 ***
+## 4        1       5      0.0  5.106001e-07 ***
+## 5        1       6      0.0  3.267003e-03  **
+## 6        2       3  67820.0 5.949405e-111 ***
+## 7        2       4   9187.0  3.158452e-47 ***
+## 8        2       5     58.5  5.106001e-07 ***
+## 9        2       6      0.0  3.267003e-03  **
+## 10       3       4   9668.5  4.398785e-12 ***
+## 11       3       5    405.0  1.723871e-04 ***
+## 12       3       6      1.5  3.267003e-03  **
+## 13       4       5    441.0  5.741904e-01    
+## 14       4       6     18.5  6.699616e-03  **
+## 15       5       6      0.0  1.121405e-02   *
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 ```
 
-This confirms what can be seem on the plot: price stop increasing from 4 parking spots onwards. And so, I grouped them as one:
+This confirms what can be seem on the plot: price stop increasing from 4 parking spots onwards. But the sample size for this subset (5 and 6 parking spots per apartment) is too small to draw confident conclusions.
+
+Repeating the same procedure with `bedrooms`, I got that price increases with increases in the number of bedrooms. But this relationship stops on 5-bedrooms apartments. Then again, sample size is too small to draw conclusions:
+
+
+```r
+summary(as.factor(training$bedrooms))
+```
+
+```
+##    1    2    3    4    5 
+##  392  588 1511   95    8
+```
+
+```r
+ggplot(training, aes(factor(bedrooms), logPrice, colour = factor(bedrooms))) +
+  geom_boxplot()
+```
+
+![](eda_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+
+```r
+wmc(logPrice ~ bedrooms, data = training, method = "holm")
+```
+
+```
+## Warning in xtfrm.data.frame(x): cannot xtfrm data frames
+```
+
+```
+## Descriptive Statistics
+## 
+##                  1           2            3          5          4
+## n      392.0000000 588.0000000 1511.0000000  8.0000000 95.0000000
+## median  11.9159205  12.2307653   12.4874851 12.9232427 13.3046849
+## mad      0.2396005   0.3117459    0.5147531  0.3521608  0.6011426
+## 
+## Multiple Comparisons (Wilcoxon Rank Sum Tests)
+## Probability Adjustment = holm
+## 
+##    Group.1 Group.2        W            p    
+## 1        1       2  55479.5 2.739855e-42 ***
+## 2        1       3 104682.0 7.800043e-86 ***
+## 3        1       5     94.0 2.125648e-05 ***
+## 4        1       4    200.5 1.074840e-49 ***
+## 5        2       3 280426.0 1.208721e-38 ***
+## 6        2       5    740.0 2.592811e-03  **
+## 7        2       4   2715.0 1.952901e-44 ***
+## 8        3       5   3671.5 1.104791e-01    
+## 9        3       4  23584.0 2.109641e-27 ***
+## 10       5       4    234.0 1.104791e-01    
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+```
+
+Now with `bathroom` it still a positive relationship with `logPrice` but not as simple as previously. Again, sample size is rather small as to draw meaningful conclusions for 4-bathrooms onwards apartments. As for apartments with one to two bathrooms, there's no obvious difference. Otherwise, the relationship is clear.
+
+
+```r
+summary(as.factor(training$bathrooms))
+```
+
+```
+##   1 1.5   2 2.5   3 3.5   4 4.5   5 5.5   6 
+##  99 308 352 720  73 930  15  85   4   4   4
+```
+
+```r
+ggplot(training, aes(factor(bathrooms), logPrice, colour = factor(bathrooms))) +
+  geom_boxplot()
+```
+
+![](eda_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+
+```r
+wmc(logPrice ~ bathrooms, data = training, method = "holm")
+```
+
+```
+## Warning in xtfrm.data.frame(x): cannot xtfrm data frames
+```
+
+```
+## Descriptive Statistics
+## 
+##                  2          1         1.5         2.5          3         3.5
+## n      352.0000000 99.0000000 308.0000000 720.0000000 73.0000000 930.0000000
+## median  11.6308092 11.7675677  11.9175899  12.2596987 12.4490188  12.7068479
+## mad      0.5585451  0.3324857   0.2474702   0.2518028  0.4519285   0.3924332
+##                 4          6          5        4.5         5.5
+## n      15.0000000  4.0000000  4.0000000 85.0000000  4.00000000
+## median 12.9598444 13.0646580 13.2381922 13.3046849 13.31040212
+## mad     0.6316167  0.4631849  0.4727601  0.5762243  0.06553904
+## 
+## Multiple Comparisons (Wilcoxon Rank Sum Tests)
+## Probability Adjustment = holm
+## 
+##    Group.1 Group.2       W             p    
+## 1        2       1 15935.0  1.000000e+00    
+## 2        2     1.5 36447.0  1.424150e-11 ***
+## 3        2     2.5 40838.5  4.821028e-71 ***
+## 4        2       3  2863.5  6.198454e-24 ***
+## 5        2     3.5 10594.5 6.702678e-146 ***
+## 6        2       4   176.5  3.437416e-08 ***
+## 7        2       6    12.0  1.820218e-02   *
+## 8        2       5     2.0  1.820218e-02   *
+## 9        2     4.5   179.5  1.002716e-43 ***
+## 10       2     5.5     0.0  1.820218e-02   *
+## 11       1     1.5 10503.0  1.054027e-04 ***
+## 12       1     2.5  8706.0  1.356986e-32 ***
+## 13       1       3   640.0  1.358060e-18 ***
+## 14       1     3.5  1257.0  1.987939e-55 ***
+## 15       1       4    26.5  7.185462e-08 ***
+## 16       1       6     1.0  1.820218e-02   *
+## 17       1       5     0.0  1.820218e-02   *
+## 18       1     4.5    13.0  1.100184e-29 ***
+## 19       1     5.5     0.0  1.820218e-02   *
+## 20     1.5     2.5 40223.0  2.433536e-57 ***
+## 21     1.5       3  2933.0  3.924768e-21 ***
+## 22     1.5     3.5  5520.5 1.011322e-139 ***
+## 23     1.5       4   133.5  2.739393e-08 ***
+## 24     1.5       6     1.0  1.820218e-02   *
+## 25     1.5       5     0.0  1.820218e-02   *
+## 26     1.5     4.5    70.0  3.982977e-43 ***
+## 27     1.5     5.5     0.0  1.820218e-02   *
+## 28     2.5       3 18092.0  3.616929e-04 ***
+## 29     2.5     3.5 99775.0 1.071619e-130 ***
+## 30     2.5       4  1459.0  4.372992e-05 ***
+## 31     2.5       6   151.0  3.814392e-02   *
+## 32     2.5       5    47.5  1.820218e-02   *
+## 33     2.5     4.5  2117.0  3.753033e-43 ***
+## 34     2.5     5.5    13.0  1.820218e-02   *
+## 35       3     3.5 21849.5  1.354846e-05 ***
+## 36       3       4   262.5  3.183920e-02   *
+## 37       3       6    48.0  3.779310e-01    
+## 38       3       5    27.0  1.108265e-01    
+## 39       3     4.5   698.5  2.063309e-15 ***
+## 40       3     5.5    20.0  7.131918e-02   .
+## 41     3.5       4  5191.0  1.000000e+00    
+## 42     3.5       6  1070.5  1.000000e+00    
+## 43     3.5       5   697.5  4.324760e-01    
+## 44     3.5     4.5 15964.0  3.455446e-18 ***
+## 45     3.5     5.5   541.0  2.290919e-01    
+## 46       4       6    26.0  1.000000e+00    
+## 47       4       5    21.0  1.000000e+00    
+## 48       4     4.5   446.5  8.563397e-01    
+## 49       4     5.5    20.5  1.000000e+00    
+## 50       6       5     6.0  1.000000e+00    
+## 51       6     4.5   133.0  1.000000e+00    
+## 52       6     5.5     6.0  1.000000e+00    
+## 53       5     4.5   162.0  1.000000e+00    
+## 54       5     5.5     8.0  1.000000e+00    
+## 55     4.5     5.5   185.0  1.000000e+00    
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+```
+
+One way to make sense of the previous three features is to create a new one that captures how area per rooms relate to price. I got no information regarding how many living rooms (or other rooms such as family rooms and the likes), so I will work with the available information. The purpose is to create a proxy of living spaces: an apartment with 90 squared meters and three bedrooms, two parking spots, and three and a half bathrooms should be less expensive than another apartment with the same area but have two bedrooms and two and a half bathrooms (and still two parking spots). Because it would mean that each room is bigger:
 
 
 ```r
 training <- training %>%
-  mutate(prk = ifelse(as.numeric(parking) >= 4, "4 or more", parking),
-         prk = factor(prk, ordered = is.ordered(prk)))
+  mutate(area_per_room = area / (bedrooms + bathrooms + parking))
 
 testing <- testing %>%
-  mutate(prk = ifelse(as.numeric(parking) >= 4, "4 or more", parking),
-         prk = factor(prk, ordered = is.ordered(prk)))
+  mutate(area_per_room = area / (bedrooms + bathrooms + parking))
 
-summary(training$prk)
+ggplot(training, aes(y = logPrice, x = area / (bedrooms + bathrooms + parking))) + geom_point()
 ```
 
-```
-##         1         2         3 4 or more      NA's 
-##       687      1572       398       124       116
-```
-
-```r
-ggplot(training, aes(x = prk, y = price, colour = prk)) +
-  geom_boxplot()
-```
-
-![](eda_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![](eda_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
 
 I'll repeat the same process with `status`. This feature tells me whether an apartment is in construction, newly constructed or used.
 
@@ -517,20 +602,18 @@ summary(training$status)
 
 ```
 ##     Building In blueprint          New   Rebuilding      Rebuilt         Used 
-##          849          164          800            2           28          912 
-##         NA's 
-##          142
+##          787          151          760            2           26          868
 ```
 
 ```r
-ggplot(training, aes(x = status, y = price, colour = status)) + geom_boxplot()
+ggplot(training, aes(x = status, y = logPrice, colour = status)) + geom_boxplot()
 ```
 
-![](eda_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![](eda_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
 
 
 ```r
-wmc(price ~ status, data = training, method = "holm")
+wmc(logPrice ~ status, data = training, method = "holm")
 ```
 
 ```
@@ -540,35 +623,54 @@ wmc(price ~ status, data = training, method = "holm")
 ```
 ## Descriptive Statistics
 ## 
-##        In blueprint Building Rebuilding  Rebuilt      New   Used
-## n            164.00    849.0        2.0     28.0    800.0    912
-## median    147666.50 192000.0   219379.3 235683.8 239700.0 260000
-## mad        71659.25  93403.8   107296.8 156179.9 119052.8 118608
+##        In blueprint    Building Rebuilding       New  Rebuilt        Used
+## n        151.000000 787.0000000  2.0000000 760.00000 26.00000 868.0000000
+## median    11.901583  12.1807548 12.2409493  12.38839 12.42922  12.4684369
+## mad        0.490074   0.5129069  0.5080919   0.51383  0.73114   0.4650287
 ## 
 ## Multiple Comparisons (Wilcoxon Rank Sum Tests)
 ## Probability Adjustment = holm
 ## 
 ##         Group.1    Group.2        W            p    
-## 1  In blueprint   Building  46049.0 7.016296e-11 ***
-## 2  In blueprint Rebuilding     92.0 1.000000e+00    
-## 3  In blueprint    Rebuilt   1132.5 1.872624e-04 ***
-## 4  In blueprint        New  31898.5 4.167749e-24 ***
-## 5  In blueprint       Used  28756.0 5.039441e-35 ***
-## 6      Building Rebuilding    776.0 1.000000e+00    
-## 7      Building    Rebuilt   9493.5 5.577464e-01    
-## 8      Building        New 273080.5 7.016296e-11 ***
-## 9      Building       Used 268872.0 1.912072e-27 ***
-## 10   Rebuilding    Rebuilt     24.0 1.000000e+00    
-## 11   Rebuilding        New    673.0 1.000000e+00    
-## 12   Rebuilding       Used    671.0 1.000000e+00    
-## 13      Rebuilt        New  11549.5 1.000000e+00    
-## 14      Rebuilt       Used  11970.0 1.000000e+00    
-## 15          New       Used 325132.0 9.132139e-04 ***
+## 1  In blueprint   Building  38329.0 5.584103e-11 ***
+## 2  In blueprint Rebuilding     84.0 1.000000e+00    
+## 3  In blueprint        New  26937.0 8.408610e-24 ***
+## 4  In blueprint    Rebuilt    937.5 2.161253e-04 ***
+## 5  In blueprint       Used  24243.5 5.613591e-34 ***
+## 6      Building Rebuilding    725.0 1.000000e+00    
+## 7      Building        New 240678.5 3.304011e-10 ***
+## 8      Building    Rebuilt   8056.0 5.194588e-01    
+## 9      Building       Used 236998.0 6.730847e-26 ***
+## 10   Rebuilding        New    636.0 1.000000e+00    
+## 11   Rebuilding    Rebuilt     22.0 1.000000e+00    
+## 12   Rebuilding       Used    629.0 1.000000e+00    
+## 13          New    Rebuilt   9340.0 1.000000e+00    
+## 14          New       Used 292774.5 8.071949e-04 ***
+## 15      Rebuilt       Used  10883.0 1.000000e+00    
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 ```
 
 `rebuilding` and `rebuit` don't have enough data to state significant differences among categories. All other categories show significant differences with each other.
+
+
+```r
+training <- training %>%
+  mutate(status = ifelse(status == "In blueprint", "Building", as.character(status)),
+         status = ifelse(status == "Rebuilding", "Used", as.character(status)),
+         status = ifelse(status == "Rebuilt", "Used", as.character(status)),
+         status = factor(status, levels = c("Building", "New", "Used")))
+
+testing <- testing %>%
+  mutate(status = ifelse(status == "In blueprint", "Building", as.character(status)),
+         status = ifelse(status == "Rebuilding", "Used", as.character(status)),
+         status = ifelse(status == "Rebuilt", "Used", as.character(status)),
+         status = factor(status, levels = c("Building", "New", "Used")))
+
+ggplot(training, aes(x = status, y = logPrice, colour = status)) + geom_boxplot()
+```
+
+![](eda_files/figure-html/unnamed-chunk-15-1.png)<!-- -->
 
 When testing whether there is significant differences in `price` among apartments with a `gym` versus those that don't, I can conclude that it exists. In this case, I use the Wilcoxon test as the distribution of `price` is right skewed.
 
@@ -579,114 +681,29 @@ prop.table(table(training$gimnasio))
 
 ```
 ## 
-##    FALSE     TRUE 
-## 0.463583 0.536417
+##     FALSE      TRUE 
+## 0.4545104 0.5454896
 ```
 
 ```r
-ggplot(training, aes(y = price, x= gimnasio, colour = as.factor(gimnasio))) +
+ggplot(training, aes(gimnasio, logPrice, colour = as.factor(gimnasio))) +
   geom_boxplot()
 ```
 
-![](eda_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
+![](eda_files/figure-html/unnamed-chunk-16-1.png)<!-- -->
 
 ```r
-wilcox.test(price ~ gimnasio, data = training)
+wilcox.test(logPrice ~ gimnasio, data = training)
 ```
 
 ```
 ## 
 ## 	Wilcoxon rank sum test with continuity correction
 ## 
-## data:  price by gimnasio
-## W = 793267, p-value < 2.2e-16
+## data:  logPrice by gimnasio
+## W = 639059, p-value < 2.2e-16
 ## alternative hypothesis: true location shift is not equal to 0
 ```
-
-Apartments with more than three bedrooms are relatively rare. Furthermore, there is not obvious difference in price between apartments with 4 rooms or more.
-
-
-```r
-ggplot(training, aes(x = factor(bedrooms), y = price, colour = factor(bedrooms))) +
-  geom_boxplot()
-```
-
-![](eda_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
-
-```r
-prop.table(table(training$bedrooms))
-```
-
-```
-## 
-##            1            2            3            4            5            6 
-## 0.1536071798 0.2281670694 0.5754228512 0.0386606835 0.0037970314 0.0003451847
-```
-
-```r
-wmc(price ~ bedrooms, data = training, method = "holm")
-```
-
-```
-## Warning in xtfrm.data.frame(x): cannot xtfrm data frames
-```
-
-```
-## Descriptive Statistics
-## 
-##               6         1        2        3      5        4
-## n          1.00    445.00    661.0   1667.0     11    112.0
-## median 59829.06 148000.00 205000.0 265000.0 425000 597500.0
-## mad        0.00  35263.64  63751.8 136362.1 185325 374356.5
-## 
-## Multiple Comparisons (Wilcoxon Rank Sum Tests)
-## Probability Adjustment = holm
-## 
-##    Group.1 Group.2        W            p    
-## 1        6       1      2.0 4.374140e-01    
-## 2        6       2     18.0 4.374140e-01    
-## 3        6       3     12.0 4.374140e-01    
-## 4        6       5      0.0 4.374140e-01    
-## 5        6       4      0.0 4.374140e-01    
-## 6        1       2  71381.5 9.292378e-47 ***
-## 7        1       3 132854.0 3.525820e-95 ***
-## 8        1       5    210.0 1.982971e-06 ***
-## 9        1       4   1040.0 2.626823e-54 ***
-## 10       2       3 352370.0 5.870282e-41 ***
-## 11       2       5   1297.5 2.012861e-03  **
-## 12       2       4   5162.5 5.100292e-47 ***
-## 13       3       5   5644.5 1.947360e-01    
-## 14       3       4  33972.0 1.579379e-28 ***
-## 15       5       4    400.5 3.399469e-01    
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-```
-
-Grouping apartments with four or more bedrooms into one category:
-
-
-```r
-training <- training %>%
-  mutate(bdrm = ifelse(bedrooms >= 4, "4 or more", bedrooms),
-         bdrm = factor(bdrm, ordered = is.ordered(bdrm)))
-
-testing <- testing %>%
-  mutate(bdrm = ifelse(bedrooms >= 4, "4 or more", bedrooms),
-         bdrm = factor(bdrm, ordered = is.ordered(bdrm)))
-
-summary(training$bdrm)
-```
-
-```
-##         1         2         3 4 or more 
-##       445       661      1667       124
-```
-
-```r
-ggplot(training, aes(x = bdrm, y = price, colour = bdrm)) + geom_boxplot()
-```
-
-![](eda_files/figure-html/unnamed-chunk-14-1.png)<!-- -->
 
 Now on `planta`, that is whether the condo where the apartment is located has its own power plant:
 
@@ -697,26 +714,26 @@ prop.table(table(training$planta))
 
 ```
 ## 
-##     FALSE      TRUE 
-## 0.3741802 0.6258198
+##    FALSE     TRUE 
+## 0.349653 0.650347
 ```
 
 ```r
-ggplot(training, aes(y = price, x = planta, colour = planta)) + geom_boxplot()
+ggplot(training, aes(y = logPrice, x = planta, colour = planta)) + geom_boxplot()
 ```
 
-![](eda_files/figure-html/unnamed-chunk-15-1.png)<!-- -->
+![](eda_files/figure-html/unnamed-chunk-17-1.png)<!-- -->
 
 ```r
-wilcox.test(price ~ planta, data = training)
+wilcox.test(logPrice ~ planta, data = training)
 ```
 
 ```
 ## 
 ## 	Wilcoxon rank sum test with continuity correction
 ## 
-## data:  price by planta
-## W = 670164, p-value < 2.2e-16
+## data:  logPrice by planta
+## W = 527489, p-value < 2.2e-16
 ## alternative hypothesis: true location shift is not equal to 0
 ```
 
@@ -730,25 +747,25 @@ prop.table(table(training$lift))
 ```
 ## 
 ##     FALSE      TRUE 
-## 0.2927166 0.7072834
+## 0.2729375 0.7270625
 ```
 
 ```r
-ggplot(training, aes(y = price, x = lift, colour = lift)) + geom_boxplot()
+ggplot(training, aes(y = logPrice, x = lift, colour = lift)) + geom_boxplot()
 ```
 
-![](eda_files/figure-html/unnamed-chunk-16-1.png)<!-- -->
+![](eda_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
 
 ```r
-wilcox.test(price ~ lift, data = training)
+wilcox.test(logPrice ~ lift, data = training)
 ```
 
 ```
 ## 
 ## 	Wilcoxon rank sum test with continuity correction
 ## 
-## data:  price by lift
-## W = 491714, p-value < 2.2e-16
+## data:  logPrice by lift
+## W = 378633, p-value < 2.2e-16
 ## alternative hypothesis: true location shift is not equal to 0
 ```
 
@@ -760,29 +777,8 @@ length(unique(training$location))
 ```
 
 ```
-## [1] 144
+## [1] 137
 ```
-
-## Transforming price
-
-`price` does not follow a normal distribution. And so, it is necessary to transform it. The most common transformation is the logarithmic one, which i used here:
-
-
-```r
-training <- training %>%
-  mutate(logPrice = log(price))
-
-testing <- testing %>%
-  mutate(logPrice = log(price))
-
-ggplot(training, aes(logPrice)) + geom_histogram()
-```
-
-```
-## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
-```
-
-![](eda_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
 
 ## Conclusions
 
